@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>阅读进度条示例</title>
+  <!-- 此处简单模拟 Tailwind 部分类，实际项目中请引用 Tailwind CSS -->
+  <style>
+    .fixed { position: fixed; }
+    .inset-x-0 { left: 0; right: 0; }
+    .top-0 { top: 0; }
+    .z-50 { z-index: 50; }
+    .h-0\.5 { height: 4px; }
+    .transition-opacity { transition: opacity 0.5s; }
+    .duration-500 { transition-duration: 0.5s; }
+    .opacity-100 { opacity: 1; }
+    .absolute { position: absolute; }
+    .w-full { width: 100%; }
+    .bg-primary-blue { background: #239aff; }
+    .shadow-md { box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+    .shadow-primary-blue\/30 { box-shadow: 0 4px 6px rgba(35,154,255,0.3); }
+    .transition-transform { transition: transform 0.15s; }
+    .duration-150 { transition-duration: 0.15s; }
+    /* 简单美化正文 */
+    body { line-height: 1.6; margin: 0; padding: 0 20px; font-family: sans-serif; }
+    article { max-width: 800px; margin: 60px auto; }
+  </style>
+</head>
+<body>
+  <!-- 进度条容器 -->
+  <div id="progress-container" class="fixed inset-x-0 top-0 z-50 h-0.5 transition-opacity duration-500 opacity-100">
+    <span id="progress-bar" style="transform: translateX(-100%);" class="absolute top-0 h-0.5 w-full bg-primary-blue shadow-md shadow-primary-blue/30 transition-transform duration-150"></span>
+  </div>
+
+  <!-- 模拟正文 -->
+  <article id="article">
+    <h1>示例文章标题</h1>
+    <p>
+      这是一篇示例文章，为了模拟阅读进度效果，我们在此添加大量内容。请慢慢往下滚动……
+    </p>
+    <!-- 重复段落以形成足够长度的正文 -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum, ligula non semper luctus, nisi nulla tincidunt mauris, ac cursus nisi massa at lorem. Vivamus euismod, sapien nec ultrices facilisis, mauris ligula varius urna, vel faucibus nulla metus non odio.</p>
+  </article>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const progressBar = document.getElementById("progress-bar");
+      const progressContainer = document.getElementById("progress-container");
+      const article = document.getElementById("article");
+
+      function updateProgressBar() {
+        // 计算文章开始的绝对位置和文章高度
+        const articleTop = article.offsetTop;
+        const articleHeight = article.offsetHeight;
+        const scrollY = window.scrollY;
+        const windowHeight = window.innerHeight;
+
+        // 计算当前阅读进度（滚动的距离占文章可滚动部分的比例）
+        let progress = (scrollY - articleTop) / (articleHeight - windowHeight);
+        progress = Math.min(Math.max(progress, 0), 1);
+
+        // 将进度条的 transform 从 -100%（未阅读）变为 0%（阅读完成）
+        progressBar.style.transform = `translateX(${progress * 100 - 100}%)`;
+
+        // 当进度到达 100% 时，自动隐藏进度条（使用过渡淡出效果）
+        if (progress >= 1) {
+          progressContainer.style.opacity = 0;
+        } else {
+          progressContainer.style.opacity = 1;
+        }
+      }
+
+      window.addEventListener("scroll", updateProgressBar);
+      // 页面初始加载时更新一次进度
+      updateProgressBar();
+    });
+  </script>
+</body>
+</html>

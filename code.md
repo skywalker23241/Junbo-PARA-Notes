@@ -91,7 +91,7 @@ step样式代码：
 
 (Step \d+)[:.]
 
-`<span class="step">`$1
+`<span class="step">Step $1</span>`
 
 贪婪的捕获组：(.*?)
 

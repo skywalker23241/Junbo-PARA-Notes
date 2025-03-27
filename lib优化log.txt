@@ -1,0 +1,25 @@
+###### Wed Mar 24 16:56:20 CST 2025
+how-to-unlock-android-phone-with-google-account.html更新了这篇文章的一些样式。
+更新了use-phone-link-app-windows-android-iphone文章的一些白边图片以及导言部分的样式。
+
+###### Wed Mar 24 16:56:20 CST 2025
+apple.lib这个库项目可以删除了，因为目录都已经删除了
+
+###### Wed Mar 26 11:07:51 CST 2025
+发现一处错误,图片添加了一个p类型,然后移动端显示异常.url:trunk/backup-recovery/a-comprehensive-tutorial-on-system-backup-in-windows-11.htmlcode:<p style="width: 782px; height: 555px; background-color: var(--text-color-on-primary);"> <img loading="lazy" src="../images/backup-recovery/a-comprehensive-tutorial-on-system-backup-in-windows-11/start-backup.webp" alt="start-backup" width="680" height="545" style="margin: 5px 51px;" /> </p>
+
+###### Thu Mar 27 11:18:30 CST 2025
+用ai优化了bitlock.lib里面的文章以及部分样式和图片.
+
+###### Thu Mar 27 11:21:24 CST 2025
+更新了bitlocker-sidebar-right.lib模板.
+
+###### Thu Mar 27 11:25:03 CST 2025
+修改了一处sitemap.log错误:compotuer>computer
+
+###### Thu Mar 27 11:50:23 CST 2025
+修改更新了computer-tweaks-sidebar-right.lib模板.
+
+###### Thu Mar 27 11:59:54 CST 2025
+修改更新了gpu-sidebar-right.lib模板,移除了之前的不相关的最新文章,添加了相关的最新文章.
+

@@ -963,3 +963,11 @@ C:\Users\Admin\Desktop\Github仓库\python\文章ai优化demo\工具>
 ###### Tue Apr 1 16:49:22 CST 2025
 
 记日以后在para里面就叫project_log了.
+
+###### Tue Apr 1 17:23:47 CST 2025
+
+整理了下PARA系统,以后的笔记就存放在这吧,思源的笔记看下提取出来.
+
+###### Tue Apr 1 17:45:16 CST 2025
+
+把Google drive的文件也整理完了,也可以滚了.

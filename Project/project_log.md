@@ -48,9 +48,9 @@ code:
 
 ```html
 <p style="width: 782px; height: 555px; background-color: rgb(247, 247, 247);">
-					<img loading="lazy" src="../images/backup-recovery/a-comprehensive-tutorial-on-system-backup-in-windows-11/start-backup.webp"
-						alt="start-backup" width="680" height="545" style="margin: 5px 51px;" />
-				</p>
+                    <img loading="lazy" src="../images/backup-recovery/a-comprehensive-tutorial-on-system-backup-in-windows-11/start-backup.webp"
+                        alt="start-backup" width="680" height="545" style="margin: 5px 51px;" />
+                </p>
 ```
 
 ###### Wed Mar 26 11:41:06 CST 2025
@@ -959,3 +959,7 @@ C:\Users\Admin\Desktop\Github仓库\python\文章ai优化demo\工具>
 ###### Tue Apr 1 16:08:53 CST 2025
 
 转义符的问题还不怎么好替换,因为转义符和特殊符号有点重合了.
+
+###### Tue Apr 1 16:49:22 CST 2025
+
+记日以后在para里面就叫project_log了.

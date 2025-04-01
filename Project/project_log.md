@@ -971,3 +971,7 @@ C:\Users\Admin\Desktop\Github仓库\python\文章ai优化demo\工具>
 ###### Tue Apr 1 17:45:16 CST 2025
 
 把Google drive的文件也整理完了,也可以滚了.
+
+###### Tue Apr 1 17:56:41 CST 2025
+
+网页的文章还是存在pocket吧,刚刚存了一篇直接创建了80多个文件吓死我了.

@@ -1,4 +1,4 @@
-# Junbo‘s Coding Think
+# Project_code-notes
 
 ***2025.03.24 这是我的第一条笔记，github存储，come on!***
 
@@ -237,7 +237,6 @@ const themeToggle = document.getElementById('themeToggle');
 
 ## 关于rust-stakeholder摸鱼代码
 
-
 Basic usage (for entry-level imposters):基本用法（适用于入门级冒充者）：
 
 ```
@@ -263,11 +262,9 @@ rust-stakeholder --dev-type data-science --jargon extreme --project "Neural-Quan
 rust-stakeholder --dev-type fullstack --complexity extreme --alerts --team
 ```
 
-
 ---
 
 ## 关于Dunning-Kruger Effect
-
 
 邓宁-克鲁格效应（Dunning-Kruger Effect）是一种 **认知偏差** ，指的是 **能力低下的人往往高估自己的能力，而能力较强的人反而容易低估自己** 。这一效应由心理学家大卫·邓宁（David Dunning）和贾斯廷·克鲁格（Justin Kruger）于1999年提出。
 

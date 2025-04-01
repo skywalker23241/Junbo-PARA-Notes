@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>文章标题</title>
+  <meta name="description" content="文章描述"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, maximum-scale=2.0"/>
+  <link rel="canonical" href="文章url"/>
+  <link rel="shortcut icon" href="https://www.shareus.com/favicon.ico"/>
+  <link rel="stylesheet" href="../css/news.css" />
+  </head>
+
+  <body>
+  <!-- #BeginLibraryItem "/library/header.lbi" --> 
+  <!--show shade-->
+    <div id="shade"></div>
+    <!--PC nav-->
+    <header class="nav_box">
+      <div class="container"> 
+        <a class="logo" href="https://www.shareus.com"> 
+        <!--      <img class="logo_web" alt="logo" src="https://www.shareus.com/img/logo.png" /> --> 
+        <img loading="lazy" alt="logo" src="https://www.shareus.com/img/logo.png" /> </a>
+        <div class="nav_button" id="nav_buttom" onclick="nav_buttom()"></div>
+        <ul class="nav" id="nav">
+          <li>
+            <a id="home" href="https://www.shareus.com">Home</a>
+          </li>
+          <li>
+            <a id="software" href="https://www.shareus.com/software/">Products</a>
+          </li>
+          <li>
+            <a id="computer" href="https://www.shareus.com/computer/">Computer</a>
+          </li>
+          <li>
+            <a id="windows" href="https://www.shareus.com/windows/">Windows</a>
+          </li>
+          <li>
+            <a id="support" href="https://www.shareus.com/support/">Support</a>
+          </li>
+          <li><a id="about" href="https://www.shareus.com/company/about.html">About</a></li>
+          <li class="last-search">
+            <input id="btnSearch" type="button" value=""/>
+              <div id="search-box" class="search-hidden">
+                <div class="search-div">
+                  <input id="searcht-text" type="text" placeholder="Search..." />
+                  <button id="search-button"></button>
+                </div>
+              </div>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- #EndLibraryItem --><!-- #BeginLibraryItem "/library/ad-top.lbi" -->
+    <!--<div class="ads">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+    <!-- on_page_top -->
+    <!--
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-9272880354923622"
+        data-ad-slot="2119424006"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    </div>
+    -->
+    <!-- #EndLibraryItem --><!--news-->
+    <div class="main_box">
+      <div class="post"> 
+        <!--Home > Computer-->
+        <ul class="post_nav">
+          <li><a href="https://www.shareus.com/">Home</a></li>
+          <li>&nbsp;&gt;&nbsp;</li>
+          <li><a href="https://www.shareus.com/文章板块/">文章板块</a></li>
+        </ul>
+        <!--    <div class="line"></div>-->
+        <div class="article_content">
+          <h1 class="title">文章H1</h1>
+          <div class="information_box"> 
+            <!--author-->
+            <div class="author">
+              <img src="../img/common/user-img.webp" loading="lazy"  onclick="window.open('../author/achilles.html')" alt="User Author"/>
+              <p class="author_name" onclick="window.open('../author/achilles.html')">Achilles.H</p>
+              <p class="posted_date">月  日,  年</p>
+            </div>
+            
+            <!--share this post-->
+            <div class="share_post">
+              <div class="addthis_inline_share_toolbox"></div>
+            </div>
+          </div>
+          <img class="feature_img" src="../img/文章板块/文章文件名/首图名.webp" alt="首图描述"/>
+          <div class="post_content shareus_imgs">
+            <p>导言</p>
+            <div class="guide_info">
+              <div class="introduction_box">
+                <div class="introduction">Introduction</div>
+              </div>
+              <ul>
+                <li>1. <a href="#part1"><strong>第一部分</strong></a></li>
+                <li>2. <a href="#part2"><strong>第二部分</strong></a></li>
+                <li>3. <a href="#part3"><strong>第三部分</strong></a></li>
+              </ul>
+            </div>
+            <!-- #BeginLibraryItem "/library/ad-middle.lbi" --> 
+            <!-- postion for adsense --> <!-- #EndLibraryItem -->
+            <h2 id="part1">第一部分</h2>
+            <p>正文1</p>
+            <img src="../img/文章板块/文章文件名/图片1.webp" loading="lazy" width="800" height="图1H" alt="图1描述"/>
+            <h2 id="part2">第二部分</h2>          
+            <p>正文2</p>
+            <img src="../img/文章板块/文章文件名/图片2.webp" loading="lazy" width="800" height="图2H" alt="图2描述"/>
+            <h2 id="part2">第三部分</h2>          
+            <p>正文3</p>
+            <img src="../img/文章板块/文章文件名/图片3.webp" loading="lazy" width="800" height="图3H" alt="图3描述"/>
+          </div>
+        </div>
+          <!-- #BeginLibraryItem "/library/ad-buttom.lbi" --> 
+          <!-- postion for adsense --> 
+          <!-- #EndLibraryItem -->
+          <!--Relevant-->
+          <div class="shareus_imgs" id="related1">
+            <h4 class="related-title column-title ">Related Articles</h4>
+          <!--      
+            <div class="line_a"></div>
+            -->
+          <div class="related_articles">        
+    
+          </div>
+          </div>
+    </div>
+    <!--clear float--> 
+    <!--<div class="clear"></div>--> 
+    <!--right panel-->
+    <div class="directory_box" id="related2"> 
+        
+    <!--recent post--><!-- #BeginLibraryItem "/library/recent.lbi" -->
+    <!--latest articles-->
+    <div class="directory_sort">
+      <h4 class="recent-title column-title">Recent Posts</h4>
+      <div class="recent_articles">
+        <div class="recent_post">
+          <a class="recent_img" href="solve-email-problems-after-using-cloudflare-proxy-quick-fixed.html">    
+            <img loading="lazy" src="../img/web/solve-email-problems-after-using-cloudflare-proxy-quick-fixed/solve-email-problems-after-using-cloudflare-proxy-quick-fixed-m.webp" alt="Solve Email Problems After Using Cloudflare Proxy – Quick Fixes!" />
+          </a>
+          <div class="recent_right">
+            <h3>
+              <a href="solve-email-problems-after-using-cloudflare-proxy-quick-fixed.html">Solve Email Problems After Using Cloudflare Proxy – Quick Fixes!</a>
+            </h3>
+            <time datetime="2025-02-25" pubdate="pubdate">February 25, 2025</time>
+          </div>
+        </div>
+        <div class="recent_post">
+          <a class="recent_img" href="../windows/how-to-enable-the-old-context-menu-in-windows-11.html">
+            <img loading="lazy" src="../img/windows/how-to-enable-the-old-context-menu-in-windows-11/how-to-enable-the-old-context-menu-in-windows-11-m.webp" alt="How to Enable the Old Context Menu in Windows 11" />
+          </a>
+        <div class="recent_right">
+            <h3><a href="../windows/how-to-enable-the-old-context-menu-in-windows-11.html">How to Enable the Old Context Menu in Windows 11</a></h3>
+            <time datetime="2025-01-09" pubdate="pubdate">January 09, 2025</time>
+          </div>
+        </div>
+        <div class="recent_post">
+          <a class="recent_img" href="optimize-your-website-performance-and-lcp-with-lazy-loading.html">
+            <img loading="lazy" src="../img/web/optimize-your-website-performance-and-lcp-with-lazy-loading/optimize-your-website-performance-and-lcp-with-lazy-loading-m.webp" alt="Optimize Your Website Performance & LCP with Lazy Loading" />
+          </a>
+          <div class="recent_right">
+              <h3><a href="optimize-your-website-performance-and-lcp-with-lazy-loading.html">Optimize Your Website Performance & LCP with Lazy Loading</a></h3>
+              <time datetime="2024-11-18" pubdate="pubdate">November 18, 2024</time>
+          </div>
+        </div>
+        <div class="recent_post">
+          <a class="recent_img" href="../windows/how-to-remove-onedrive-from-file-explorer-in-windows-11.html">
+            <img loading="lazy" src="../img/windows/how-to-remove-onedrive-from-file-explorer-in-windows-11/how-to-remove-onedrive-from-file-explorer-in-windows-11-m.webp" alt="How to Remove OneDrive from File Explorer in Windows 11" />
+          </a>
+          <div class="recent_right">
+              <h3><a href="../windows/how-to-remove-onedrive-from-file-explorer-in-windows-11.html">How to Remove OneDrive from File Explorer in Windows 11</a></h3>
+              <time datetime="2024-10-13" pubdate="pubdate">October 13, 2024</time>
+          </div>
+        </div>
+        <div class="recent_post">
+          <a class="recent_img" href="../windows/easily-remove-home-and-gallery-from-file-explorer-in-windows-11.html">
+            <img loading="lazy" src="../img/windows/easily-remove-home-and-gallery-from-file-explorer-in-windows-11/easily-remove-home-and-gallery-from-file-explorer-in-windows-11-m.webp" alt="Easily Remove Home and Gallery from File Explorer in Windows 11" />
+          </a>
+            <div class="recent_right">
+              <h3><a href="../windows/easily-remove-home-and-gallery-from-file-explorer-in-windows-11.html">Easily Remove Home and Gallery from File Explorer in Windows 11</a></h3>
+              <time datetime="2024-10-10" pubdate="pubdate">October 10, 2024</time>
+            </div>
+        </div>
+        <div class="recent_post">
+          <a class="recent_img" href="../windows/how-to-sort-folders-and-files-together-in-windows-explorer.html">
+            <img loading="lazy" src="../img/windows/how-to-sort-folders-and-files-together-in-windows-explorer/how-to-sort-folders-and-files-together-in-windows-explorer-m.webp" alt="How to Sort Folders and Files Together in Windows Explorer" />
+          </a>
+            <div class="recent_right">
+              <h3><a href="../windows/how-to-sort-folders-and-files-together-in-windows-explorer.html">How to Sort Folders and Files Together in Windows Explorer</a></h3>
+              <time datetime="2024-09-30" pubdate="pubdate">September 30, 2024</time>
+            </div>
+        </div>
+        <div class="recent_post">
+          <a class="recent_img" href="../windows/how-to-perform-a-clean-boot-correctly-in-windows-11-10.html">
+            <img loading="lazy" src="../img/windows/how-to-perform-a-clean-boot-correctly-in-windows-11-10/how-to-perform-a-clean-boot-correctly-in-windows-11-10-m.webp" alt="How to Perform a Clean Boot Correctly in Windows 11/10" />
+          </a>
+            <div class="recent_right">
+              <h3><a href="../windows/how-to-perform-a-clean-boot-correctly-in-windows-11-10.html">How to Perform a Clean Boot Correctly in Windows 11/10</a></h3>
+              <time datetime="2024-09-27" pubdate="pubdate">September 27, 2024</time>
+            </div>
+        </div>
+        <div class="recent_post">
+          <a class="recent_img" href="../computer/how-to-check-ssd-speed-via-windows-cli.html">
+            <img loading="lazy" src="../img/computer/how-to-check-ssd-speed-via-windows-cli/how-to-check-ssd-speed-via-windows-cli-m.webp" alt="How to Check SSD Speed via Windows CLI" />
+          </a>
+            <div class="recent_right">
+              <h3><a href="../computer/how-to-check-ssd-speed-via-windows-cli.html">How to Check SSD Speed via Windows CLI</a></h3>
+              <time datetime="2024-09-25" pubdate="pubdate">September 25, 2024</time>
+            </div>
+        </div>
+        <div class="recent_post">
+          <a class="recent_img" href="../software/easily-download-youtube-videos-with-yt-dlp.html">
+            <img loading="lazy" src="../img/software/easily-download-youtube-videos-with-yt-dlp/easily-download-youtube-videos-with-yt-dlp-s.webp" alt="Easily Download YouTube Videos With yt-dlp" />
+          </a>
+            <div class="recent_right">
+              <h3><a href="../software/easily-download-youtube-videos-with-yt-dlp.html">Easily Download YouTube Videos With yt-dlp</a> </h3>
+              <time datetime="September 20, 2024" pubdate="pubdate">September 20, 2024</time>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- #EndLibraryItem --><!--Best Selling--> 
+        <!-- #BeginLibraryItem "/library/ad-right.lbi" --> <!-- #EndLibraryItem -->
+    </div>
+    </div>
+    <!-- #BeginLibraryItem "/library/popular.lbi" -->
+    <!--Popular articles-->
+    <div class="popular_articles">
+      <h4 class="popular-title column-title">Popular Articles</h4>
+      <!--  <div class="pupular_line"></div>--> 
+      <!--  <h2>Popular Articles</h2>-->
+      <div class="popular_articles_box shareus_imgs">
+        <div class="artilce_link">
+          <a href="https://www.shareus.com/computer/2-steps-to-check-maximum-ram-capacity-of-your-computer.html">
+            <img data-src="../img/computer/2-steps-to-check-maximum-ram-capacity-of-your-computer/2-steps-to-check-maximum-ram-capacity-of-your-computer-m.webp" alt="Two steps to check maximum ram capacity of your computer" /></a>
+            <div class="popular_title">
+              <h3><a title="Two Steps to Check Maximum RAM Capacity of Your Computer" href="https://www.shareus.com/computer/2-steps-to-check-maximum-ram-capacity-of-your-computer.html">Two Steps to Check Maximum RAM Capacity of Your Computer</a></h3>
+            </div>
+        </div>
+        <div class="artilce_link">
+          <a href="https://www.shareus.com/computer/am4-amd-chipsets-comparison-a320-b350-b450-x370-x470-x399-and-x570.html">
+            <img data-src="../img/computer/am4-amd-chipsets-comparison-a320-b350-b450-x370-x470-x399-and-x570/am4-chipsets-comparison-a320-b350-b450-x370-x470-x399-and-x570-m.webp" alt="am4-amd-chipsets-comparison-a320-b350-b450-x370-x470-x399-and-x570" />
+          </a>
+          <div class="popular_title">
+            <h3><a title="AMD/AM4 Chipsets Comparison: A320, B350, B450, X370, X470, X399 and X570" href="https://www.shareus.com/computer/am4-amd-chipsets-comparison-a320-b350-b450-x370-x470-x399-and-x570.html">AMD/AM4 Chipsets Comparison: A320, B350, B450, X370, X470, X399 and X570</a></h3>
+          </div>
+        </div>
+        <div class="artilce_link">
+          <a href="https://www.shareus.com/computer/intel-300-series-motherboard-comparison.html">
+            <img data-src="../img/computer/intel-300-series-motherboard-comparison/intel-300-series-motherboards-comparison-intel-h310-b360-b365-h370-z370-z390-m.webp" alt="intel 300 series motherboard comparison" />
+          </a>
+          <div class="popular_title">
+            <h3><a title="Intel 300-Series Motherboards Comparison: Intel H310, B360, B365, H370, Z370, Z390" href="https://www.shareus.com/computer/intel-300-series-motherboard-comparison.html">Intel 300-Series Motherboards Comparison: Intel H310, B360, B365, H370, Z370, Z390</a></h3>
+          </div>
+        </div>
+        <div class="artilce_link">
+          <a href="https://www.shareus.com/windows/best-partition-size-of-500gb-hard-disk-for-win7-8-10.html">
+            <img data-src="../img/windows/best-partition-size-of-500gb-hard-disk-for-win7-8-10/best-partition-size-of-500gb-hard-disk-for-win7-8-10-m.webp" alt="best partition size of 500gb hard disk for win7 8 10" /></a>
+            <div class="popular_title">
+              <h3><a title="Recommended - Best Partition Size of 500GB Hard Disk for Windows 7,8 and 10" href="https://www.shareus.com/windows/best-partition-size-of-500gb-hard-disk-for-win7-8-10.html">Recommended - Best Partition Size of 500GB Hard Disk for Windows 7, 8 and 10 </a></h3>
+            </div>
+        </div>
+        <div class="artilce_link">
+          <a href="https://www.shareus.com/windows/how-to-check-ram-slots-in-laptop-windows-7-8-10.html">
+            <img data-src="../img/windows/how-to-check-ram-slots-in-laptop-windows-7-8-10/how-to-check-ram-slots-in-laptop-windows-7-8-10-m.webp" alt="how to check ram slots in laptop windows 7 8 10" />
+          </a>
+            <div class="popular_title">
+              <h3><a title="How to Check RAM Slots Number in Laptop - Windows 10/8/7" href="https://www.shareus.com/windows/how-to-check-ram-slots-in-laptop-windows-7-8-10.html">How to Check RAM Slots Number in Laptop - Windows 10/8/7</a></h3>
+            </div>
+        </div>
+        <div class="artilce_link">
+          <a href="https://www.shareus.com/windows/how-to-check-total-size-of-your-hard-disk-in-windows.html">
+            <img data-src="../img/windows/how-to-check-total-size-of-your-hard-drive-in-windows/how-to-check-total-size-of-your-hard-disk-in-windows-m.webp" alt="how to check total size of your hard drive in windows" />
+          </a>
+            <div class="popular_title">
+              <h3><a title="How to Check TOTAL Size of Hard Disk Space in Windows 10/8/7" href="https://www.shareus.com/windows/how-to-check-total-size-of-your-hard-disk-in-windows.html">How to Check TOTAL Size of Hard Disk Space in Windows 10/8/7</a></h3>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- #EndLibraryItem --><!--back to top-->
+    <div onClick="to_top()" id="btn" title="back to top"></div>
+    <!-- #BeginLibraryItem "/library/footer.lbi" --><!--shareus button-->
+    <div class="share-box">
+      <ul>
+        <li>
+          <a title="facebook" class="facebook-button" onclick="share_facebook()" ></a>
+        </li>
+        <li>
+          <a title="twitter" class="twitter-button" onclick="share_twitter()" ></a>
+        </li>
+        <li>
+          <a title="linkedin" class="linkedin-button" onclick="share_linkedin()"></a>
+        </li>
+        <li>
+          <a title="tumblr" class="tumblr-button" onclick="share_tumblr()"></a>
+        </li>
+      </ul>
+    </div>
+    <!--cookie-->
+    <div id="cookie" class="cookie-container">
+        <div class="cookie-content">
+            <div class="cookie-div">
+                <h2>Cookie Settings</h2>
+                <p>We use cookies for personalizing content and ads and providing social media features. Your usage information on our website will be used for social media, advertising, and traffic analytics, or shared with our partners. Clicking "Accept" means you agree to use our cookies .</p>
+            </div>
+            <div class="button-div"> 
+                <button id="btn-accept" class="cookie-accept cookie-btn">Accept</button>
+                <button id="btn-reject" class="cookie-rejuct cookie-btn">Reject</button>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <footer class="footer_box">
+      <div class="footer_a">
+        <div class="footer_content">
+          <div class="footer_buttom footer_item">
+            <img loading="lazy" src="../img/common/footerlogo.png" alt="logo">
+            <a href="https://www.shareus.com/software/">
+              <img loading="lazy" src="../img/common/download.png" alt="download button">
+            </a>
+          </div>
+          <!--first cloum-->
+          <div class="footer_item">
+            <p class="bottom_nav">Resources</p>
+            <ul class="footer">
+              <li><a href="https://www.shareus.com/windows/">Windows</a></li>
+              <li><a href="https://www.shareus.com/computer/">Computer</a></li>
+              <li><a href="https://www.shareus.com/software/">Software</a></li>
+            </ul>
+          </div>
+          <!--second cloum-->
+          <div class="footer_item">
+            <p class="bottom_nav">Support</p>
+            <ul class="footer">
+              <li><a href="https://www.shareus.com/support/contact.html">Contact Us</a></li>
+              <li><a href="https://www.shareus.com/support/">Support Center</a></li>
+              <li><a href="https://www.shareus.com/support/post-on-shareus.html">Share Your Posts</a></li>
+            </ul>
+          </div>
+          <!--third cloum-->
+          <div class="footer_item">
+            <p class="bottom_nav">Company</p>
+            <ul class="footer">
+              <li><a href="https://www.shareus.com/company/about.html">About</a></li>
+              <li><a href="https://www.shareus.com/company/privacy.html">Privacy</a></li>
+            </ul>
+          </div>
+          <!--contact-->
+          <div class="footer_contact footer_item"> 
+            <!--      <div class="copyright">©2019-2023 Shareus  Studio All Rights Reserved.</div>-->
+            <p class="bottom_nav">Follow Us</p>
+            <ul class="contact_box">
+              <li>
+                <a title="Facebook" href="https://www.facebook.com/Share-it-with-You-105628701084440/">
+                  <img loading="lazy" src="https://www.shareus.com/img/follow/facebook.png" alt="Facebook" />
+                </a>
+              </li>
+              <li>
+                <a title="Twitter" href="https://x.com/Shareus">
+                  <img loading="lazy" src="../img/follow/twitter.png" alt="Twitter" />
+                </a>
+              </li>
+              <li>
+                <a title="Youtube" href="https://www.youtube.com/channel/UCiKh5LO0L5kF_o4zi3QVWpA">
+                  <img loading="lazy" src="https://www.shareus.com/img/follow/youtube.png" alt="Youtube" />
+                </a>
+              </li>
+            </ul>
+            <!--          <li class="contact"> admin@shareus.com</li>--> 
+          </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright&copy;&nbsp;<span id="copyright-year">
+            <!-- Static year is displayed by default -->
+            <noscript>2025</noscript>
+            </span>&nbsp;Shareus Studio All Rights Reserved.
+            </p>
+        </div>
+      </div>
+    </footer>
+    <!-- #EndLibraryItem -->
+    <script type="text/javascript" src="../js/shareus-js.js"></script>
+    <!-- #BeginLibraryItem "/library/script-for-articles.lbi" -->
+    <!-- delay load addthis, for article pages -->
+    <script type="text/javascript">
+      //window.onload = function(){		
+        //setTimeout("imgonload()", 600); 
+      //}
+      /* addEvent(window,'scroll',function(){
+        window.onscroll = scollImg(imgonload);
+        });*/
+    </script><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/library/statcounter.lbi" -->
+    <!-- Statcounter code -->
+    <script type="text/javascript">
+    var sc_project=12203833; 
+    var sc_invisible=1; 
+    var sc_security="250d58bf"; 
+    var sc_https=1; 
+    setTimeout("loadcounter()", 2000); 
+    function loadcounter(){	loadScript('https://www.statcounter.com/counter/counter.js',function(){console.log("loaded counter.js.")});	}
+    </script>
+    <!-- #EndLibraryItem --><!--Navigation switch--> 
+    <script type="text/javascript">
+    var element = document.getElementById("web");
+    if (element) {
+        element.className = "active";
+    } else {
+        console.debug("Element with ID 'web' not found.");
+    }
+    </script><!-- #BeginLibraryItem "/library/gtm-body.lbi" -->
+    <!-- Google Tag Manager (noscript) -->
+
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- #EndLibraryItem -->
+  </body>
+</html>

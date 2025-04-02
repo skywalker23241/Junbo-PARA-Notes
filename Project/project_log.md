@@ -983,3 +983,7 @@ C:\Users\Admin\Desktop\Github仓库\python\文章ai优化demo\工具>
 
 
 [吉卜力风格照](Resources\gibuli_pic\2c126f1d-6df6-4c82-ab60-8d73fa4a4df7.png)
+
+###### Wed Apr 2 11:43:31 CST 2025
+
+统一记录下吧,因为改的有点多,就是先把图片文件存在了git lfs里面,然后添加了git-sizer来统计文件数量和大小,就这些,搞了蛮久的.

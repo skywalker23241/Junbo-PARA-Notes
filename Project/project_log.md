@@ -981,8 +981,7 @@ C:\Users\Admin\Desktop\Github仓库\python\文章ai优化demo\工具>
 这个生成吉卜力风格的确实可以哈哈哈哈.
 把照片存到resource文件夹吧.
 
-
-[吉卜力风格照](Resources\gibuli_pic\2c126f1d-6df6-4c82-ab60-8d73fa4a4df7.png)
+<img src="../Resources/gibuli_pic/2c126f1d-6df6-4c82-ab60-8d73fa4a4df7.png" alt="2c126f1d-6df6-4c82-ab60-8d73fa4a4df7" width="300">
 
 ###### Wed Apr 2 11:43:31 CST 2025
 
@@ -991,6 +990,11 @@ C:\Users\Admin\Desktop\Github仓库\python\文章ai优化demo\工具>
 ###### Wed Apr 2 13:52:13 CST 2025
 
 刚刚试了下,现在所有图片都可以内嵌到这里面了哈哈哈,都存到GitLFS里面了.
+
 ###### Wed Apr 2 15:09:19 CST 2025
 
 现在应该是到了绝望之谷那个阶段了,感觉处理的东西太多,然后知识的储备太少了.
+
+###### Wed Apr 2 15:49:28 CST 2025
+
+刚刚优化了下优化文章的那个代码,试了下只优化p标签,然后觉得还是没有之前的好,因为有一些faq是用h3标签表示的,还是得优化h3标签,觉得h2标签可以不优化了,一级目录的跳转问题还是存在的.然后就这样吧,还有很长的路要走哈哈哈.

@@ -975,3 +975,11 @@ C:\Users\Admin\Desktop\Github仓库\python\文章ai优化demo\工具>
 ###### Tue Apr 1 17:56:41 CST 2025
 
 网页的文章还是存在pocket吧,刚刚存了一篇直接创建了80多个文件吓死我了.
+
+###### Tue Apr 1 20:43:25 PDT 2025
+
+这个生成吉卜力风格的确实可以哈哈哈哈.
+把照片存到resource文件夹吧.
+
+
+[吉卜力风格照](Resources\gibuli_pic\2c126f1d-6df6-4c82-ab60-8d73fa4a4df7.png)

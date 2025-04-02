@@ -983,3 +983,7 @@ C:\Users\Admin\Desktop\Github仓库\python\文章ai优化demo\工具>
 
 
 [吉卜力风格照](Resources\gibuli_pic\2c126f1d-6df6-4c82-ab60-8d73fa4a4df7.png)
+
+###### Wed Apr 2 10:02:15 CST 2025
+
+才60几mb,先不着急删吧,先存着,已经直到了lfs的使用方法,待会再去官网看看.

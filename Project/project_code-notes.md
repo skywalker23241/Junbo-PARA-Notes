@@ -415,7 +415,6 @@ GitHub 对上传文件的大小和数量有明确的限制，以下是详细信�
 
 ## 关于使用Git LFS的一些小技巧代码
 
-
 Git LFS（Large File Storage）是一个 Git 扩展，用于管理和存储大型文件，尤其是在 Git 仓库中。当你使用 Git 管理大型文件（如视频、音频文件、大型数据集等）时，Git 会变得非常缓慢且占用大量磁盘空间，Git LFS 通过将这些文件替换为指向外部存储的指针来解决这个问题。下面是一些常见的 Git LFS 使用步骤和代码总结。
 
 ### 1. 安装 Git LFS
@@ -510,5 +509,72 @@ git lfs prune
 * 注意 Git LFS 存储的文件大小限制，很多 Git 托管平台（如 GitHub、GitLab）都有每月的存储配额和带宽限制。
 
 这些是使用 Git LFS 的一些基本步骤和常见命令。通过合理使用 Git LFS，可以有效地管理大型文件并保持 Git 仓库的性能。
+
+---
+
+## 关于一些网站隐藏自己的html文件名后缀
+
+
+一些网站文章的 URL 会隐藏 `.html` 标签，主要是出于以下几个原因：
+
+### 1. **美观与可读性**
+
+* 一个 URL 结构清晰、简洁，能提升用户体验。例如：
+
+  ```
+  example.com/article/how-to-code
+  ```
+
+  比起：
+
+  ```
+  example.com/article/how-to-code.html
+  ```
+
+  更加直观、简洁。
+
+### 2. **SEO 友好**
+
+* 现代搜索引擎并不需要 `.html` 这种扩展名来理解网页内容，简洁的 URL 更易于索引和排名。
+* URL 末尾的 `.html` 可能让用户误以为该网站是静态的，而搜索引擎通常更青睐结构清晰、可扩展的 URL 设计。
+
+### 3. **技术实现上的灵活性**
+
+* 通过隐藏 `.html`，网站可以在不改变 URL 的情况下切换技术，比如从静态 HTML 迁移到 PHP、Node.js、React 等。
+* 例如：
+
+  ```
+  example.com/article/how-to-code
+  ```
+
+  可能最初是 `how-to-code.html`，但以后可以改为 `how-to-code.php` 或 `how-to-code/index.html`，不会影响外部链接。
+
+### 4. **更容易进行 URL 重写和重定向**
+
+* 服务器可以通过 **URL Rewrite（URL 重写）** 规则，将 `/article/how-to-code` 解析到 `how-to-code.html`，对用户透明。
+* 这在 Apache（.htaccess）、Nginx、IIS 等服务器配置中很常见，例如：
+  ```apache
+  RewriteEngine On
+  RewriteRule ^article/([a-zA-Z0-9-]+)$ article/$1.html [L]
+  ```
+
+### 5. **安全性考虑**
+
+* 虽然隐藏 `.html` 本身不会直接提高安全性，但它可以减少暴露底层技术的机会，防止黑客利用已知漏洞攻击特定的文件类型（如 `.php` 或 `.aspx`）。
+
+### 6. **移动端与 API 兼容**
+
+* 如果 URL 没有 `.html`，同一个路径可以根据不同的请求类型（HTML 页面、JSON API 等）返回不同的内容。例如：
+
+  ```
+  example.com/article/how-to-code
+  ```
+
+  * Web 端请求 → 返回 HTML 页面
+  * API 请求 → 返回 JSON 数据
+
+### **总结**
+
+隐藏 `.html` 主要是为了 **提升用户体验、SEO 友好性、灵活性和安全性** 。很多现代网站通过 **URL 重写技术** 来实现这一点，同时确保用户和搜索引擎可以正常访问内容。
 
 ---

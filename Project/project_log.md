@@ -987,3 +987,7 @@ C:\Users\Admin\Desktop\Github仓库\python\文章ai优化demo\工具>
 ###### Wed Apr 2 11:43:31 CST 2025
 
 统一记录下吧,因为改的有点多,就是先把图片文件存在了git lfs里面,然后添加了git-sizer来统计文件数量和大小,就这些,搞了蛮久的.
+
+###### Wed Apr 2 13:52:13 CST 2025
+
+刚刚试了下,现在所有图片都可以内嵌到这里面了哈哈哈,都存到GitLFS里面了.

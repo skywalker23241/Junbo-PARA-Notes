@@ -390,9 +390,7 @@ Obsidian 非常适合那些追求深度知识管理和个人成长的用户，�
 
 ---
 
-
 ## 关于Github上传文件的大小数量限制
-
 
 GitHub 对上传文件的大小和数量有明确的限制，以下是详细信息：
 
@@ -404,7 +402,7 @@ GitHub 对上传文件的大小和数量有明确的限制，以下是详细信�
 
 **提交差异限制：**
 
-* **单次提交的文件数量：** 单次提交中可包含的最大文件数量为 5,000 个。 
+* **单次提交的文件数量：** 单次提交中可包含的最大文件数量为 5,000 个。
 * **差异显示限制：** 在拉取请求中，总差异不得超过 20,000 行或 1 MB 的原始差异数据。 任何单个文件的差异不得超过 20,000 行或 500 KB 的原始差异数据。
 
 **仓库存储建议：**
@@ -412,5 +410,105 @@ GitHub 对上传文件的大小和数量有明确的限制，以下是详细信�
 * **仓库总大小：** 建议仓库保持较小，理想情况下小于 1 GB，强烈建议小于 5 GB。 较小的仓库克隆速度更快，使用和维护更容易。
 
 请注意，超过上述限制可能会影响仓库的性能和可用性。
+
+---
+
+## 关于使用Git LFS的一些小技巧代码
+
+
+Git LFS（Large File Storage）是一个 Git 扩展，用于管理和存储大型文件，尤其是在 Git 仓库中。当你使用 Git 管理大型文件（如视频、音频文件、大型数据集等）时，Git 会变得非常缓慢且占用大量磁盘空间，Git LFS 通过将这些文件替换为指向外部存储的指针来解决这个问题。下面是一些常见的 Git LFS 使用步骤和代码总结。
+
+### 1. 安装 Git LFS
+
+首先，你需要安装 Git LFS。可以使用以下命令：
+
+```bash
+# 在 Mac 上
+brew install git-lfs
+
+# 在 Linux 上
+sudo apt-get install git-lfs
+
+# 在 Windows 上
+choco install git-lfs
+```
+
+安装完成后，初始化 Git LFS：
+
+```bash
+git lfs install
+```
+
+### 2. 跟踪大文件
+
+通过 `git lfs track` 命令来指定哪些类型的文件需要使用 Git LFS 来管理。你可以通过文件扩展名来指定，或者直接指定特定的文件路径。
+
+例如，跟踪所有 `.psd` 文件：
+
+```bash
+git lfs track "*.psd"
+```
+
+跟踪指定文件：
+
+```bash
+git lfs track "assets/images/large_image.png"
+```
+
+这会在你的 Git 仓库根目录中创建一个 `.gitattributes` 文件，记录文件类型的跟踪信息。
+
+### 3. 提交和推送文件
+
+Git LFS 会把这些文件替换为指向文件存储的指针，而实际的文件会存储在外部 LFS 存储库中。你可以像平常一样使用 Git 提交和推送文件。
+
+```bash
+git add .gitattributes
+git add <large_files>
+git commit -m "Add large files tracked by Git LFS"
+git push origin main
+```
+
+### 4. 拉取 LFS 文件
+
+当你从 Git 仓库克隆或者拉取最新的代码时，Git LFS 会自动拉取实际的文件。你只需要使用标准的 Git 命令：
+
+```bash
+git pull
+```
+
+Git LFS 会自动处理 LFS 文件的下载。
+
+### 5. 查看 LFS 文件状态
+
+你可以使用 `git lfs ls-files` 来查看已经被 Git LFS 跟踪的文件。
+
+```bash
+git lfs ls-files
+```
+
+### 6. 删除 LFS 文件
+
+如果你需要从 Git LFS 中删除文件，可以使用以下命令：
+
+```bash
+git lfs untrack "*.psd"
+```
+
+这会从 `.gitattributes` 文件中删除相关的 LFS 跟踪规则。
+
+### 7. 删除 LFS 文件并清理存储
+
+如果你想彻底删除 LFS 文件（例如，清理未使用的 LFS 文件），可以使用：
+
+```bash
+git lfs prune
+```
+
+### 小贴士
+
+* Git LFS 文件的推送和拉取与普通 Git 操作一样，但文件会存储在 Git LFS 的专用服务器上，可能需要额外的存储费用。
+* 注意 Git LFS 存储的文件大小限制，很多 Git 托管平台（如 GitHub、GitLab）都有每月的存储配额和带宽限制。
+
+这些是使用 Git LFS 的一些基本步骤和常见命令。通过合理使用 Git LFS，可以有效地管理大型文件并保持 Git 仓库的性能。
 
 ---

@@ -1007,3 +1007,7 @@ C:\Users\Admin\Desktop\Github仓库\python\文章ai优化demo\工具>
 
 发现很多网站都选择在地址栏隐藏自己的html后缀,不知道这样是为了啥.
 记在code-notes里面吧.
+
+###### Fri Apr 4 14:18:36 PDT 2025
+
+刚刚扫完墓回来了,感觉很多东西值得记录,待会晚上再记录吧.

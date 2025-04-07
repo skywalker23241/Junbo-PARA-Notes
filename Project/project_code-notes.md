@@ -514,7 +514,6 @@ git lfs prune
 
 ## 关于一些网站隐藏自己的html文件名后缀
 
-
 一些网站文章的 URL 会隐藏 `.html` 标签，主要是出于以下几个原因：
 
 ### 1. **美观与可读性**
@@ -581,22 +580,90 @@ git lfs prune
 
 ## 关于奥弗顿之窗
 
-
 奥弗顿之窗（Overton Window）是一个社会政治学的概念，它描述了公众能够接受的政治观点范围。简而言之，奥弗顿之窗就像是一个“视窗”，它展示了一个社会普遍能接受的思想、政策和观点的范围。
 
 ### 如何理解？
+
 想象一下，这个“窗户”就像是一个框架，里面有一些思想和观念。如果某个观点在“窗户”内，那它就被视为社会可以接受的观点，通常是大多数人能理解和支持的。如果某个观点超出了“窗户”，它就被认为是过于极端或不合适的，社会对它的接受度很低。
 
 ### 这个概念如何运作？
+
 奥弗顿之窗的范围并不是固定的，它会随着时间和社会的变化而发生改变。换句话说，某些曾经被认为极端或不可接受的观点，随着舆论的改变，可能会进入到“窗户”内，成为广泛接受的观点。
 
 例如，几十年前，关于同性婚姻的观点在很多国家是被认为非常激进的，甚至是不可能的。然而，随着社会对性别平等和人权的关注增加，这个观点逐渐进入了公众的接受范围，很多国家也开始合法化同性婚姻。
 
 ### 如何影响政治和社会？
+
 政治家、媒体和社会运动通常会通过推动某些思想或议题，试图扩大“窗户”的范围或将某些观点从“窗外”推到“窗内”。如果他们成功了，那些之前被视为极端或不可接受的观点就有可能成为主流观点，影响社会政策和法律。
 
 ### 总结
+
 奥弗顿之窗是一个有趣的框架，它帮助我们理解为什么一些政治观点和社会议题在不同的时间段会变得流行或被接受，而有些则会被排除在外。它说明了思想和观念的变化不是一蹴而就的，而是通过公众讨论、媒体传播和政治行动逐渐推动的。
 
 ---
 
+## 关于修正主义
+
+就和这个名字一样,是基于某种主义的部分修正,有褒义也有贬义.
+
+修正主义，简单来说，是指对某种原本的理论、政策或思想进行修改或调整的观点或行为。这些修改通常是为了适应新的情况或反映新的理解。它的核心是在坚持某种基本思想或理念的基础上，对其进行一定程度的调整或改进。
+
+具体来说，修正主义有以下几个层面：
+
+1. **理论上的修正** ：有时候，一些经典理论或思想在面对新的历史背景或实践经验时，会显得不再完全适用。这时，修正主义者可能会提出修改原有理论的主张，以使其更加符合现实。例如，马克思主义的某些学者就曾提出过对马克思主义理论的修正，以应对不同的社会环境和经济发展。
+2. **政策上的修正** ：在政治领域，修正主义常常是指对原先的政治路线、政策或战略的改变。比如，在某些国家或政党内部，如果领导人认为过去的政策不再有效或已经失败，就可能会提出修正这些政策的主张，采取不同的方法和措施来解决问题。
+3. **历史上的修正主义** ：有时，修正主义还指在历史研究中对过去历史事件的重新解释或修改。历史学者可能会通过新的考古发现、新的文献或新的理论框架来重新解读历史事件，提出不同的看法。这种重新解释有时会引发争议，因为它挑战了传统的历史观。
+
+在政治上，修正主义有时也带有贬义，尤其是指那些原本主张激进变革的人，后来选择了更加温和、渐进的方式去实现目标。例如，在社会主义国家，曾经主张激烈革命的理论家，后来可能会提出通过渐进的改革来实现社会目标，这就被一些人批评为“修正主义”。
+
+总的来说，修正主义并不一定是坏事，它有时意味着进步和对现实的适应，但也可能被用来掩盖那些改变原本理想或原则的动机。
+
+---
+
+## 关于为什么中国不是资本主义国家的解释(摘自reddit)
+
+Cold War was a struggle between global capitalism/colonial states, and global communism/colonized states. Communism lost. China, whether it ideologically wanted to or not, did not have a feasible path forward into economic, technological, political development while maintaining a communist economy when the capitalist world just won the cold war so emphatically and made it politically impossible. I.e., they would do to China what they did to Cuba and North Korea, strangle them with never ending sanctions and political siege. China saw no choice but to say fine, you win this round, we'll transition to a market economy as a concession to the winning team because we don't really have a choice here. I can't stress that enough, whether they wanted to or not, THEY HAD TO. The USSR hadn't been dissolved by the time Deng started doing this, but the writing was on the wall at this point.
+
+冷战是一场全球资本主义/殖民国家与全球共产主义/殖民地国家之间的斗争。共产主义失败了。无论中国是否在意识形态上愿意，当资本主义世界在冷战中获得如此明确的胜利，并使保持共产主义经济变得政治上不可能时，中国在经济、技术、政治发展方面没有可行的道路。也就是说，他们会像对待古巴和朝鲜一样对待中国，用永无止境的制裁和政治围攻来扼杀他们。中国别无选择，只能表示好吧，你们这一轮赢了，我们将过渡到市场经济，作为对胜利者的让步，因为我们真的没有选择。我必须强调这一点，无论他们是否愿意，他们不得不这样做。当邓小平开始这样做的时候，苏联还没有解体，但此时已经写在了墙上。
+
+
+
+The reason they were uniquely able to go down this road is the 'chinese characteristics' part of their state project. China is an absolute sleeping giant with astronomical amounts of economic potential just waiting to be developed, which is something that podunk little countries like Cuba and North Korea do not have. Rather than slowly be strangled into submission by the global capitalist economy until they were couped in a sad color revolution, they said we will use the global economy, enmesh ourselves in it, build our productive capacity by working with it, and make a shitload of money turning ourselves into the world's factory until we're so rich and so powerful that WE get to call the shots. Which is the stage that we're arriving at now thanks to the accelerationist policies of Comrade Trump doing the hard work of destroying the US empire for them. THEN, once we've reached that stage, we'll start converting out of capitalism into socialism.
+
+他们之所以能够走上这条路，是他们国家项目中的“中国特色”部分。中国绝对是一个沉睡的巨人，拥有天文数字般的经济潜力等待开发，这是古巴和朝鲜等小国所没有的。他们说，我们不会慢慢地被全球资本主义经济扼杀屈服，直到他们在一场悲惨的颜色革命中被推翻，而是说我们将利用全球经济，将自己融入其中，通过与它合作来建立我们的生产能力，并赚一大笔钱，把自己变成世界工厂，直到我们变得如此富有和强大，以至于我们可以发号施令。多亏了特朗普同志的加速主义政策，他们为他们做了摧毁美利坚帝国的艰苦工作，我们现在才走到这个阶段。然后，一旦我们到达那个阶段，我们就会开始从资本主义转变为社会主义。
+
+
+
+The thing is, this is not revisionism. This is not a betrayal of Marxism. THIS IS ORTHODOX MARXISM. History unfolding in dialectical stages and all that. The USSR is a brutal historical lesson of why you can't just leapfrog one mode of production to the next, other people will try to stop you and you will be too weak to fight them off because they're one step on the dialectical ladder ahead of you. I.e. the West were wealthy capitalists and the Soviets were poor agrarian peasants building a modern economy out of Tsarist pre-capitalist conditions. On top of that, ***communists are supposed to be the ones SAVING people from the inevitable traumas of industrialization, not the ones doing the traumatizing because they have to catch up so fast.*** You PASS THROUGH capitalism to get to socialism, letting capitalism do the dirty work of industrialization, then use the productive capacity created by capitalism to transition to socialism by transferring control from the bourgeoisie to the proletariat. Via one means or another, and that's where all the different sects come in, demsoc, vanguard party ML, syndicalist, Anarchist, they all have different ideas of what 'socialization' means in practice. China is just going through this dialectical process fully self-consciously, with an ideologically communist political class overseeing a capitalist economy with the stated goal of managing it until the time comes to transition. This is the first stage of the communist project, the dictatorship of the proletariat.
+
+这件事不是修正主义，这不是对马克思主义的背叛。这是正统马克思主义。历史在辩证阶段展开，诸如此类。苏联是一个残酷的历史教训，说明了为什么你不能直接跳过一种生产方式进入另一种，其他人会试图阻止你，而你因为比他们低一个辩证阶梯，所以太弱无法抵挡他们。也就是说，西方是富有的资本家，而苏联人是贫穷的农业劳动者，在沙皇前资本主义条件下建设现代经济。更重要的是，共产主义者应该是那些从工业化的必然创伤中拯救人们的人，而不是那些因为必须快速追赶而造成创伤的人。你通过资本主义过渡到社会主义，让资本主义完成工业化的脏活，然后利用资本主义创造的生产力，通过从资产阶级转移到无产阶级来过渡到社会主义。 通过一种方式或另一种方式，这就是所有不同派别出现的地方，民主社会主义、先锋队 ML、工团主义者、无政府主义者，他们对“社会化”在实践中的含义有不同的看法。中国正完全自觉地经历着这一辩证过程，一个意识形态上的共产主义政治阶级在监督资本主义经济，并明确目标是要管理它，直到过渡的时候。这是共产主义项目的第一阶段，即无产阶级专政。
+
+---
+
+## 关于颜色革命
+
+“颜色革命”是指一类在后苏联地区及其他国家发生的，通过非暴力抗议和大规模示威推动政治变革的运动。这些革命通常伴随着某种特定的颜色作为象征，因而被称为“颜色革命”。它们的核心特点是通过民间力量对现有政权进行挑战，推动政治体制改革，甚至更换政府。颜色革命的典型特点包括和平抗议、大规模示威、社交媒体的广泛使用以及民主诉求。
+
+### 主要特点：
+
+1. **非暴力抗议** ：颜色革命通常是通过和平示威来推动政治变革，而不是暴力冲突。这些抗议活动往往强调通过民众行动表达对不公正政权或腐败政府的不满。
+2. **颜色或符号象征** ：每一场颜色革命通常都有一个特定的颜色作为象征，这个颜色代表了运动的精神和目标。例如，乌克兰的“橙色革命”就以橙色为标志，格鲁吉亚的“玫瑰革命”则使用了玫瑰作为象征。
+3. **民众广泛参与** ：这些革命通常依赖广泛的社会参与，尤其是年轻人和中产阶级。他们通过集会、示威、罢工等方式表达政治诉求。
+4. **社交媒体的作用** ：随着互联网的普及，社交媒体成为组织和传播抗议活动的关键工具。信息的迅速传播使得革命能在短时间内获得广泛关注和支持。
+
+### 著名的颜色革命：
+
+1. **1990年代初期的东欧革命** ：在东欧一些国家，社会主义政权的崩溃促成了多次颜色革命。例如，捷克斯洛伐克的“天鹅绒革命”和波兰的“团结运动”，虽然这些革命的具体形式有所不同，但它们都通过非暴力方式推动了政权的更替。
+2. **“玫瑰革命”（格鲁吉亚，2003年）** ：格鲁吉亚的总统选举被认为是存在严重舞弊，导致大规模的抗议活动爆发。抗议者的象征是玫瑰，最终成功迫使当时的总统谢瓦尔德纳泽辞职。
+3. **“橙色革命”（乌克兰，2004年）** ：乌克兰的总统选举因选举舞弊而引发广泛抗议，抗议者的象征是橙色。经过数月的抗议，最终乌克兰最高法院宣布重新选举，推翻了腐败的政府。
+4. **“茉莉花革命”（突尼斯，2010-2011年）** ：突尼斯爆发大规模抗议活动，最终迫使总统本·阿里下台。这场革命是阿拉伯之春的起点，推动了中东和北非地区一系列政权更替。
+
+### 颜色革命的争议：
+
+颜色革命的背后往往有外部势力的支持，尤其是西方国家或国际组织的支持。有人认为，这些运动背后是外国势力试图推动民主改革，甚至影响或改变目标国家的政治格局。这种外部支持使得颜色革命在一些国家和地区被看作是外部干预或“颜色革命”的阴谋，尤其是那些不愿接受西方民主价值观的政权。
+
+### 总结：
+
+颜色革命代表了一种政治运动，通过非暴力抗议和民众集会推动政治体制改革。它们通常以某种颜色作为象征，强调民主、自由和政府的问责。然而，由于它们的背后往往有外部支持，这些运动在一些国家被视为外部干预或政治斗争的一部分。
+
+---

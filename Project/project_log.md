@@ -829,23 +829,23 @@ C:\Users\Admin\Desktop\Github仓库\python\文章ai优化demo\工具>python ai�
 样例内容: ['<p>Updated: <time>January 11, 2024</time></p>', '<p>"<em>I unable to connect to my SQL Server 2012 by Windows Authentication and forgot SA password. ', '<p>It seems a little tricky in this case. Fortunately, you can quickly<a href="sql-server-2012-recov']
 ======== 提取的正文内容 ========
 {'h2': [], 'h3': [], 'p': [
-'Updated: <time>January 11, 2024</time>', 
-'"<em>I unable to connect to my SQL Server 2012 by Windows Authentication and forgot SA password. How can I connect to my database? Please help!</em>"', 
-'It seems a little tricky in this case. Fortunately, you can quickly<a href="sql-server-2012-recover-sa-password-after-forgot-it.html"> <strong>recover SQL Server 2012 forgotten SA password</strong></a> with <strong>iSumsoft SQL Password Refixer</strong>.', 
-"<strong>iSumsoft SQL Password Refixer</strong> is a tiny but powerful program which specializes in resetting SA password and other users' passwords on SQL Server 2014/2012/2008/2005. So you can use it to immediately recover access to SA account after you forgot its password and unable to connect to SQL Server 2012.", 
-'<strong>Step 1: Download and installation.</strong>', 
-'Open your browser to search "iSumsoft SQL Password Refixer" and go to iSumsoft official site. Then download and install <strong><a href="../sql-password-refixer/">SQL Password Refixer</a></strong> on your computer with SQL Server 2012 installed. You won\'t need to make any extra settings to your system while downloading or installing.', 
-'<strong>Step 2: Stop SQL Server 2012 service.</strong>', 'SQL Server accounts passwords are stored in master database file (master.mdf). And this "SQL Password Refixer" just recovers password through accessing to the master.mdf file. Thus, you need to first <a href="how-to-stop-start-sql-server-service.html">stop  SQL server service</a> so that the master.mdf file won\'t be occupied.', 
-'<strong>Step 3: Add SQL Server 2012 database file.</strong>', 
-'Launch <strong>SQL Password Refixer</strong>. Click <strong>Open File</strong> and then navigate to the path to the <strong>master.mdf</strong> file. Select the file and add it to this program.', 
-"Tips: When it's your first time to use this program to open your SQL Server master.mdf file, it won't automatically navigate to the path to the master.mdf file. So you need to manually navigate to the path. Commonly the master.mdf file is located in the path: <strong>C:/Program Files(x86)/Microsoft SQL Server\\MSSQL11.SQLEXPRESS\\MSSQL\\DATA\\master.mdf</strong>", 
-'<strong>Step 4: Recover forgotten SA password.</strong>', 
-'1. Once the master.mdf file is added into this program. It displays a list listing all User names and their indexes on your SQL Server 2012, and the SA account is in the first line. And you can see the forgotten SA password is labeled "<strong>Unknown</strong>". Click to highlight the SA account and then click "<strong>Reset</strong>" button below.', 
-'2. Type a new password for the SA account in the <strong>Reset Password</strong> dialog and click <strong>OK</strong> to confirm.', 
-'3. Then a small dialog saying <strong>"Password successfully changed"</strong> pops up, click <strong>OK</strong> to close the dialog. Then in the list, you can see your SA password turn into your newly set password from "Unknown". Thus, you successfully recover forgotten SA password on your SQL Server 2012 through changing the forgotten password to a new one.', 
-'After that, restart your SQL Server service and then use the new SA password to connect to SQL Server 2012.', 
-"Tips: It's thought the quickest and easiest way to recover forgotten SA password on SQL Server 2012 and other versions of Microsoft SQL Server.", 
-'Latest Articles', 
+'Updated: <time>January 11, 2024</time>',
+'"<em>I unable to connect to my SQL Server 2012 by Windows Authentication and forgot SA password. How can I connect to my database? Please help!</em>"',
+'It seems a little tricky in this case. Fortunately, you can quickly<a href="sql-server-2012-recover-sa-password-after-forgot-it.html"> <strong>recover SQL Server 2012 forgotten SA password</strong></a> with <strong>iSumsoft SQL Password Refixer</strong>.',
+"<strong>iSumsoft SQL Password Refixer</strong> is a tiny but powerful program which specializes in resetting SA password and other users' passwords on SQL Server 2014/2012/2008/2005. So you can use it to immediately recover access to SA account after you forgot its password and unable to connect to SQL Server 2012.",
+'<strong>Step 1: Download and installation.</strong>',
+'Open your browser to search "iSumsoft SQL Password Refixer" and go to iSumsoft official site. Then download and install <strong><a href="../sql-password-refixer/">SQL Password Refixer</a></strong> on your computer with SQL Server 2012 installed. You won\'t need to make any extra settings to your system while downloading or installing.',
+'<strong>Step 2: Stop SQL Server 2012 service.</strong>', 'SQL Server accounts passwords are stored in master database file (master.mdf). And this "SQL Password Refixer" just recovers password through accessing to the master.mdf file. Thus, you need to first <a href="how-to-stop-start-sql-server-service.html">stop  SQL server service</a> so that the master.mdf file won\'t be occupied.',
+'<strong>Step 3: Add SQL Server 2012 database file.</strong>',
+'Launch <strong>SQL Password Refixer</strong>. Click <strong>Open File</strong> and then navigate to the path to the <strong>master.mdf</strong> file. Select the file and add it to this program.',
+"Tips: When it's your first time to use this program to open your SQL Server master.mdf file, it won't automatically navigate to the path to the master.mdf file. So you need to manually navigate to the path. Commonly the master.mdf file is located in the path: <strong>C:/Program Files(x86)/Microsoft SQL Server\\MSSQL11.SQLEXPRESS\\MSSQL\\DATA\\master.mdf</strong>",
+'<strong>Step 4: Recover forgotten SA password.</strong>',
+'1. Once the master.mdf file is added into this program. It displays a list listing all User names and their indexes on your SQL Server 2012, and the SA account is in the first line. And you can see the forgotten SA password is labeled "<strong>Unknown</strong>". Click to highlight the SA account and then click "<strong>Reset</strong>" button below.',
+'2. Type a new password for the SA account in the <strong>Reset Password</strong> dialog and click <strong>OK</strong> to confirm.',
+'3. Then a small dialog saying <strong>"Password successfully changed"</strong> pops up, click <strong>OK</strong> to close the dialog. Then in the list, you can see your SA password turn into your newly set password from "Unknown". Thus, you successfully recover forgotten SA password on your SQL Server 2012 through changing the forgotten password to a new one.',
+'After that, restart your SQL Server service and then use the new SA password to connect to SQL Server 2012.',
+"Tips: It's thought the quickest and easiest way to recover forgotten SA password on SQL Server 2012 and other versions of Microsoft SQL Server.",
+'Latest Articles',
 'Hot Articles']}
 ======== AI 返回的原始数据 ========
 {
@@ -1073,3 +1073,9 @@ key之后就保存在公司电脑的文件里面吧,存在git里面容易泄漏.
 ###### Tue Apr 8 11:38:23 CST 2025
 
 又找到一个谷歌日历自动化的,感觉还不赖.
+
+这个atom又是什么鬼,感觉还行,但是没那么多插件.
+
+###### Tue Apr 8 17:08:10 CST 2025
+
+这个zed还是太难编译和安装了,现在还是vscode对我来说是最好的选择吧.

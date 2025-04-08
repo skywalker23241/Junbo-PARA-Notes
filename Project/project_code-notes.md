@@ -626,13 +626,9 @@ Cold War was a struggle between global capitalism/colonial states, and global co
 
 冷战是一场全球资本主义/殖民国家与全球共产主义/殖民地国家之间的斗争。共产主义失败了。无论中国是否在意识形态上愿意，当资本主义世界在冷战中获得如此明确的胜利，并使保持共产主义经济变得政治上不可能时，中国在经济、技术、政治发展方面没有可行的道路。也就是说，他们会像对待古巴和朝鲜一样对待中国，用永无止境的制裁和政治围攻来扼杀他们。中国别无选择，只能表示好吧，你们这一轮赢了，我们将过渡到市场经济，作为对胜利者的让步，因为我们真的没有选择。我必须强调这一点，无论他们是否愿意，他们不得不这样做。当邓小平开始这样做的时候，苏联还没有解体，但此时已经写在了墙上。
 
-
-
 The reason they were uniquely able to go down this road is the 'chinese characteristics' part of their state project. China is an absolute sleeping giant with astronomical amounts of economic potential just waiting to be developed, which is something that podunk little countries like Cuba and North Korea do not have. Rather than slowly be strangled into submission by the global capitalist economy until they were couped in a sad color revolution, they said we will use the global economy, enmesh ourselves in it, build our productive capacity by working with it, and make a shitload of money turning ourselves into the world's factory until we're so rich and so powerful that WE get to call the shots. Which is the stage that we're arriving at now thanks to the accelerationist policies of Comrade Trump doing the hard work of destroying the US empire for them. THEN, once we've reached that stage, we'll start converting out of capitalism into socialism.
 
 他们之所以能够走上这条路，是他们国家项目中的“中国特色”部分。中国绝对是一个沉睡的巨人，拥有天文数字般的经济潜力等待开发，这是古巴和朝鲜等小国所没有的。他们说，我们不会慢慢地被全球资本主义经济扼杀屈服，直到他们在一场悲惨的颜色革命中被推翻，而是说我们将利用全球经济，将自己融入其中，通过与它合作来建立我们的生产能力，并赚一大笔钱，把自己变成世界工厂，直到我们变得如此富有和强大，以至于我们可以发号施令。多亏了特朗普同志的加速主义政策，他们为他们做了摧毁美利坚帝国的艰苦工作，我们现在才走到这个阶段。然后，一旦我们到达那个阶段，我们就会开始从资本主义转变为社会主义。
-
-
 
 The thing is, this is not revisionism. This is not a betrayal of Marxism. THIS IS ORTHODOX MARXISM. History unfolding in dialectical stages and all that. The USSR is a brutal historical lesson of why you can't just leapfrog one mode of production to the next, other people will try to stop you and you will be too weak to fight them off because they're one step on the dialectical ladder ahead of you. I.e. the West were wealthy capitalists and the Soviets were poor agrarian peasants building a modern economy out of Tsarist pre-capitalist conditions. On top of that, ***communists are supposed to be the ones SAVING people from the inevitable traumas of industrialization, not the ones doing the traumatizing because they have to catch up so fast.*** You PASS THROUGH capitalism to get to socialism, letting capitalism do the dirty work of industrialization, then use the productive capacity created by capitalism to transition to socialism by transferring control from the bourgeoisie to the proletariat. Via one means or another, and that's where all the different sects come in, demsoc, vanguard party ML, syndicalist, Anarchist, they all have different ideas of what 'socialization' means in practice. China is just going through this dialectical process fully self-consciously, with an ideologically communist political class overseeing a capitalist economy with the stated goal of managing it until the time comes to transition. This is the first stage of the communist project, the dictatorship of the proletariat.
 
@@ -665,5 +661,60 @@ The thing is, this is not revisionism. This is not a betrayal of Marxism. THIS I
 ### 总结：
 
 颜色革命代表了一种政治运动，通过非暴力抗议和民众集会推动政治体制改革。它们通常以某种颜色作为象征，强调民主、自由和政府的问责。然而，由于它们的背后往往有外部支持，这些运动在一些国家被视为外部干预或政治斗争的一部分。
+
+---
+
+## 关于弗莱施-金凯德等级（Flesch-Kincaid Grade Level）
+
+
+“ **弗莱施-金凯德等级（Flesch-Kincaid Grade Level）** ” 是一种用来衡量英文文本**阅读难度**的指标，常用于教育、内容审核、SEO等领域。它会给出一个数字，表示该文本适合哪个年级的学生阅读。
+
+---
+
+### ✅ 它是怎么工作的？
+
+它主要依据两点来计算：
+
+1. **句子平均长度** （越长越难）
+2. **单词平均音节数** （越多音节，越难）
+
+---
+
+### ✅ 公式如下（Grade Level）：
+
+```
+0.39 ×（总词数 ÷ 总句子数）+ 11.8 ×（总音节数 ÷ 总词数）– 15.59
+```
+
+这个公式的结果是一个数字，比如：
+
+* **5.0** = 适合小学五年级学生阅读（简单易懂）
+* **8.0** = 初中二年级水平
+* **12.0** = 高中毕业水平
+* **16.0 以上** = 大学或研究生水平（较难）
+
+---
+
+### ✅ 举个例子：
+
+#### 简单句子：
+
+> The dog ran fast. It barked at the cat.
+
+👉 等级可能是  **2.0** （小学二年级）
+
+#### 难一些的句子：
+
+> The effectiveness of this method lies in its ability to streamline redundant processes through automation.
+
+👉 等级可能是  **12.0+** （高中/大学）
+
+---
+
+### ✅ 用途场景：
+
+* **SEO / 内容审核** ：建议页面文字适配更广泛用户，通常建议  **Grade Level 在 8 以下** 。
+* **教育内容** ：匹配特定年级。
+* **政府/医疗/公共信息** ：希望让普通人也容易理解。
 
 ---

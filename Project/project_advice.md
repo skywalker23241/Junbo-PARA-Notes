@@ -358,3 +358,78 @@ resetItems();
 ```
 
 这个面包屑的样式保存到codepen了。
+
+---
+
+###### Tue Apr 8 09:03:33 CST 2025
+
+## 关于viewport的设置问题:(不是很大问题,但是也可以优化)
+
+从 `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=1" />`
+改为 `<meta name="viewport" content="width=device-width, initial-scale=1">`或者 `<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">`
+理由:
+有视障或老年用户需要超过 5 倍放大
+
+    有研究指出，一些用户可能需要放大 到 10 倍以上 才能清晰阅读；
+
+    你这段代码限制最大放大 5 倍，对他们来说不够。
+
+移动设备行为差异
+
+    有些浏览器（如早期的 iOS Safari）对 maximum-scale 参数很敏感，可能会误解它是开发者故意“锁死缩放”，从而完全禁用缩放，即使你设置了 user-scalable=1；
+
+    这在 iOS 和某些老安卓设备上尤其常见。
+
+不符合 WCAG 2.1 标准
+
+    WCAG 建议支持用户无障碍缩放到至少 200%（即2倍）；
+
+    虽然你这里是5倍，已经合格，但只要人为设置了缩放上限，总是存在争议。
+
+---
+
+###### Tue Apr 8 09:11:03 CST 2025
+
+## ~~关于文章首图不设置懒加载~~
+
+~~我看了下文章的第一张可见图片应该就是作者的头像了,所以作者头像的懒加载是没有必要的,可以考虑把作者头像的懒加载去掉.
+或者说把文章里面第一张出现的图片做一个没有懒加载的处理.~~
+没事了,hero图没有设置懒加载.
+
+---
+
+## 关于结构化数据
+
+```html
+  <!-- 这里是结构化数据 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "4 Ways to Disable Windows 11 Round Corner Window",
+    "description": "Learn four methods to disable the round corners of windows in Windows 11.",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "name": "Use Registry Editor",
+        "text": "Open Registry Editor and navigate to HKEY_CURRENT_USER..."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Use Group Policy Editor",
+        "text": "Open the Group Policy Editor by typing gpedit.msc..."
+      }
+      // 可以继续添加更多步骤
+    ]
+  }
+  </script>
+```
+
+
+---
+
+
+
+考虑将相关文章的链接添加到文章内部.
+
+---

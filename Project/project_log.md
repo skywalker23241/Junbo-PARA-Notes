@@ -1284,4 +1284,36 @@ The boisterous sea of liberty is never without a wave.
 OnePlus is the poster child for this shift. The original OnePlus phone was a “flagship killer” that shipped with Cyanogen OS (built on the beloved custom ROM CyanogenMod). It delivered on the promise because it really did have killer features for its wallet-friendly price. OnePlus encouraged modding and tinkering, which earned it a lot of power users. Forums always buzzed with OnePlus discussions and resources.
 一加手机是这一转变的典型代表。最初的一加手机是一款“旗舰杀手”，搭载的是 Cyanogen OS（基于备受喜爱的定制 ROM CyanogenMod 构建）。它兑现了承诺，因为它确实以亲民的价格提供了杀手级功能。一加鼓励用户进行改装和修改，这为其赢得了大量重度用户。论坛上总是充斥着关于一加的讨论和资源。
 
+###### Tue Apr 15 08:56:26 CST 2025
+
+astro 的媒体文件都要放在public文件夹啊,我还画蛇添足的创建了一个resources文件夹哈哈哈,fts.
+
+###### Tue Apr 15 10:11:58 CST 2025
+
+这样看来我们网站还算好的哈哈哈,没有收集用户的数据还可以匿名浏览哈哈哈,但是就是有点过时了/
+
+###### Tue Apr 15 11:20:37 CST 2025
+
+刚刚试了一下部署网站,很方便快捷,但是域名还是很难看哈哈哈,算是知道怎么搞了.
+
+###### Tue Apr 15 13:38:01 CST 2025
+
+加装了那条4GB的内存条,感觉可以打开更多网页了.就是不知道待会会不会又歇逼.
+
+###### Tue Apr 15 13:52:20 CST 2025
+
+长长的文章内存这么大吗? 我类个乖乖.
+
+###### Tue Apr 15 16:40:14 CST 2025
+
+给网站添加了评论板块, 感觉还有很多地方需要改进!
+
+###### Tue Apr 15 16:45:32 CST 2025
+
+感觉要整理一下我的书签页了,好乱......
+
+###### Tue Apr 15 17:35:29 CST 2025
+
+今天不要忘记提交更新了...
+
 

@@ -666,7 +666,6 @@ The thing is, this is not revisionism. This is not a betrayal of Marxism. THIS I
 
 ## 关于弗莱施-金凯德等级（Flesch-Kincaid Grade Level）
 
-
 “ **弗莱施-金凯德等级（Flesch-Kincaid Grade Level）** ” 是一种用来衡量英文文本**阅读难度**的指标，常用于教育、内容审核、SEO等领域。它会给出一个数字，表示该文本适合哪个年级的学生阅读。
 
 ---
@@ -718,3 +717,32 @@ The thing is, this is not revisionism. This is not a betrayal of Marxism. THIS I
 * **政府/医疗/公共信息** ：希望让普通人也容易理解。
 
 ---
+
+## 关于Wall Garden和信息茧房
+
+是从[这篇文章](https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet/#recommended-reading)得到的wall garden的这个概念, 然后就自己联想到信息茧房, 感觉两者都是把用户困在自己创造的怪圈里面了.
+
+然后查了一下这两个专业术语, 发现还是有一些细微的差异的.
+
+Wall Garden 更像是一座围墙, 由平台创造并且试图"垄断".
+
+信息茧房更像是 用户 + 算法 创造出来的.
+
+根据chat的解释就是:
+
+* **Walled garden** 通常指一个 **由平台主动建立的封闭生态系统** ，比如 Facebook、微信、抖音，你只能在里面看到平台允许的内容，不容易跳出去。
+* **信息茧房** （Information cocoon）更多是 **用户行为和算法结果造成的封闭现象** 。比如你只看和自己观点一致的新闻、推荐系统只给你喜欢的东西。
+
+两者有点包含关系, 感觉Wall Garden 是一个更大的"信息茧房".
+
+---
+
+## 关于Looker Studio
+
+这个也是成功分享给我的, 粗看好像是把数据做成分析报告的一个工具;
+
+后续问了Chat了解相关内容之后, 发现和Echats有点像, 都是做可视化数据的, 但是我还是觉得eChats做的更好点吧;
+
+数据种类更丰富, 就是门槛比较高.
+
+先把它放到我的google收藏夹吧.

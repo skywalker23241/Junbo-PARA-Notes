@@ -1316,4 +1316,20 @@ astro 的媒体文件都要放在public文件夹啊,我还画蛇添足的创建�
 
 今天不要忘记提交更新了...
 
+###### Wed Apr 16 13:31:56 CST 2025
+
+下午醒了,这时间还是远远不够...
+
+###### Wed Apr 16 14:36:03 CST 2025
+
+在虚拟机上把windows11预览版搞到手吧. 下载的是真的慢慢慢!!!
+
+###### Wed Apr 16 16:29:07 CST 2025
+
+RIP Blue Screen of Death: Microsoft Finally Found a New Way to Annoy Us 这个标题不错!
+
+###### Wed Apr 16 17:54:49 CST 2025
+
+这个更新的是真的烦死,西吧!
+
 

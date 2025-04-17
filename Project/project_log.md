@@ -1340,4 +1340,7 @@ RIP Blue Screen of Death: Microsoft Finally Found a New Way to Annoy Us 这个�
 
 ok,这篇文章差不多了/
 
+###### Thu Apr 17 13:04:09 PDT 2025
+
+刚刚笔记本上面的git出错了,不知道为啥,应该是网络问题吧,重新拉取了一下现在好了.
 

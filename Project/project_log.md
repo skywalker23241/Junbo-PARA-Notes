@@ -1332,4 +1332,12 @@ RIP Blue Screen of Death: Microsoft Finally Found a New Way to Annoy Us 这个�
 
 这个更新的是真的烦死,西吧!
 
+###### Thu Apr 17 11:51:31 CST 2025
+
+查找关键词v http://localhost:5678/webhook/76a63718-b3cb-4141-bc55-efa614d13f1d?q=BSOD
+
+###### Thu Apr 17 12:00:51 CST 2025
+
+ok,这篇文章差不多了/
+
 

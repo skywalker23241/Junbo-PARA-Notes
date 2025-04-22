@@ -1511,4 +1511,8 @@ lb is back,把skill in tech的账户登录回来了,可以继续推广了.
 
 back to laptop.
 
+###### Wed Apr 23 00:14:49 CST 2025
+
+刚刚试了下notion, 觉得还是别有那么多笔记软件为好...
+
 

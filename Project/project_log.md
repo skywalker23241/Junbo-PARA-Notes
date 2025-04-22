@@ -1507,4 +1507,8 @@ lb is back,把skill in tech的账户登录回来了,可以继续推广了.
 
 感觉这样好不自在哈哈哈.
 
+###### Tue Apr 22 21:01:10 CST 2025
+
+back to laptop.
+
 

@@ -1069,6 +1069,7 @@ key之后就保存在公司电脑的文件里面吧,存在git里面容易泄漏.
 这啥意思,电脑上给用,手机上不给用. 这个ai mode感觉不错,就是不知道后面会不会收费哈哈哈.
 
 ###### Tue Apr 8 10:47:17 CST 2025
+
 ?q={{ $keywords}}
 
 ###### Tue Apr 8 11:09:53 CST 2025
@@ -1118,8 +1119,8 @@ Critical Issues  关键问题
 
     The meta tag "Keywords" is outdated and should be removed as it's no longer used by major search engines for ranking purposes.
     元标记“关键词”已经过时，应该删除，因为主要搜索引擎不再使用它来进行排名。
-    The lang attribute is specified for the <html> tag, but it's set to "en" without considering the actual content language; ensure it matches the primary language of the content.
-    <html> 标签指定了 lang 属性，但将其设置为“en”而不考虑实际内容语言；确保它与内容的主要语言相匹配。
+    The lang attribute is specified for the`<html>` tag, but it's set to "en" without considering the actual content language; ensure it matches the primary language of the content.
+    `<html>` 标签指定了 lang 属性，但将其设置为“en”而不考虑实际内容语言；确保它与内容的主要语言相匹配。
     The viewport meta tag contains maximum-scale=5.0, user-scalable=1, which can negatively impact accessibility; consider changing to maximum-scale=1.0, user-scalable=no or removing maximum-scale and user-scalable to allow for better user experience.
     视口元标记包含 maximum-scale=5.0, user-scalable=1 ，这可能会对可访问性产生负面影响；请考虑更改为 maximum-scale=1.0, user-scalable=no 或删除 maximum-scale 和 user-scalable ，以获得更好的用户体验。
     The page contains multiple instances of the same image (e.g., icons) without proper optimization; consider using image sprites or optimizing images further.
@@ -1481,7 +1482,7 @@ nice手机可以直接连接,芜湖!!! 哈哈哈还有这种说法嘛
 
 ###### Tue Apr 22 10:32:10 CST 2025
 
-这个八字这么准吗??? 
+这个八字这么准吗???
 
 ###### Tue Apr 22 11:28:21 CST 2025
 
@@ -1538,3 +1539,7 @@ coze的那个刚出现在也爆满哈哈哈,无法访问...
 ###### Wed Apr 23 17:46:53 CST 2025
 
 还是只是适合处理较短的文档,或者是模型还不够厉害,我的长日志还是处理不好,而且删除了很多东西...
+
+###### Wed Apr 23 21:12:45 CST 2025
+
+成功还是离职了，我也快了吧哈哈哈，先搞出自己的一套系统来。

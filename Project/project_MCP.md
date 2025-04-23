@@ -51,3 +51,27 @@ Anthropic自己也有很多第三方的平台为他提供大量的MCP服务器, 
 # 复盘一下
 
 MCP之后的应用肯定会越来越广泛, 可能是AGI的一个发展方向, Cool.
+
+各家AI公司争先恐后想要进军这个领域, 说明这块应该还是比较重要的.
+
+然后自己现在是熟悉了 Vscode和Claude这两个部分的MCP使用的方法, 有些需要结合Dock进行使用, 然后部分还是可以直接通过本地直接安装的, 现在处于预发布阶段, 很多工具在使用的过程中都有点卡, 就像现在国内推出的那个coze空间也是一样, 就像deepseek刚出那会, 服务器繁忙请稍后再试哈哈哈.
+
+总的来说, 这玩意还是有价值的, 就先记录这些吧, 以下是一些参考文档:
+
+[Get started with the Model Context Protocol (MCP)]( "https://modelcontextprotocol.io/introduction")
+
+[Model Context Protocol (MCP): A Guide With Demo Project](https://www.datacamp.com/tutorial/mcp-model-context-protocol?utm_source=chatgpt.com)
+
+[Secure Remote MCP Servers With Entra ID And Azure API Management](https://den.dev/blog/remote-mcp-server/)
+
+[巨头的新战场：AI 编程 IDE（暨 字节 Trae 调用 MCP 教程）](https://www.ruanyifeng.com/blog/2025/04/trae-mcp.html)
+
+[Model Context Protocol GITHUB page](https://github.com/modelcontextprotocol/servers) (里面有一些第三方服务器)
+
+[Use MCP servers in VS Code (Preview)](https://code.visualstudio.com/docs/copilot/chat/mcp-servers)
+
+完 
+
+编辑于
+
+###### Wed Apr 23 17:31:13 CST 2025

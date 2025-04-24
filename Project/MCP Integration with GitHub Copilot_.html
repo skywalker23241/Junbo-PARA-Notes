@@ -1,0 +1,503 @@
+<h1
+id="integrating-anthropics-model-context-protocol-with-github-copilot-in-vs-code"><strong>Integrating
+Anthropic’s Model Context Protocol with GitHub Copilot in VS
+Code</strong></h1>
+<p>The landscape of artificial intelligence is rapidly evolving, with
+large language models (LLMs) increasingly capable of augmenting various
+aspects of software development. A significant advancement in this
+domain is the introduction of the Model Context Protocol (MCP) by
+Anthropic. This open standard serves as a universal interface,
+streamlining the way LLMs interact with external tools, databases, and
+APIs, much like a USB-C port standardizes device connectivity. Initially
+developed to enhance Claude’s capabilities, MCP was open-sourced in
+early 2024, aiming to foster industry-wide adoption and promote
+modularity, interoperability, and developer productivity in AI
+applications. By enabling language models to dynamically invoke APIs,
+interact with databases, and avoid hardcoded logic, MCP is fundamentally
+reshaping how AI models integrate with the real world, moving from
+isolated systems to flexible, tool-aware agents.1 This report details
+the process of integrating MCP with GitHub Copilot within the Visual
+Studio Code (VS Code) environment, leveraging the provided research
+material to offer a comprehensive guide.</p>
+<h2 id="prerequisites"><strong>Prerequisites</strong></h2>
+<p>Before embarking on the integration process, several prerequisites
+must be met. Firstly, it is essential to have the latest version of
+Visual Studio Code installed. Regular updates ensure access to the
+newest features and improvements, including those related to GitHub
+Copilot and MCP integration.6 Secondly, a GitHub account is required to
+utilize GitHub Copilot.6 Furthermore, having either Python or Node.js
+installed on your system is necessary as MCP servers are frequently
+built using these languages.6 Finally, access to GitHub Copilot is a
+fundamental requirement. Users can explore the free tier with limited
+functionality or opt for a paid subscription for unlimited access.6</p>
+<h2 id="step-1-setting-up-the-environment"><strong>Step 1: Setting Up
+the Environment</strong></h2>
+<p>Preparing the development environment is the crucial first step in
+integrating MCP with GitHub Copilot. To ensure a smooth experience,
+updating Visual Studio Code to the latest version is paramount. VS Code
+typically supports automatic updates, prompting users to install new
+releases as they become available. Users can also manually check for
+updates by navigating to “Help” &gt; “Check for Updates” on Linux and
+Windows, or “Code” &gt; “Check for Updates” on macOS.10<br />
+Next, logging into your GitHub account within VS Code is necessary to
+enable GitHub Copilot functionality. This can be done through the
+Accounts menu in the Activity Bar on the left side of the VS Code
+window. Clicking on the Accounts menu will present options to sign in
+with your GitHub credentials.17 Alternatively, the Command Palette
+(accessible via Ctrl+Shift+P or Cmd+Shift+P) can be used to search for
+“GitHub Copilot: Sign in”.18 Following the prompts will guide you
+through the authentication process in a browser window, where you’ll
+authorize Visual Studio Code to access your GitHub account.16<br />
+Ensuring that Python or Node.js is installed is the next key step. For
+Python, Anthropic recommends version 3.10 or higher for optimal
+compatibility with the MCP Python SDK.26 Users can verify their Python
+installation by opening a terminal or command prompt and running python
+--version or python3 --version. If Python is not installed or the
+version is outdated, it can be downloaded from the official Python
+website. Similarly, for Node.js, version 18 or later is recommended.29
+The Node.js installation can be checked by running node --version in the
+terminal. Node.js can be downloaded and installed from the official
+Node.js website. The Node Package Manager (npm), which usually comes
+bundled with Node.js, might also be required for installing some MCP
+tools.30<br />
+Finally, the necessary MCP tools need to be installed. The original
+query mentioned a specific webpage for this purpose. However, based on
+the research material, the primary source for MCP servers and tools is
+the official Model Context Protocol GitHub organization, particularly
+the “servers” repository.6 This repository hosts a collection of
+reference implementations for MCP servers, showcasing the protocol’s
+versatility. Installation methods can vary depending on the specific
+server and its implementation language (Python or Node.js). For
+Python-based servers, tools like pip or uv can be used to install
+packages from PyPI.25 For Node.js-based servers, npm or npx are the
+common tools for installation.29 The documentation within the “servers”
+repository or the individual server’s documentation will provide
+specific installation instructions.</p>
+<h2 id="step-2-configuring-mcp-in-vs-code"><strong>Step 2: Configuring
+MCP in VS Code</strong></h2>
+<p>With the environment set up, the next step involves configuring MCP
+within Visual Studio Code. MCP servers can be configured either for a
+specific workspace or globally for your personal VS Code instance.6
+Configuring for a specific workspace involves creating a
+.vscode/mcp.json file in the root of your repository. This makes the MCP
+server configuration accessible to anyone who opens the project in VS
+Code. For personal, global configuration, the settings are added to the
+settings.json file within VS Code. It’s generally recommended to choose
+only one location per server to avoid potential conflicts.6<br />
+The configuration itself is a JSON file that specifies the details of
+the MCP servers you wish to use. A common structure involves an “inputs”
+section to define any necessary configuration values and a “servers”
+section to list the MCP servers. Each server entry typically includes a
+“command” to execute and an array of “args” (arguments) to pass to the
+command.6 For example, to configure the “fetch” MCP server, which
+provides web content fetching capabilities, the following configuration
+can be added to the .vscode/mcp.json file:</p>
+<p>JSON</p>
+<p>{<br />
+“inputs”:,<br />
+“servers”: {<br />
+“fetch”: {<br />
+“command”: “uvx”,<br />
+“args”: [“mcp-server-fetch”]<br />
+}<br />
+}<br />
+}</p>
+<p>In this example, the “inputs” section defines a simple string input,
+and the “servers” section defines the “fetch” server with the command
+“uvx” and the argument “mcp-server-fetch”.6 After saving the
+.vscode/mcp.json file, a “Start” button will appear at the top of the
+list of servers in the file. Clicking this button will start the
+configured MCP servers, which will then be available for use within
+GitHub Copilot Chat in Agent mode.6 To access the list of available MCP
+servers and their tools, open Copilot Chat by clicking the icon in the
+VS Code title bar, select “Agent” mode, and then click the tools icon in
+the top left corner of the chat box.6</p>
+<h2 id="step-3-writing-and-testing-mcp-code"><strong>Step 3: Writing and
+Testing MCP Code</strong></h2>
+<p>While the primary focus is on using pre-built MCP servers, developers
+may also want to create their own custom servers to fulfill specific
+needs. Anthropic provides SDKs in various languages like Python,
+TypeScript, Java, Kotlin, and C# to facilitate the development of MCP
+servers and clients.28 Building an MCP server generally involves
+defining the resources, prompts, and tools that the server will expose
+using the chosen SDK.3 Resources are structured data that the server can
+provide to the LLM, prompts are pre-prepared instructions or templates,
+and tools are executable functions or actions that the LLM can invoke.3
+The logic for these tools needs to be implemented to interact with
+external systems, databases, or APIs.3 Once developed, the server can be
+run locally for testing or deployed remotely for broader
+accessibility.38 The availability of SDKs in multiple languages
+significantly lowers the barrier to entry for developers wanting to
+create custom MCP servers tailored to their specific needs, as it allows
+them to leverage their existing skills in languages like Python,
+TypeScript, Java, and C# without needing to learn a new language
+specifically for MCP.<br />
+Testing MCP integrations within VS Code is a crucial part of the
+development process. The MCP Inspector is a valuable visual testing tool
+that can be used to inspect and debug MCP servers.5 Additionally, GitHub
+Copilot Chat in Agent mode provides an interactive environment for
+testing the tools exposed by configured MCP servers.6 By engaging with
+Copilot Chat in Agent mode, developers can invoke the tools provided by
+their MCP servers and observe the responses. VS Code also allows viewing
+server logs, which can be invaluable for troubleshooting issues with
+server connectivity or tool execution.38 The “MCP: List Servers” command
+in the Command Palette offers a way to manage and view the output of
+configured servers.40 Furthermore, developers can even leverage
+Copilot’s AI capabilities to generate tests for their MCP-related code,
+ensuring its reliability and correctness.45</p>
+<h2 id="step-4-advanced-features-and-customization"><strong>Step 4:
+Advanced Features and Customization</strong></h2>
+<p>The integration of MCP with GitHub Copilot in VS Code unlocks several
+advanced features and customization possibilities. A key aspect is the
+utilization of Agent Mode in Copilot Chat with MCP tools. Agent Mode
+goes beyond simple question answering by intelligently leveraging the
+available MCP tools to fulfill complex user requests.8 When a user
+enters a prompt in Agent Mode, Copilot can analyze the request and,
+based on the configured MCP servers and their tools, determine the
+necessary steps to achieve the desired outcome. This might involve
+invoking multiple tools, processing the results, and potentially asking
+the user for further input or confirmation.8<br />
+Managing and selecting specific tools within Copilot Chat’s Agent Mode
+is also straightforward. By clicking the “Tools” button in the Chat
+view, users can see a list of all available tools provided by the
+configured MCP servers.6 They can then toggle specific tools on or off
+as needed, effectively controlling which tools Copilot can utilize for a
+given task. It’s also possible to directly reference a tool in the chat
+prompt by typing “#” followed by the tool name.44<br />
+When Copilot invokes an MCP tool in Agent Mode, it typically presents
+the user with a confirmation dialog before executing the tool. This
+allows users to review the tool’s parameters and either confirm the
+execution or edit the parameters if necessary.6 This step is crucial for
+security, as MCP tools can potentially perform actions that modify files
+or interact with external systems. For frequently used tools, users can
+also set up automatic confirmation for the current session, workspace,
+or all future invocations.44<br />
+As mentioned earlier, developing custom MCP servers allows for highly
+specialized functionalities tailored to specific workflows or
+integrations with internal systems.43 Furthermore, MCP servers are not
+limited to running locally; they can also be hosted remotely, expanding
+the possibilities for integration and allowing access to tools and data
+from anywhere with network connectivity.43<br />
+It’s important to note that MCP’s utility extends beyond GitHub Copilot.
+It is an open standard adopted by various other AI tools and platforms,
+such as Claude Desktop, Copilot Studio, Cursor AI, and Pieces App.2 This
+broad adoption means that once developers have configured MCP servers,
+they can potentially leverage these integrations across different
+AI-powered environments, enhancing their overall development workflow.
+The design of MCP as an open standard fosters a broader ecosystem of
+interoperable AI tools and services, allowing developers to leverage
+their MCP integrations across different platforms. The “open standard”
+nature of MCP encourages adoption by various vendors and communities,
+leading to a richer set of tools and integrations that developers can
+utilize across their preferred AI-powered environments.<br />
+For more granular control over how Copilot utilizes MCP tools, the
+.github/copilot-instructions.md file can be used within a repository.44
+This file allows for fine-tuning tool usage and providing specific
+instructions to Copilot regarding when and how to use certain tools
+within the context of that repository.</p>
+<h2 id="step-5-troubleshooting-and-best-practices"><strong>Step 5:
+Troubleshooting and Best Practices</strong></h2>
+<p>Integrating MCP with GitHub Copilot can sometimes present challenges.
+Common issues include problems with VS Code updates or GitHub account
+login, which can usually be resolved by ensuring the software is
+up-to-date and the correct account credentials are used (refer back to
+Step 1). If errors occur when starting or connecting to MCP servers,
+checking the server logs can provide valuable information for diagnosing
+the problem.38 If configured tools are not appearing in Copilot Chat,
+it’s essential to verify the server configuration in the mcp.json file
+for any syntax errors or incorrect settings. Authentication and
+authorization issues with MCP servers might require reviewing the
+server’s documentation and configuration, potentially involving concepts
+like API keys or OAuth.54 Network connectivity problems, particularly
+with remote MCP servers, might necessitate checking proxy settings
+within VS Code or the operating system.55<br />
+To ensure a secure and efficient experience, several best practices
+should be followed when using MCP with GitHub Copilot.
+<strong>Security</strong> is paramount, as MCP servers have the
+potential to execute arbitrary code on your machine. Therefore, it is
+crucial to only add MCP servers from trusted sources and to carefully
+review the server configurations before starting them.44 Sensitive
+information, such as API keys, should never be hardcoded directly into
+the configuration files. Instead, utilize input variables or environment
+files to manage such credentials securely.44<br />
+Regarding <strong>performance</strong>, be mindful of the resources
+consumed by running local MCP servers, especially if multiple servers
+are active simultaneously. For remote servers, consider potential
+network latency, which might affect the responsiveness of tool
+invocations. <strong>Maintainability</strong> is enhanced by keeping MCP
+server configurations well-organized and documented. Regularly updating
+VS Code and the dependencies of your MCP servers is also crucial for
+ensuring compatibility and security.<br />
+<strong>User consent and control</strong> are fundamental principles of
+MCP. Understand the permissions required by each MCP server to access
+data and perform actions, and ensure these align with your
+expectations.41 Similarly, be aware of the data being shared with MCP
+servers and adhere to relevant <strong>data privacy</strong> policies.41
+Exercise caution when invoking <strong>tools</strong>, as they can
+execute arbitrary code. Always understand what a tool does before
+authorizing its use.41 Finally, be aware of and control any LLM
+<strong>sampling requests</strong> that might be initiated by MCP
+servers.41 The security considerations underscore the importance of
+developer vigilance when integrating external tools with AI assistants,
+emphasizing the need for trust and careful configuration.</p>
+<h2 id="conclusion"><strong>Conclusion</strong></h2>
+<p>Integrating Anthropic’s Model Context Protocol (MCP) with GitHub
+Copilot in VS Code represents a significant step towards enhancing
+AI-assisted development. This integration empowers developers with
+increased productivity by automating tasks and providing access to a
+wider range of tools and data sources directly within their coding
+environment. The ability to configure and utilize pre-built MCP servers,
+as well as create custom integrations, opens up a vast landscape of
+possibilities for leveraging AI to streamline development workflows. As
+the ecosystem of MCP servers continues to grow, developers are
+encouraged to explore these resources and consider building their own
+custom integrations to meet their specific needs.<br />
+For further exploration and detailed information, the following
+resources are recommended:</p>
+<ul>
+<li>Anthropic’s Model Context Protocol Documentation: <a
+href="https://docs.anthropic.com/en/docs/agents-and-tools/mcp">https://docs.anthropic.com/en/docs/agents-and-tools/mcp</a>
+1<br />
+</li>
+<li>GitHub Copilot Documentation: <a
+href="https://docs.github.com/en/copilot">https://docs.github.com/en/copilot</a>
+59<br />
+</li>
+<li>MCP Servers Repository: <a
+href="https://github.com/modelcontextprotocol/servers">https://github.com/modelcontextprotocol/servers</a>
+2<br />
+</li>
+<li>GitHub MCP Server Repository: <a
+href="https://github.com/github/github-mcp-server">https://github.com/github/github-mcp-server</a>
+6<br />
+</li>
+<li>Model Context Protocol Specification: <a
+href="https://modelcontextprotocol.io/specification/2025-03-26">https://modelcontextprotocol.io/specification/2025-03-26</a>
+41<br />
+</li>
+<li>GitHub Copilot Agent Mode Announcement: <a
+href="https://github.blog/news-insights/product-news/github-copilot-agent-mode-activated/">https://github.blog/news-insights/product-news/github-copilot-agent-mode-activated/</a>
+8<br />
+</li>
+<li>VS Code Documentation on Extending Copilot Chat with MCP: <a
+href="https://docs.github.com/en/copilot/customizing-copilot/extending-copilot-chat-with-mcp">https://docs.github.com/en/copilot/customizing-copilot/extending-copilot-chat-with-mcp</a>
+6</li>
+</ul>
+<h4 id="works-cited"><strong>Works cited</strong></h4>
+<ol type="1">
+<li>Model Context Protocol (MCP) - Anthropic API, accessed April 24,
+2025, <a
+href="https://docs.anthropic.com/en/docs/agents-and-tools/mcp">https://docs.anthropic.com/en/docs/agents-and-tools/mcp</a><br />
+</li>
+<li>Introducing the Model Context Protocol - Anthropic, accessed April
+24, 2025, <a
+href="https://www.anthropic.com/news/model-context-protocol">https://www.anthropic.com/news/model-context-protocol</a><br />
+</li>
+<li>The Model Context Protocol (MCP) by Anthropic: Origins … - Wandb,
+accessed April 24, 2025, <a
+href="https://wandb.ai/onlineinference/mcp/reports/The-Model-Context-Protocol-MCP-by-Anthropic-Origins-functionality-and-impact--VmlldzoxMTY5NDI4MQ">https://wandb.ai/onlineinference/mcp/reports/The-Model-Context-Protocol-MCP-by-Anthropic-Origins-functionality-and-impact–VmlldzoxMTY5NDI4MQ</a><br />
+</li>
+<li>A Beginner’s Guide to Anthropic’s Model Context Protocol (MCP) - DEV
+Community, accessed April 24, 2025, <a
+href="https://dev.to/hussain101/a-beginners-guide-to-anthropics-model-context-protocol-mcp-1p86">https://dev.to/hussain101/a-beginners-guide-to-anthropics-model-context-protocol-mcp-1p86</a><br />
+</li>
+<li>Model Context Protocol: Introduction, accessed April 24, 2025, <a
+href="https://modelcontextprotocol.io/introduction">https://modelcontextprotocol.io/introduction</a><br />
+</li>
+<li>Extending Copilot Chat with the Model Context Protocol (MCP) -
+GitHub Docs, accessed April 24, 2025, <a
+href="https://docs.github.com/en/copilot/customizing-copilot/extending-copilot-chat-with-mcp">https://docs.github.com/en/copilot/customizing-copilot/extending-copilot-chat-with-mcp</a><br />
+</li>
+<li>github-mcp-server is now available in public preview - GitHub …,
+accessed April 24, 2025, <a
+href="https://github.blog/changelog/2025-04-04-github-mcp-server-public-preview/">https://github.blog/changelog/2025-04-04-github-mcp-server-public-preview/</a><br />
+</li>
+<li>Vibe coding with GitHub Copilot: Agent mode and MCP support rolling
+out to all VS Code users, accessed April 24, 2025, <a
+href="https://github.blog/news-insights/product-news/github-copilot-agent-mode-activated/">https://github.blog/news-insights/product-news/github-copilot-agent-mode-activated/</a><br />
+</li>
+<li>GitHub Copilot in VS Code, accessed April 24, 2025, <a
+href="https://code.visualstudio.com/docs/copilot/overview">https://code.visualstudio.com/docs/copilot/overview</a><br />
+</li>
+<li>code.visualstudio.com, accessed April 24, 2025, <a
+href="https://code.visualstudio.com/docs/setup/windows#:~:text=available%20installation%20options.-,Updates,to%20get%20the%20latest%20bits).&amp;text=You%20can%20disable%20auto%2Dupdate,Code%20on%20your%20own%20schedule">https://code.visualstudio.com/docs/setup/windows#:~:text=available%20installation%20options.-,Updates,to%20get%20the%20latest%20bits).&amp;text=You%20can%20disable%20auto%2Dupdate,Code%20on%20your%20own%20schedule</a><br />
+</li>
+<li>How to update to the latest release - vscode-docs, accessed April
+24, 2025, <a
+href="https://vscode-docs.readthedocs.io/en/stable/supporting/howtoupdate/">https://vscode-docs.readthedocs.io/en/stable/supporting/howtoupdate/</a><br />
+</li>
+<li>Setting up Visual Studio Code, accessed April 24, 2025, <a
+href="https://code.visualstudio.com/docs/setup/setup-overview">https://code.visualstudio.com/docs/setup/setup-overview</a><br />
+</li>
+<li>Visual Studio Code on Windows, accessed April 24, 2025, <a
+href="https://code.visualstudio.com/docs/setup/windows">https://code.visualstudio.com/docs/setup/windows</a><br />
+</li>
+<li>How to update VS Code on Windows? - Stack Overflow, accessed April
+24, 2025, <a
+href="https://stackoverflow.com/questions/60807557/how-to-update-vs-code-on-windows">https://stackoverflow.com/questions/60807557/how-to-update-vs-code-on-windows</a><br />
+</li>
+<li>Visual Studio Code FAQ, accessed April 24, 2025, <a
+href="https://code.visualstudio.com/docs/supporting/FAQ">https://code.visualstudio.com/docs/supporting/FAQ</a><br />
+</li>
+<li>Using GitHub Codespaces in Visual Studio Code, accessed April 24,
+2025, <a
+href="https://docs.github.com/codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code">https://docs.github.com/codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code</a><br />
+</li>
+<li>Introduction to Git in VS Code, accessed April 24, 2025, <a
+href="https://code.visualstudio.com/docs/sourcecontrol/intro-to-git">https://code.visualstudio.com/docs/sourcecontrol/intro-to-git</a><br />
+</li>
+<li>Set up GitHub Copilot in VS Code - Visual Studio Code, accessed
+April 24, 2025, <a
+href="https://code.visualstudio.com/docs/copilot/setup">https://code.visualstudio.com/docs/copilot/setup</a><br />
+</li>
+<li>Sign in to GitHub, accessed April 24, 2025, <a
+href="https://github.com/login">https://github.com/login</a><br />
+</li>
+<li>Working with GitHub in VS Code, accessed April 24, 2025, <a
+href="https://code.visualstudio.com/docs/sourcecontrol/github">https://code.visualstudio.com/docs/sourcecontrol/github</a><br />
+</li>
+<li>How to Login Into Github in VSCode and Pull Code (2024) - YouTube,
+accessed April 24, 2025, <a
+href="https://www.youtube.com/watch?v=aCX5JPK9Qxo">https://www.youtube.com/watch?v=aCX5JPK9Qxo</a><br />
+</li>
+<li>Using github and VS Code? : r/webdev - Reddit, accessed April 24,
+2025, <a
+href="https://www.reddit.com/r/webdev/comments/1ciyc6j/using_github_and_vs_code/">https://www.reddit.com/r/webdev/comments/1ciyc6j/using_github_and_vs_code/</a><br />
+</li>
+<li>How to connect my GitHub Enterprise Account with Visual Studio Code
+- Stack Overflow, accessed April 24, 2025, <a
+href="https://stackoverflow.com/questions/69765741/how-to-connect-my-github-enterprise-account-with-visual-studio-code">https://stackoverflow.com/questions/69765741/how-to-connect-my-github-enterprise-account-with-visual-studio-code</a><br />
+</li>
+<li>Initial setup - Anthropic API, accessed April 24, 2025, <a
+href="https://docs.anthropic.com/en/docs/initial-setup">https://docs.anthropic.com/en/docs/initial-setup</a><br />
+</li>
+<li>anthropics/anthropic-sdk-python - GitHub, accessed April 24, 2025,
+<a
+href="https://github.com/anthropics/anthropic-sdk-python">https://github.com/anthropics/anthropic-sdk-python</a><br />
+</li>
+<li>For Server Developers - Model Context Protocol, accessed April 24,
+2025, <a
+href="https://modelcontextprotocol.io/quickstart/server">https://modelcontextprotocol.io/quickstart/server</a><br />
+</li>
+<li>mcp - PyPI, accessed April 24, 2025, <a
+href="https://pypi.org/project/mcp/">https://pypi.org/project/mcp/</a><br />
+</li>
+<li>Model Context Protocol - GitHub, accessed April 24, 2025, <a
+href="https://github.com/modelcontextprotocol">https://github.com/modelcontextprotocol</a><br />
+</li>
+<li>Claude Code overview - Anthropic API, accessed April 24, 2025, <a
+href="https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview">https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview</a><br />
+</li>
+<li>MCP Node.js Implementation: A Complete Guide - BytePlus, accessed
+April 24, 2025, <a
+href="https://www.byteplus.com/en/topic/541240">https://www.byteplus.com/en/topic/541240</a><br />
+</li>
+<li>michaellatman/mcp-get - GitHub, accessed April 24, 2025, <a
+href="https://github.com/michaellatman/mcp-get">https://github.com/michaellatman/mcp-get</a><br />
+</li>
+<li>anthropics/anthropic-sdk-typescript: Access to Anthropic’s
+safety-first language model APIs - GitHub, accessed April 24, 2025, <a
+href="https://github.com/anthropics/anthropic-sdk-typescript">https://github.com/anthropics/anthropic-sdk-typescript</a><br />
+</li>
+<li>Everything you need to get up and running with MCP – Anthropic’s
+USB-C for AI, accessed April 24, 2025, <a
+href="https://www.theregister.com/2025/04/21/mcp_guide/">https://www.theregister.com/2025/04/21/mcp_guide/</a><br />
+</li>
+<li>MCP-Windows - GitHub Gist, accessed April 24, 2025, <a
+href="https://gist.github.com/feveromo/7a340d7795fca1ccd535a5802b976e1f">https://gist.github.com/feveromo/7a340d7795fca1ccd535a5802b976e1f</a><br />
+</li>
+<li>Generate documentation using GitHub Copilot tools - Training - Learn
+Microsoft, accessed April 24, 2025, <a
+href="https://learn.microsoft.com/en-us/training/modules/generate-documentation-using-github-copilot-tools/">https://learn.microsoft.com/en-us/training/modules/generate-documentation-using-github-copilot-tools/</a><br />
+</li>
+<li>GitHub Copilot · Your AI pair programmer, accessed April 24, 2025,
+<a
+href="https://github.com/features/copilot">https://github.com/features/copilot</a><br />
+</li>
+<li>GitHub Copilot features, accessed April 24, 2025, <a
+href="https://docs.github.com/en/copilot/about-github-copilot/github-copilot-features">https://docs.github.com/en/copilot/about-github-copilot/github-copilot-features</a><br />
+</li>
+<li>For Claude Desktop Users - Model Context Protocol, accessed April
+24, 2025, <a
+href="https://modelcontextprotocol.io/quickstart/user">https://modelcontextprotocol.io/quickstart/user</a><br />
+</li>
+<li>modelcontextprotocol/servers: Model Context Protocol Servers -
+GitHub, accessed April 24, 2025, <a
+href="https://github.com/modelcontextprotocol/servers">https://github.com/modelcontextprotocol/servers</a><br />
+</li>
+<li>How to Use VSCode MCP Server - Apidog, accessed April 24, 2025, <a
+href="https://apidog.com/blog/vscode-mcp-server/">https://apidog.com/blog/vscode-mcp-server/</a><br />
+</li>
+<li>Specification - Model Context Protocol, accessed April 24, 2025, <a
+href="https://modelcontextprotocol.io/specification/2025-03-26">https://modelcontextprotocol.io/specification/2025-03-26</a><br />
+</li>
+<li>Anthropic Publishes Model Context Protocol Specification for LLM App
+Integration - InfoQ, accessed April 24, 2025, <a
+href="https://www.infoq.com/news/2024/12/anthropic-model-context-protocol/">https://www.infoq.com/news/2024/12/anthropic-model-context-protocol/</a><br />
+</li>
+<li>Build and deploy Remote Model Context Protocol (MCP) servers to
+Cloudflare, accessed April 24, 2025, <a
+href="https://blog.cloudflare.com/remote-model-context-protocol-servers-mcp/">https://blog.cloudflare.com/remote-model-context-protocol-servers-mcp/</a><br />
+</li>
+<li>Use MCP servers in VS Code (Preview), accessed April 24, 2025, <a
+href="https://code.visualstudio.com/docs/copilot/chat/mcp-servers">https://code.visualstudio.com/docs/copilot/chat/mcp-servers</a><br />
+</li>
+<li>Testing - Visual Studio Code, accessed April 24, 2025, <a
+href="https://code.visualstudio.com/docs/debugtest/testing">https://code.visualstudio.com/docs/debugtest/testing</a><br />
+</li>
+<li>Vibe coding with GitHub Copilot: Agent mode and MCP support rolling
+out to all VS Code users | Microsoft Azure Blog, accessed April 24,
+2025, <a
+href="https://azure.microsoft.com/en-us/blog/vibe-coding-with-github-copilot-agent-mode-and-mcp-support-rolling-out-to-all-vs-code-users/">https://azure.microsoft.com/en-us/blog/vibe-coding-with-github-copilot-agent-mode-and-mcp-support-rolling-out-to-all-vs-code-users/</a><br />
+</li>
+<li>GitHub Copilot: The agent awakens - The GitHub Blog, accessed April
+24, 2025, <a
+href="https://github.blog/news-insights/product-news/github-copilot-the-agent-awakens/">https://github.blog/news-insights/product-news/github-copilot-the-agent-awakens/</a><br />
+</li>
+<li>Build a Model Context Protocol (MCP) server in C# - .NET Blog,
+accessed April 24, 2025, <a
+href="https://devblogs.microsoft.com/dotnet/build-a-model-context-protocol-mcp-server-in-csharp/">https://devblogs.microsoft.com/dotnet/build-a-model-context-protocol-mcp-server-in-csharp/</a><br />
+</li>
+<li>Microsoft partners with Anthropic to create official C# SDK for
+Model Context Protocol, accessed April 24, 2025, <a
+href="https://devblogs.microsoft.com/blog/microsoft-partners-with-anthropic-to-create-official-c-sdk-for-model-context-protocol">https://devblogs.microsoft.com/blog/microsoft-partners-with-anthropic-to-create-official-c-sdk-for-model-context-protocol</a><br />
+</li>
+<li>Getting started with Model Context Protocol (MCP) on Claude for
+Desktop, accessed April 24, 2025, <a
+href="https://support.anthropic.com/en/articles/10949351-getting-started-with-model-context-protocol-mcp-on-claude-for-desktop">https://support.anthropic.com/en/articles/10949351-getting-started-with-model-context-protocol-mcp-on-claude-for-desktop</a><br />
+</li>
+<li>The Model Context Protocol (MCP) Explained (and one cool code
+example.) - YouTube, accessed April 24, 2025, <a
+href="https://www.youtube.com/watch?v=5ZWeCKY5WZE">https://www.youtube.com/watch?v=5ZWeCKY5WZE</a><br />
+</li>
+<li>Introducing Model Context Protocol (MCP) in Copilot Studio:
+Simplified Integration with AI Apps and Agents - Microsoft, accessed
+April 24, 2025, <a
+href="https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/introducing-model-context-protocol-mcp-in-copilot-studio-simplified-integration-with-ai-apps-and-agents/">https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/introducing-model-context-protocol-mcp-in-copilot-studio-simplified-integration-with-ai-apps-and-agents/</a><br />
+</li>
+<li>Configure Pieces MCP Settings, accessed April 24, 2025, <a
+href="https://docs.pieces.app/products/desktop/configuration/mcp">https://docs.pieces.app/products/desktop/configuration/mcp</a><br />
+</li>
+<li>Enhancing AI Integrations with MCP and Azure API Management |
+Microsoft Community Hub, accessed April 24, 2025, <a
+href="https://techcommunity.microsoft.com/blog/integrationsonazureblog/enhancing-ai-integrations-with-mcp-and-azure-api-management/4406699">https://techcommunity.microsoft.com/blog/integrationsonazureblog/enhancing-ai-integrations-with-mcp-and-azure-api-management/4406699</a><br />
+</li>
+<li>Configuring network settings for GitHub Copilot, accessed April 24,
+2025, <a
+href="https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/configuring-network-settings-for-github-copilot">https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/configuring-network-settings-for-github-copilot</a><br />
+</li>
+<li>Configuring your proxy server or firewall for Copilot - GitHub Docs,
+accessed April 24, 2025, <a
+href="https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization/configuring-your-proxy-server-or-firewall-for-copilot">https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization/configuring-your-proxy-server-or-firewall-for-copilot</a><br />
+</li>
+<li>Managing GitHub Copilot in your organization, accessed April 24,
+2025, <a
+href="https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization">https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization</a><br />
+</li>
+<li>GitHub for Beginners: Security best practices with GitHub Copilot,
+accessed April 24, 2025, <a
+href="https://github.blog/ai-and-ml/github-copilot/github-for-beginners-security-best-practices-with-github-copilot/">https://github.blog/ai-and-ml/github-copilot/github-for-beginners-security-best-practices-with-github-copilot/</a><br />
+</li>
+<li>GitHub Copilot documentation, accessed April 24, 2025, <a
+href="https://docs.github.com/copilot">https://docs.github.com/copilot</a></li>
+</ol>

@@ -3845,3 +3845,26 @@ txt-button{color: #fff;}
 .screenshot-mode #reading-progress {
     opacity: 0 !important;
   }
+
+/* 针对 .sourceCode 的样式调整 */
+.sourceCode {
+  font-family: "Courier New", Courier, monospace; /* 使用等宽字体 */
+  background-color: #f9f9f9; /* 设置浅色背景 */
+  color: #333; /* 设置字体颜色 */
+  padding: 10px; /* 添加内边距 */
+  border: 1px solid #ddd; /* 添加边框 */
+  border-radius: 4px; /* 圆角边框 */
+  overflow-x: auto; /* 启用水平滚动条 */
+  white-space: pre; /* 保留空格和换行 */
+  line-height: 1.5; /* 设置行高 */
+}
+
+/* 针对 <pre> 和 <code> 的样式 */
+.sourceCode pre,
+.sourceCode code {
+  margin: 0; /* 去除默认外边距 */
+  padding: 0; /* 去除默认内边距 */
+  font-size: 14px; /* 设置字体大小 */
+  white-space: pre-wrap; /* 自动换行 */
+  word-wrap: break-word; /* 长单词换行 */
+}

@@ -1,3 +1,9 @@
+# 记录一下自己根据这篇[博客](https://www.datacamp.com/tutorial/mcp-model-context-protocol?utm_source=chatgpt.com)试用MCP的心得吧
+
+首先是不太懂MCP, 先是从Den的几篇[博客](https://den.dev/blog/local-mcp-server-authorization/)了解到这个概念, 后来深入了解才发现原来2024年Anthropic就发布了, 只是没有引起关注罢了......
+
+现在爆火, 还是证明这个玩意是有很大潜力的, 所有昨天基本上花了一下午把这个搞明白, 之后可以更好的应用吧.
+
 # 什么是MCP?
 
 MCP(Model Context Protocol) 是一个通过专用服务器处理工具和资源调用的简单协议。
@@ -16,12 +22,6 @@ communication, reducing reliance on proprietary integrations andenabling greater
 Anthropic最初是为了提升 Claude 与外部系统交互的能力而构建的，后来决定在 2024 年初将 MCP 开源， 以推动整个行业的采用。通过公开 MCP，他们的目标是创建一个标准化的 AI 与工具通信框架，减少对专有集成的依赖，并提高 AI 应用之间的模块化和互操作性。
 
 > *这里就可以把它理解为一个模块,用来给ai提供具体的上下文.*
-
-# 记录一下自己根据这篇[博客](https://www.datacamp.com/tutorial/mcp-model-context-protocol?utm_source=chatgpt.com)试用MCP的心得吧
-
-首先是不太懂MCP, 先是从Den的几篇[博客](https://den.dev/blog/local-mcp-server-authorization/)了解到这个概念, 后来深入了解才发现原来2024年Anthropic就发布了, 只是没有引起关注罢了......
-
-现在爆火, 还是证明这个玩意是有很大潜力的, 所有昨天基本上花了一下午把这个搞明白, 之后可以更好的应用吧.
 
 ## 我的理解
 
@@ -46,8 +46,6 @@ Anthropic自己也有很多第三方的平台为他提供大量的MCP服务器, 
 
 最后也是成功写入, PS Notion要创建集成并且创建页面才能正确写入
 
-![1745380797429](image/project_MCP/1745380797429.png)
-
 # 复盘一下
 
 MCP之后的应用肯定会越来越广泛, 可能是AGI的一个发展方向, Cool.
@@ -58,7 +56,7 @@ MCP之后的应用肯定会越来越广泛, 可能是AGI的一个发展方向, C
 
 总的来说, 这玩意还是有价值的, 就先记录这些吧, 以下是一些参考文档:
 
-[Get started with the Model Context Protocol (MCP)]( "https://modelcontextprotocol.io/introduction")
+[Get started with the Model Context Protocol (MCP)]()
 
 [Model Context Protocol (MCP): A Guide With Demo Project](https://www.datacamp.com/tutorial/mcp-model-context-protocol?utm_source=chatgpt.com)
 
@@ -70,7 +68,7 @@ MCP之后的应用肯定会越来越广泛, 可能是AGI的一个发展方向, C
 
 [Use MCP servers in VS Code (Preview)](https://code.visualstudio.com/docs/copilot/chat/mcp-servers)
 
-完 
+完
 
 编辑于
 

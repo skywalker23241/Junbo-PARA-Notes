@@ -1598,3 +1598,13 @@ day 1. 还是建成工作区吧, 形成自己的工作流......
 ###### Fri Apr 25 13:35:33 CST 2025
 
 law of attraction, 这个东西我觉得还是有点道理的, 但是也不能太过于迷信了, 还是要看自己的努力吧.
+
+###### Fri Apr 25 14:37:06 CST 2025
+
+目前接入了Chat生成图片api的服务商: Adobe, Airtable, Figma, Gamma, HeyGen, OpusClip, Quora, Wix, Photoroom, PlayGround.
+
+###### Fri Apr 25 15:08:35 CST 2025
+
+刚才测试了, n8n那个自动优化文章的可以用, 昨天那个应该是抓取网站的请求数量达到限制了, 报错了.
+
+![1745564997895](image/project_log/1745564997895.png)

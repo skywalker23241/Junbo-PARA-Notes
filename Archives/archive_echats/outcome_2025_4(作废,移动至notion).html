@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>ECharts</title>
+  <!-- 引入刚刚下载的 ECharts 文件 -->
+  <script src="echarts.js"></script>
+  <style>
+    /* 将页面内容居中 */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; /* 垂直排列 */
+      height: 100vh; /* 使整个页面高度为视口高度 */
+      margin: 0;
+      font-family: Arial, sans-serif; /* 设置默认字体 */
+      background-color: #f5f5f5; /* 设置背景色 */
+    }
+
+    /* 图表容器的宽高设置 */
+    #main {
+      width: 600px;
+      height: 400px;
+      background-color: #fff; /* 设置背景颜色 */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+      border-radius: 8px; /* 圆角效果 */
+    }
+
+    /* 总计容器样式 */
+    #total {
+      margin-top: 20px;
+      padding: 10px;
+      width: 200px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      font-size: 18px;
+      text-align: center;
+    }
+
+    /* 总计文本样式 */
+    #total p {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <script src="echarts.js"></script>
+  <!-- 引入 vintage 主题 -->
+  <script src="../ECharts/themes/macarons.js"></script>
+
+  <!-- 为 ECharts 准备一个定义了宽高的 DOM -->
+  <div id="main"></div>
+
+  <!-- 总计显示区域 -->
+  <div id="total">
+    <p>总计：<span id="total-amount">0</span></p>
+  </div>
+
+  <script>
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'), 'macarons');
+    
+    // 指定图表的配置项和数据
+    var option = {
+      title: {
+        text: 'Outcome April'
+      },
+      tooltip: {},
+      legend: {
+        data: ['mount']
+      },
+      xAxis: {
+        data: ['rent/房租', 'debet/负债', 'tickets/车票', 'commute/通讯', 'others/吃饭']
+      },
+      yAxis: {},
+      series: [
+        {
+          name: 'mount',
+          type: 'bar',
+          data: [1452.50, 423.52, 152.5, 9, 1260.54]
+        }
+      ]
+    };
+
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+
+    // 动态计算金额总和并显示
+    var data = option.series[0].data; // 获取图表数据
+    var totalAmount = data.reduce(function (sum, current) {
+      return sum + current;
+    }, 0);
+
+    // 显示总计
+    document.getElementById('total-amount').textContent = totalAmount;
+  </script>
+</body>
+
+</html>

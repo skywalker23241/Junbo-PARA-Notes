@@ -1,3 +1,7 @@
+#### March 2025
+
+##### Mon Mar 24
+
 ###### Mon Mar 24 11:22:41 CST 2025
 
 记日也移动到这里吧，后台干干净净的，全部给firefox得了哈哈。
@@ -18,6 +22,8 @@ Wiz的阅读进度条和我们差不多，但是细节方面做的不错，除�
 
 这些VPN的收款方都是一些不知名的商家，可能也是按照你的IP来分的，读取号码归属地？分配本地的合作商家来收款？自己风险降到最小，也不怕帽子叔叔找上门。
 
+##### Tue Mar 25
+
 ###### Tue Mar 25 18:09:50 CST 2025
 
 OK了,可以添加时间了.
@@ -25,6 +31,8 @@ OK了,可以添加时间了.
 ###### Tue Mar 25 18:18:40 CST 2025
 
 总结一下今天吧,虽然站内只是改了一点点,但是还是可以的,明天尽可能把lib的搞完吧.
+
+##### Wed Mar 26
 
 ###### Wed Mar 26 08:52:41 CST 2025
 
@@ -91,6 +99,8 @@ ai也会安排ai吗哈哈哈
 ###### Wed Mar 26 18:17:43 CST 2025
 
 先这样吧,明天再来看看,感觉是哪里出了问题.
+
+##### Thu Mar 27
 
 ###### Thu Mar 27 08:48:31 CST 2025
 
@@ -204,6 +214,7 @@ phone. Step 5: After a successful repair, your phone will restart, and recovery 
 ⚠️ 已保存错误备份到 error_backup.json
 ✅ 优化完成，输出已保存到 output.html
 ```
+##### Fri Mar 28
 
 ###### Fri Mar 28 09:09:51 CST 2025
 
@@ -228,6 +239,8 @@ phone. Step 5: After a successful repair, your phone will restart, and recovery 
 ###### Fri Mar 28 16:52:25 CST 2025
 
 ds的优化给我的感觉更像是一种极致的简化,少了几分专业的感觉,可能是我的命令也没有给到位吧.
+
+##### Mon Mar 31
 
 ###### Mon Mar 31 08:58:54 CST 2025
 
@@ -577,6 +590,10 @@ D:/f/Documents/iSumsoft_Web_3/trunk/surface\which-one-is-the-best-tablet-for-col
 ###### Mon Mar 31 17:02:38 CST 2025
 
 更新了surface的一些文章,感觉还是要手动替换的,虽然内容没什么变化,但是格式还是有点不一样的,还有就是sidebar的内容改了点.
+
+#### April 2025
+
+##### Tue Apr 1
 
 ###### Tue Apr 1 08:46:39 CST 2025
 
@@ -983,6 +1000,8 @@ C:\Users\Admin\Desktop\Github仓库\python\文章ai优化demo\工具>
 
 <img src="../Resources/gibuli_pic/2c126f1d-6df6-4c82-ab60-8d73fa4a4df7.png" alt="2c126f1d-6df6-4c82-ab60-8d73fa4a4df7" width="300">
 
+##### Wed Apr 2
+
 ###### Wed Apr 2 11:43:31 CST 2025
 
 统一记录下吧,因为改的有点多,就是先把图片文件存在了git lfs里面,然后添加了git-sizer来统计文件数量和大小,就这些,搞了蛮久的.
@@ -1008,9 +1027,13 @@ C:\Users\Admin\Desktop\Github仓库\python\文章ai优化demo\工具>
 发现很多网站都选择在地址栏隐藏自己的html后缀,不知道这样是为了啥.
 记在code-notes里面吧.
 
+##### Fri Apr 4
+
 ###### Fri Apr 4 14:18:36 PDT 2025
 
 刚刚扫完墓回来了,感觉很多东西值得记录,待会晚上再记录吧.
+
+##### Sat Apr 5
 
 ###### Sat Apr 5 22:42:36 PDT 2025
 
@@ -1034,9 +1057,13 @@ C:\Users\Admin\Desktop\Github仓库\python\文章ai优化demo\工具>
 
 明天就走了,现记录这些吧,这些天还是放纵为主,未知的事情对我来说还是更加有趣哈哈哈,就这样!
 
+##### Sun Apr 6
+
 ###### Sun Apr 6 19:22:23 PDT 2025
 
 火车小记: 早上十二点左右上车,先到南昌,玩到下午五点再上了现在的这班,也算是坐上卧铺了,就是少一百块哈哈哈,睡一下准备明天上班吧,早晨五点多还要起来呢,今天就早点睡,也是习惯了哈哈哈,打牌有点无聊了.
+
+##### Mon Apr 7
 
 ###### Mon Apr 7 09:40:13 CST 2025
 
@@ -1059,6 +1086,8 @@ f017af49-2fdd-4813-93ea-768791b5e7ba
 ###### Mon Apr 7 17:35:44 CST 2025
 
 以功能为主导和以结果为主导.
+
+##### Tue Apr 8
 
 ###### Tue Apr 8 08:40:01 CST 2025
 
@@ -1086,6 +1115,8 @@ key之后就保存在公司电脑的文件里面吧,存在git里面容易泄漏.
 
 这个zed还是太难编译和安装了,现在还是vscode对我来说是最好的选择吧.
 
+##### Wed Apr 9
+
 ###### Wed Apr 9 08:53:52 CST 2025
 
 刚吃完早餐,今天梦梦姐要来面试,看下早点回去吧.
@@ -1102,9 +1133,13 @@ ai优化文章的n8n搞定了,效果感觉比脚本还要好哈哈哈.
 
 xb....
 
+##### Sun Apr 13
+
 ###### Sun Apr 13 23:45:11 PDT 2025
 
 最近这段时间感冒了请假,日志明天启动.
+
+##### Mon Apr 14
 
 ###### Mon Apr 14 08:45:42 CST 2025
 
@@ -1285,6 +1320,8 @@ The boisterous sea of liberty is never without a wave.
 OnePlus is the poster child for this shift. The original OnePlus phone was a “flagship killer” that shipped with Cyanogen OS (built on the beloved custom ROM CyanogenMod). It delivered on the promise because it really did have killer features for its wallet-friendly price. OnePlus encouraged modding and tinkering, which earned it a lot of power users. Forums always buzzed with OnePlus discussions and resources.
 一加手机是这一转变的典型代表。最初的一加手机是一款“旗舰杀手”，搭载的是 Cyanogen OS（基于备受喜爱的定制 ROM CyanogenMod 构建）。它兑现了承诺，因为它确实以亲民的价格提供了杀手级功能。一加鼓励用户进行改装和修改，这为其赢得了大量重度用户。论坛上总是充斥着关于一加的讨论和资源。
 
+##### Tue Apr 15
+
 ###### Tue Apr 15 08:56:26 CST 2025
 
 astro 的媒体文件都要放在public文件夹啊,我还画蛇添足的创建了一个resources文件夹哈哈哈,fts.
@@ -1317,6 +1354,8 @@ astro 的媒体文件都要放在public文件夹啊,我还画蛇添足的创建�
 
 今天不要忘记提交更新了...
 
+##### Wed Apr 16
+
 ###### Wed Apr 16 13:31:56 CST 2025
 
 下午醒了,这时间还是远远不够...
@@ -1332,6 +1371,8 @@ RIP Blue Screen of Death: Microsoft Finally Found a New Way to Annoy Us 这个�
 ###### Wed Apr 16 17:54:49 CST 2025
 
 这个更新的是真的烦死,西吧!
+
+##### Thu Apr 17
 
 ###### Thu Apr 17 11:51:31 CST 2025
 
@@ -1365,6 +1406,8 @@ ok,这篇文章差不多了/
 
 今天写的这个文章用了ai配图,感觉内容和图片很合适,不知道流量怎么样.
 
+##### Fri Apr 18
+
 ###### Fri Apr 18 09:05:36 CST 2025
 
 刚刚看完科技周刊,一如既往的大信息量,按摩还是周六去吧.
@@ -1376,6 +1419,8 @@ ok,这篇文章差不多了/
 ###### Fri Apr 18 11:18:29 CST 2025
 
 手机端header右边的链接不会展示了,但是底部还是可以看见链接的.
+
+##### Sun Apr 20
 
 ###### Sun Apr 20 22:57:00 CST 2025
 
@@ -1396,6 +1441,8 @@ PS.自己写的还是英文博客的名字哈哈哈,写字能力也变差了
 这种套路我觉得应该就是收集你的信息然后找你打电话,太低级的方式了
 你要收集信息不如做个钓鱼网站,比这强,还不用站街...
 (完)
+
+##### Mon Apr 21
 
 ###### Mon Apr 21 09:21:10 CST 2025
 
@@ -1464,6 +1511,8 @@ brave浏览器, 看广告可以赚钱, 有点意思, 但是不想看广告, 感�
 
 把一些无关紧要的图片删掉了,免得他说我没有懒加载......
 
+##### Tue Apr 22
+
 ###### Tue Apr 22 08:44:51 CST 2025
 
 周二了, 昨天美仁关于对我八字的分析只有一两个点说中了,而且我觉得这玩意也不是固定的,还是带点心理作用的哈哈哈.
@@ -1512,6 +1561,8 @@ lb is back,把skill in tech的账户登录回来了,可以继续推广了.
 
 back to laptop.
 
+##### Wed Apr 23
+
 ###### Wed Apr 23 00:14:49 CST 2025
 
 刚刚试了下notion, 觉得还是别有那么多笔记软件为好...
@@ -1543,6 +1594,8 @@ coze的那个刚出现在也爆满哈哈哈,无法访问...
 ###### Wed Apr 23 21:12:45 CST 2025
 
 成功还是离职了，我也快了吧哈哈哈，先搞出自己的一套系统来。
+
+##### Thu Apr 24
 
 ###### Thu Apr 24 09:07:47 CST 2025
 
@@ -1576,6 +1629,8 @@ day 1. 还是建成工作区吧, 形成自己的工作流......
 ###### Thu Apr 24 17:49:55 CST 2025
 
 把博客更新了哈哈哈, 就这样.
+
+##### Fri Apr 25
 
 ###### Fri Apr 25 00:15:07 CST 2025
 
@@ -1617,6 +1672,8 @@ law of attraction, 这个东西我觉得还是有点道理的, 但是也不能�
 
 准备下班了, 这周也是过上单休了哈哈哈......
 
+##### Sat Apr 26
+
 ###### Sat Apr 26 19:58:34 CST 2025
 
 今天感觉过的挺费的... 虽然说早上是起得还算是蛮早的, 但是却没有干多少事哈哈哈, 之前的计划有点泡汤了, 看下明天要不要请假看看吧之前的计划完成...
@@ -1632,6 +1689,8 @@ law of attraction, 这个东西我觉得还是有点道理的, 但是也不能�
 ###### Sat Apr 26 23:13:45 CST 2025
 
 把简历稍微优化了下，感觉还有很多需要优化的，慢慢来吧，五一之后肯定是要搞定的了。
+
+##### Sun Apr 27
 
 ###### Sun Apr 27 08:39:50 CST 2025
 
@@ -1676,6 +1735,8 @@ FTS, 讨厌调休.
 ###### Sun Apr 27 17:58:42 CST 2025
 
 直觉是逻辑的隐形姐妹，两者皆是理性的产物，而我们并不总是能看到她，因为她常常在幕后默默地做着一切。
+
+##### Mon Apr 28
 
 ###### Mon Apr 28 09:12:09 CST 2025
 
@@ -1732,6 +1793,8 @@ FTS, 讨厌调休.
 ###### Mon Apr 28 18:01:22 CST 2025
 
 chatgpt brain wash?
+
+##### Tue Apr 29
 
 ###### Tue Apr 29 08:53:57 CST 2025
 
@@ -1819,6 +1882,10 @@ chatgpt brain wash?
 
 睡了, 又超过十二点了......
 
+#### May 2025
+
+##### Thu May 1
+
 ###### Thu May 1 10:42:56 CST 2025
 
 准备回家了, 看望一下舅妈吧, 欣波现在肯定很难受...
@@ -1826,6 +1893,8 @@ chatgpt brain wash?
 ###### Thu May 1 10:43:48 CST 2025
 
 昨天的log没有记录, 就是请假了玩一天哈哈哈, 但是家里人感觉看见我没去上班很惊讶, 不知道为什么, 可能我还是摆脱不了原生家庭吧, 但是其实我也不算是完整的原生家庭吧哈哈哈.
+
+##### Fri May 2
 
 ###### Fri May 2 08:27:42 CST 2025
 
@@ -1835,9 +1904,14 @@ chatgpt brain wash?
 
 协作 (Collaborate)： 共同完成单个智能体难以完成的复杂任务（例如，分布式问题求解、机器人集群协作）。
 
+##### Sat May 3
+
 ###### Sat May 3 10:46:52 CST 2025
 
 还有两天假期就结束了, 昨天看了雷霆特工队, 感觉是漫威算是创新的一种电影, 还可以吧, 里面有些地方还是可以和我引起共鸣的, 但就是第三幕有点拉跨了, 后面的彩蛋也是为了后面的神奇四侠做准备的.
+
+##### Tue May 6
+
 ###### Tue May 6 08:43:30 CST 2025
 
 果然, 太久没有更新log就容易冲突.
@@ -1945,6 +2019,71 @@ chatgpt brain wash?
 
 下播!
 
+##### Wed May 7
+
 ###### Wed May 7 23:58:54 CST 2025
 
 今天没有去上班了, 感觉还是要给自己一个喘气的时间, 收拾一下继续向前.
+
+##### Thu May 8
+
+###### Thu May 8 08:46:23 CST 2025
+
+到了, 感觉除了那两件事没有什么其他的事情了, 老板也不找我做事......
+
+###### Thu May 8 09:37:24 CST 2025
+
+原来chat生成文件也是用过执行代码来生成, 只不过是直接在浏览器上面执行.
+
+###### Thu May 8 10:28:33 CST 2025
+
+试试这个空调伴侣.
+
+###### Thu May 8 10:31:48 CST 2025
+
+15次就上限了嘛.
+
+###### Thu May 8 10:50:17 CST 2025
+
+这个曹应该是很早那一批的员工了,开了一万也没有干下去吗?可能去了更好的.
+
+###### Thu May 8 11:02:28 CST 2025
+
+一会把成功的显示器拿过来组个双显吧, 可以一边自动化一边写文章了, 看下能不能提高效率.
+
+###### Thu May 8 11:48:53 CST 2025
+
+今天就搞这些吧,感觉熟练了之后就是分分钟的事情了哈哈哈.
+
+###### Thu May 8 12:57:58 CST 2025
+
+OK, 把成功的显示器换上了, 就是双显还是有点别扭......
+
+###### Thu May 8 14:00:39 CST 2025
+
+更换字体的那个还是要切换成英文才能成功, 不知道为什么, 待会再去问问chat把.
+
+###### Thu May 8 14:27:12 CST 2025
+
+这个sora是生成了一次图像之后第二次就不能用了吗? 那应该就是了, 换了一个帐号可以进去.
+
+###### Thu May 8 15:00:30 CST 2025
+
+So degrees have been a weak signal for a long time. Several of the best developers I've worked with had no CS degree at all. As a result we have interview processes that are baffling to people from other industries. Imagine a surgeon having to do interview surgery, or an accountant having to solve accounting puzzles. AFAIK we are very unusual in this regard and I think it's because degrees are such a weak indicator and the same is true for certificates in our industry.
+所以，长期以来，学位一直是一个很弱的指标。我合作过的几位最优秀的开发人员根本没有计算机科学学位。结果，我们的面试流程让其他行业的人感到困惑。想象一下，外科医生要经历一场面试手术，或者会计师要解决会计难题。据我所知，我们在这方面非常不寻常，我认为这是因为学位本身就是一个非常弱的指标，在我们这个行业，证书也是如此。
+
+###### Thu May 8 16:33:24 CST 2025
+
+刚刚运行Claude的MCP工具崩溃了, 应该是显卡或者内存的问题, 不过还好是数据还在.
+
+###### Thu May 8 16:43:54 CST 2025
+
+把isumsoft的文章文件夹都导入到mcp工具了里面了.
+
+###### Thu May 8 17:05:14 CST 2025
+
+给每一天都加了一个副标题, 不然看着有点吓人.
+
+###### Thu May 8 17:15:36 CST 2025
+
+想到一个不错的点子, 在划分的大目录下面再去细分小目录, 让文章面包屑导航更加精确, 感觉有利于索引.

@@ -1,5 +1,7 @@
 # SEO prompt
 
+## 分析网站提示词
+
     Enable “Deep research” mode (you’ll need a paid plan)
 
     启用“深度研究”模式（您需要付费计划）
@@ -13,3 +15,12 @@
     回答后续问题并让它发挥作用
 
 > ** *这个prompt是用来分析一个网站的, 然后建议一些缺失的主题, 可以为其制作额外的页面.***
+
+## AI提示词类型笔记
+
+1. **Zero Shot** : 零次提示/一般提示; *特点: 零样本.*
+2. **One Shot** : 一次提示; *特点: 只提供单个样本.*
+3. **System Prompting** : 系统提示; *特点: 大环境, 背景.*
+4. **Contextual Prompting** : 上下文提示; *特点: 当前对话背景.*
+5. **Role Prompting** : 角色提示; *特点: 自定义AI的个性.*
+6. **Step-Back Prompting** : 回退提示; *特点: 分段提示, 更详细.*

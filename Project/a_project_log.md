@@ -2403,3 +2403,11 @@ Linux.do社区还是注册不了, 可能是我没有邀请码吧.
 顺便储存一下订阅地址: 机场(年付) :https://api.wcc.best/sub?target=clash&url=https%3A%2F%2Fwww.bigairport-eighteenth-sub.com%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D7a7d13488063005f2990868c36a68e77%7Chttps%3A%2F%2F1st.subscription-from-northamericanairport.gb.net%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D0bd46bc42f855f1ffa5f0f5fcee2d7a1&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=true&list=false&tfo=false&scv=true&fdn=false&expand=true&sort=false&new_name=true
 魔戒(不限时): https://msub.fengchiyx.xyz/api/v1/client/subscribe?token=b9faf408db70ea17162861c67d49aaf0
 
+###### Tue May 27 15:10:09 CST 2025
+
+刚刚看了其他家的ai, 感觉不如chat哈哈哈.
+
+###### Tue May 27 16:00:41 CST 2025
+
+刚刚发现了一个大阮博客里面提到的卷积神经网络的应用--OCR, 吸引力法则发力了哈哈哈.
+

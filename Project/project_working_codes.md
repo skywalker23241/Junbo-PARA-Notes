@@ -10,7 +10,6 @@ ollama run deepseek-r1:1.5b(弃用)
 <div class="code-container">
 	<button class="copy-btn" onclick="copyToClipboard(this)">Copy</button>
 	<pre><code>代码</code></pre>
-<span class="comment">评论</span>
 </div>
 ```
 

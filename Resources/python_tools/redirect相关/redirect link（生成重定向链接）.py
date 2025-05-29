@@ -19,7 +19,7 @@ def generate_rewrite_rules(rules):
 
 rules_list = [
 
-('windows-tips/how-to-lock-windows-10-pc.html', 'https://www.isumsoft.com/windows-tips/how-to-disable-lock-screen-in-windows-10.html'),
+('computer-tweaks/2-ways-disable-driver-sigature-enforcement.html', 'https://www.isumsoft.com/computer-tweaks/2-ways-disable-driver-signature-enforcement.html'),
 ]
 # 生成 RewriteRule
 generated_rules = generate_rewrite_rules(rules_list)

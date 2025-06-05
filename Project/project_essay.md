@@ -107,3 +107,8 @@ If you want to, you can complain about anything. 如果可以的话, 你可以�
 
 我是悲观主义者。别人为胜利而战，我不是。我总是战斗，偶尔会赢。-[理查德·斯托曼](https://www.ruanyifeng.com/blog/2005/03/post_112.html)
 
+品牌溢价-有点像我们平时说的买牌子货, 尤其指那些高档的奢侈品.
+
+如果要吃到一碗米饭，就得从种地开始，不然就是衣来伸手，饭来张口.
+
+> ["LLMs give me finished thoughts, polished and convincing, but none of  the intellectual growth that comes from developing them myself"](https://dcurt.is/thinking)

@@ -112,3 +112,10 @@ If you want to, you can complain about anything. 如果可以的话, 你可以�
 如果要吃到一碗米饭，就得从种地开始，不然就是衣来伸手，饭来张口.
 
 > ["LLMs give me finished thoughts, polished and convincing, but none of  the intellectual growth that comes from developing them myself"](https://dcurt.is/thinking)
+
+一样东西只要可以赚钱，就会开始变质。
+
+我的工作压力很大，我能想到的唯一应对方法就是努力投入工作，这是我释放压力的唯一途径。
+
+AI 是提升工作效率，不是提升工作能力.
+

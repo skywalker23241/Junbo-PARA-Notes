@@ -46,7 +46,9 @@ The CPU architecture tells you whether your Mac is using Intel (x86_64) or Apple
    - If it says **Apple M1/M2/M3**, then you're using **ARM64 architecture**, 64-bit only.
    - If it says **Intel Core i5/i7/etc.**, you're on **x86_64**, and should check further.
 
-   ![](D:\f\Pictures\check-mac-cpu-type-from-settings.png)
+   Here is the cheat table:
+   
+   ![](D:\f\Pictures\how-to-check-macos-32-or-64-bit\check-mac-cpu-type-from-settings.png)
 
 ------
 
@@ -95,7 +97,7 @@ If you're on **macOS Mojave (10.14)** or earlier, you might still be able to run
    - If it says **Yes**, the app is 64-bit
    - If it says **No**, the app is 32-bit and **won’t work on Catalina or newer**
 
-   ![](D:\f\Pictures\check-macos-app-32-bit-or-64-bit.png)
+   ![](D:\f\Pictures\how-to-check-macos-32-or-64-bit\check-macos-app-32-bit-or-64-bit.png)
 
 ------
 

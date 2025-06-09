@@ -2573,3 +2573,43 @@ daddy is home, 早上这么一搞还是蛮舒服的, ps: 刚刚坐的巴士还�
 不知道>100KB的图像要不要也优化下...... 优化完成, 还是蛮简单地哈哈哈
 
 OK肖婷姐更新的图片有空格哈哈哈, 现在知道为啥那么多的有了. 准备同步日志下了.
+
+###### Mon Jun 9 08:45:33 CST 2025
+
+周末也是过完了, 把*底特律:化身成人*通关了, 全场差不多17+hs, 虽然最后的结局很惨, 但是也没有办法, 可能作者的想法就是和那个什么卡姆斯基一样吧, ai如果不能通关图灵测试, 就要迎来毁灭, 否则就是人类自掘坟墓...... 但是底特律的dvents我觉得是渴望和平的, 没想到我马库斯直接被杀了, 唉.
+
+然后就是下了个巫师3, 下班玩玩吧.
+
+开始工作!
+
+周末两天爽开空调, 用了20度电了我日......
+
+11.8的烧鸭饭爽吃!
+
+更新了一下首页的相关文章, 感觉这个一个月更新一次就行吧.
+
+isumsoft和isumsoft it是否可以分开了, 感觉本站也是博客网站吧.
+
+醒了.
+
+把侧边栏的最新文章更新了下, 这个也一个月一次吧.
+
+房子的事总算是搞完了, 妈妈应该没那么多心事了吧, 就大爸和我.
+
+这个房屋分配协议ai拟的还真的还行.
+
+win11 如何删除程序卸载后遗留的右键菜单
+
+how-to-completely-delete-the-uninstalled-app-right-click-menu-option.html
+
+就是房产证上面是我哥的名字, 不知道以后会不会有什么问题.
+
+《The Great Dictator》中的**结尾演讲全文** (听录)
+
+To those who can hear me, I say – do not despair.
+
+The misery that is now upon us is but the passing of greed – the bitterness of men who fear the way of human progress.
+
+The hate of men will pass, and dictators die, and the power they took from the people will return to the people.  And so long as men die, liberty will never perish.
+
+Soldiers! Don’t give yourselves to these unnatural man, machine man with machine mind and machine hearts, you are not machines, you are not cattle, you are a man, you're the people have power, to make this life bright and beautiful. To make this life a wonderful adventure, and of youth or her, And let us Unite!

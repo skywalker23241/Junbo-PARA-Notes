@@ -2131,3 +2131,48 @@ AWS 提供了一个官方的托管 Kubernetes 服务，叫 **EKS（Elastic Kuber
 总结：
 
 > 奥卡姆剃刀不是说“越简单越好”，而是说：“在**同样能解释现象**的前提下，选择那个**更少假设、更简单明了**的解释。”
+
+感觉给ai的提示词方面也应该遵守这个定律.
+
+------
+
+## 关于艾萨克阿西莫夫的机器人三定律
+
+机器人三定律（Three Laws of Robotics）是科幻小说作家**艾萨克·阿西莫夫（Isaac Asimov）**提出的一个经典概念，用来规范机器人的行为。这三条定律首次出现在他1942年的短篇小说《Runaround》中，后来成为其整个机器人系列和“基地系列”宇宙中的重要基础。
+
+三定律内容如下：
+
+1. **第一定律**：机器人不得伤害人类，或因不作为使人类受到伤害。
+2. **第二定律**：机器人必须服从人类的命令，除非该命令与第一定律相抵触。
+3. **第三定律**：机器人必须保护自身的生存，前提是不违反第一或第二定律。
+
+简单理解：
+
+- 第一优先是**保护人类**。
+- 第二优先是**服从命令**。
+- 第三才是**自保**。
+
+------
+
+### 举个例子：
+
+假设一个机器人看到一个人快被掉下的重物砸到：
+
+- **它必须立刻去救这个人**（第一定律）。
+- 如果有人命令它不要动手，它会**违抗这个命令**（因为第二定律不能违反第一定律）。
+- 即使自己可能被砸坏，它也必须冲过去救人（第三定律排在最后）。
+
+------
+
+### 后续扩展：
+
+阿西莫夫后来又加了一个**“零定律”**（Zeroth Law）：
+
+> **零定律**：机器人不得伤害人类整体，或因不作为使人类整体受到伤害。
+
+这其实是更复杂的道德优先级系统，提出了“个体 vs 集体”的伦理冲突，导致机器人可能会**牺牲个别人类来拯救整体**。
+
+## 关于Flow(心流)状态
+
+This experience I’m describing is what psychologists call “flow” — a  mental state where you’re fully immersed in an activity, energized by  deep focus and complete involvement. First described by [Mihaly Csikszentmihalyi](https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202/) (the psychologist I quoted at the beginning), flow is that sweet spot  where challenge meets skill, where the task at hand is neither too easy  (causing boredom) nor too difficult (causing anxiety). It’s a state  strongly associated with creativity, productivity, and most importantly — happiness. For software developers, it’s that magical zone where  problems become puzzles rather than obstacles, where hours pass like  minutes, and where the boundary between you and your code seems to  dissolve.
+我所描述的这种体验是心理学家所说的“心流”——一种完全沉浸在活动中的精神状态，由深度专注和完全投入所充满活力。这是由我开头引用的心理学家米哈里·契克森米哈赖首先描述的，心流是挑战与技能相遇的甜蜜点，所面临的任务既不太容易（导致无聊）也不太困难（导致焦虑）。它是一种与创造力、生产力和最重要的是——幸福感强烈相关的状态。对于软件开发者来说，这是问题变成谜题而不是障碍的神奇区域，时间过得飞快，仿佛你与代码之间的界限似乎消失了。

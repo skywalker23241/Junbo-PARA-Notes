@@ -4,7 +4,7 @@
 
 ---
 
-## 关于VScode 拉取Github仓库
+# 关于VScode 拉取Github仓库
 
 ### 方法：
 
@@ -28,7 +28,7 @@
 
 ---
 
-## 关于本地文件连接到服务器
+# 关于本地文件连接到服务器
 
 ### **关于FileZilla**
 
@@ -65,7 +65,7 @@ FileZilla 是一款**免费、开源**的  **FTP（File Transfer Protocol）客�
 
 ---
 
-## 关于Wiz-Progressbar代码
+# 关于Wiz-Progressbar代码
 
 Html：
 
@@ -91,13 +91,13 @@ html:not([data-lt-script-installed]):not(.__lt-dummy-1):not(.__lt-dummy-2):not(.
 
 ---
 
-## 关于选择网站域名挺有意思的一篇reddit帖子
+# 关于选择网站域名挺有意思的一篇reddit帖子
 
 * [原帖](https://www.reddit.com/r/SEO/comments/1jirc25/did_i_choose_a_bad_domain_name/)
 
 ---
 
-## 关于网站切换为暗色主题
+# 关于网站切换为暗色主题
 
 TRAE：
 
@@ -160,13 +160,13 @@ const themeToggle = document.getElementById('themeToggle');
 
 ---
 
-## 关于键盘上的Grave键
+# 关于键盘上的Grave键
 
 在键盘上，****grave** 键指的是位于数字键 1 左侧的键，通常标有 `或“~”符号。 在英文中，这个符号被称为“重音符号”（grave accent），常用于表示某些字母的重音，例如法语单词中的“è”。** **在编程中，这个键用于输入反引号`，在某些编程语言中具有特殊意义。**
 
 ---
 
-## 关于EMMET快速编码
+# 关于EMMET快速编码
 
 ### **Emmet 速查表（Cheat Sheet）** 🚀
 
@@ -235,7 +235,7 @@ const themeToggle = document.getElementById('themeToggle');
 
 ---
 
-## 关于rust-stakeholder摸鱼代码
+# 关于rust-stakeholder摸鱼代码
 
 Basic usage (for entry-level imposters):基本用法（适用于入门级冒充者）：
 
@@ -264,7 +264,7 @@ rust-stakeholder --dev-type fullstack --complexity extreme --alerts --team
 
 ---
 
-## 关于Dunning-Kruger Effect
+# 关于Dunning-Kruger Effect
 
 邓宁-克鲁格效应（Dunning-Kruger Effect）是一种 **认知偏差** ，指的是 **能力低下的人往往高估自己的能力，而能力较强的人反而容易低估自己** 。这一效应由心理学家大卫·邓宁（David Dunning）和贾斯廷·克鲁格（Justin Kruger）于1999年提出。
 
@@ -314,7 +314,7 @@ rust-stakeholder --dev-type fullstack --complexity extreme --alerts --team
 
 ---
 
-## 关于obsidian笔记软件
+# 关于obsidian笔记软件
 
 Obsidian 是一款基于 Markdown 的笔记和知识管理软件，其主要目标是帮助用户构建自己的“第二大脑”。它通过本地存储文本文件和强大的双向链接功能，让零散的笔记能够以网络化、非线性方式互相连接，从而构建出一个灵活且可持续扩展的知识体系。
 
@@ -390,7 +390,7 @@ Obsidian 非常适合那些追求深度知识管理和个人成长的用户，�
 
 ---
 
-## 关于Github上传文件的大小数量限制
+# 关于Github上传文件的大小数量限制
 
 GitHub 对上传文件的大小和数量有明确的限制，以下是详细信息：
 
@@ -1246,7 +1246,7 @@ Firefox Nightly 是 Firefox 浏览器的 **实验性版本** ，每天**自动�
 
 ---
 
-## 关于Mercurial和Git
+# 关于Mercurial和Git
 
 **Mercurial（简称 `hg`）** 是一个分布式版本控制系统，和 Git 类似，用于跟踪文件变化、协作开发和源代码管理。它曾是 Mozilla Firefox 的主要代码托管工具（在 2019 年才逐步迁移到 Git），因此你提到 Firefox 和 Mercurial，是一个天然绑定的话题。
 
@@ -1903,7 +1903,7 @@ You’re the best thing in my life. But until you start believing in yourself, y
 
 ---
 
-## 关于海马体
+# 关于海马体
 
 海马体（Hippocampus）是大脑里一个非常重要的结构，形状像一只弯曲的海马，所以得名。它属于边缘系统（limbic system），主要位于颞叶深处，左右各一，核心作用如下：
 
@@ -1956,7 +1956,7 @@ You’re the best thing in my life. But until you start believing in yourself, y
 
 ---
 
-## 关于机械键盘按键防抖
+# 关于机械键盘按键防抖
 
 “机械键盘按键去抖”（**debounce**）是指在按下或松开一个键时，消除由于机械结构震动而产生的**多次触发信号**的过程。
 
@@ -2019,7 +2019,7 @@ You’re the best thing in my life. But until you start believing in yourself, y
 
 ------
 
-## 关于AWS和K8S
+# 关于AWS和K8S
 
 AWS 和 K8s（Kubernetes）是现代云计算和软件部署领域的两个关键技术名词，它们各自功能不同，但在实际应用中经常结合使用。
 
@@ -2085,7 +2085,7 @@ AWS 提供了一个官方的托管 Kubernetes 服务，叫 **EKS（Elastic Kuber
 
 ------
 
-## 关于奥卡姆剃刀定律
+# 关于奥卡姆剃刀定律
 
 奥卡姆剃刀定律的**原始解释**来自中世纪英国哲学家兼修士 **威廉·奥卡姆**（William of Ockham，约1287–1347）。他原话是用拉丁文写的，经典表述是：
 
@@ -2136,7 +2136,7 @@ AWS 提供了一个官方的托管 Kubernetes 服务，叫 **EKS（Elastic Kuber
 
 ------
 
-## 关于艾萨克阿西莫夫的机器人三定律
+# 关于艾萨克阿西莫夫的机器人三定律
 
 机器人三定律（Three Laws of Robotics）是科幻小说作家**艾萨克·阿西莫夫（Isaac Asimov）**提出的一个经典概念，用来规范机器人的行为。这三条定律首次出现在他1942年的短篇小说《Runaround》中，后来成为其整个机器人系列和“基地系列”宇宙中的重要基础。
 
@@ -2172,12 +2172,12 @@ AWS 提供了一个官方的托管 Kubernetes 服务，叫 **EKS（Elastic Kuber
 
 这其实是更复杂的道德优先级系统，提出了“个体 vs 集体”的伦理冲突，导致机器人可能会**牺牲个别人类来拯救整体**。
 
-## 关于Flow(心流)状态
+# 关于Flow(心流)状态
 
 This experience I’m describing is what psychologists call “flow” — a  mental state where you’re fully immersed in an activity, energized by  deep focus and complete involvement. First described by [Mihaly Csikszentmihalyi](https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202/) (the psychologist I quoted at the beginning), flow is that sweet spot  where challenge meets skill, where the task at hand is neither too easy  (causing boredom) nor too difficult (causing anxiety). It’s a state  strongly associated with creativity, productivity, and most importantly — happiness. For software developers, it’s that magical zone where  problems become puzzles rather than obstacles, where hours pass like  minutes, and where the boundary between you and your code seems to  dissolve.
 我所描述的这种体验是心理学家所说的“心流”——一种完全沉浸在活动中的精神状态，由深度专注和完全投入所充满活力。这是由我开头引用的心理学家米哈里·契克森米哈赖首先描述的，心流是挑战与技能相遇的甜蜜点，所面临的任务既不太容易（导致无聊）也不太困难（导致焦虑）。它是一种与创造力、生产力和最重要的是——幸福感强烈相关的状态。对于软件开发者来说，这是问题变成谜题而不是障碍的神奇区域，时间过得飞快，仿佛你与代码之间的界限似乎消失了。
 
-## 关于STAR面试
+# 关于STAR面试
 
 你选中的“**STAR 面试**”是一种结构化面试法，全称是：
 
@@ -2217,3 +2217,142 @@ This experience I’m describing is what psychologists call “flow” — a  me
 
 ------
 
+# 关于带耳机张嘴的咯噔声音
+
+这是个很常见但细思极恐的小现象，主要和**你自己的头骨共振、耳道形状变化**有关。
+
+当你戴着**入耳式耳机**时，耳道几乎被密封，声音不仅是通过外界传来的，还包含了大量通过**骨传导**和**自身共振**产生的声音。你一张嘴，发生了几个事情：
+
+------
+
+### 1. **耳道形状发生了变化**
+
+张嘴时，下颌骨活动会牵动外耳道附近的肌肉和骨骼，导致耳道轻微扩张或形变。
+
+- 原本被耳机密封的耳道，结构变化后空气流动性改变；
+- 导致声音的反射、驻波和共振频率发生细微变化。
+
+这会让你听到的声音在**频响上发生改变**，比如觉得声音更“空”或“松”了，低频可能会被削弱。
+
+------
+
+### 2. **骨传导路径发生改变**
+
+张嘴时，下颌的骨骼移动改变了你头骨内部声音的传播路径，尤其是你说话或听自己声音时更明显。
+
+- 骨头的角度变化会影响声音在头部内部的传播方式；
+- 会导致**你自己听到的声音在色彩、频率上发生变化**。
+
+------
+
+### 3. **耳压改变**
+
+张嘴时可能会短暂改变中耳压力，类似打哈欠、吞口水时的耳朵“咯噔”一声，那其实是**咽鼓管打开**，暂时释放压力。
+
+这会间接影响你对声音的感知，尤其是低频和自身声音。
+
+------
+
+### 类比一下：
+
+- 你就像戴了一个「听觉滤波器」——一动下巴，这滤波器的形状变了；
+- 就像你在密闭空间听音乐，突然开了一扇窗，声音自然变了。
+
+------
+
+### 总结：
+
+张嘴的时候，你听到的声音不一样，原因是：
+
+- 耳道结构改变 → 声音反射和共振改变；
+- 骨骼震动路径改变 → 自身声音传导方式变化；
+- 可能引起耳压变化 → 感知不同。
+
+这对「入耳式耳机」特别明显，因为它们密闭性高，自身共振影响比其他耳机更大。
+
+如果你是搞音频优化、录音、或者声学设备设计的，这种细节就非常关键了。
+
+------
+
+# 关于ABS和PBT键帽的区别
+
+明白了，你问的是“**ABS vs PBT**”这两个键帽材质的区别，它们是目前市面上**最常见的两种键帽材料**。别看它们都是塑料，手感、寿命、打油程度差别非常大，键盘圈有一句老话：
+
+> **“键盘再贵，ABS 也能毁手感。”**
+
+下面直接给你对比到底：
+
+------
+
+## 🧪 ABS（Acrylonitrile Butadiene Styrene）
+
+### ✅ 优点：
+
+- 成本低，**便宜**，常见于原配键盘
+- 塑形能力强，适合多种颜色/造型
+- 手感初期柔滑，声音清脆
+
+### ❌ 缺点：
+
+- 容易打油（使用一段时间后表面变亮、发粘）
+- 不耐磨，字体容易掉（尤其是印刷/贴膜字体）
+- 长期使用可能变色发黄
+- 整体手感会随时间变差
+
+### 常见场景：
+
+- 罗技、雷蛇等大厂默认键帽
+- 游戏键盘、办公键盘标配
+- 低价薄膜键盘普遍使用
+
+------
+
+## 🧪 PBT（Polybutylene Terephthalate）
+
+### ✅ 优点：
+
+- 不易打油，**手感干爽、颗粒感**
+- 耐热耐磨，**寿命长**
+- 大多数采用激光刻字/双色注塑，**字体不容易掉**
+- 通常更有“高级感”，声音沉稳
+
+### ❌ 缺点：
+
+- 成本高，价格比 ABS 贵
+- 工艺难度大，颜色选择有限（但现在已改善）
+- 某些 PBT 有“沙感”或偏涩，不是人人喜欢
+
+### 常见场景：
+
+- 高端机械键盘（如 HHKB、Leopold、Akko 高端线）
+- 定制键帽玩家优选
+- 主打“极简耐用”的键盘
+
+------
+
+## 🔍 一张对比表（适合放进博客或产品FAQ）：
+
+| 特性     | ABS 键帽             | PBT 键帽                   |
+| -------- | -------------------- | -------------------------- |
+| 手感     | 光滑 → 打油          | 干爽，略有颗粒感           |
+| 耐用性   | 较差，易掉字、易发黄 | 极强，不易打油、寿命更长   |
+| 声音     | 较脆亮               | 沉稳、厚实                 |
+| 成本     | 低                   | 高                         |
+| 印字方式 | 印刷/镭雕（易掉）    | 热升华/双色注塑（耐用）    |
+| 适合人群 | 入门玩家、普通办公   | 追求手感、质感、定制的用户 |
+
+------
+
+## 🎯 选购建议：
+
+| 你的需求                 | 建议材质            |
+| ------------------------ | ------------------- |
+| 要便宜、无所谓打油       | ABS                 |
+| 喜欢质感、耐用、干爽手感 | PBT                 |
+| 对字体、外观有执念       | PBT（尤其是热升华） |
+| 自己要定制键帽           | PBT 为主流          |
+
+------
+
+总之，如果你不想打字打久了满键盘“油亮发光”像用脸蹭过，那就尽量选 PBT。
+ 需要的话我可以给你做一张图表图或者写一个“ABS vs PBT”产品购买引导文章，适合你博客 SEO。你要继续深挖“热升华”“双色注塑”这些字体工艺我也可以展开讲。

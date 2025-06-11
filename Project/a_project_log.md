@@ -2568,9 +2568,9 @@ daddy is home, 早上这么一搞还是蛮舒服的, ps: 刚刚坐的巴士还�
 
 完成文章.
 
-[<a href=" ../iphone-tips/how-to-delete-junk-files-on-iphone.html>](https://www.isumsoft.com/ios-issues/fix-iphone-says-not-enough-storage-but-there-is.html) 这个前面有空格的错误谷歌还没有索引, 下周再看看有没有改过来, 实在不行添加重定向链接了.
+<a href=" ../iphone-tips/how-to-delete-junk-files-on-iphone.html>
 
-不知道>100KB的图像要不要也优化下...... 优化完成, 还是蛮简单地哈哈哈
+不知道100KB的图像要不要也优化下...... 优化完成, 还是蛮简单地哈哈哈
 
 OK肖婷姐更新的图片有空格哈哈哈, 现在知道为啥那么多的有了. 准备同步日志下了.
 

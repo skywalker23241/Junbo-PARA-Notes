@@ -120,3 +120,9 @@ If you want to, you can complain about anything. 如果可以的话, 你可以�
 AI 是提升工作效率，不是提升工作能力.
 
 独裁者会死去，他们从人民手里夺去的权利即将归还人民
+
+**Action leads to motivation** 
+
+you’re productive → you feel good → you’re more productive.
+
+you’re unproductive → you feel bad → you’re unproductive.

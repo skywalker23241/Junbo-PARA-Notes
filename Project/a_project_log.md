@@ -2669,3 +2669,32 @@ Fence 5的破解版终于被我找到了哈哈哈。
 Startisback++的破解版也找到了哈哈. 准备下班了,没啥事做了.
 
 准备同步笔记！
+
+###### Fri Jun 13 08:55:45 CST 2025
+
+日志恢复，我有焦虑症，看下有什么方法吧。。。。
+
+收录文章的速度好像变快了。
+
+优化了下那个隐藏的一个BUG，但是还是没有那个点击隐藏，显示的效果，感觉有这个也不需要点击的那个功能了，多此一举。
+
+Last year, I want to travel aboard, found my U.S.A visas last a decade, start from 2016, same year, we played that Bo10, so close to win, lost one single round, I'm 18 that year, so that visa mean a piece of trash for me.
+
+And then I started going back through the visas. I suddenly realized that a LOL pro's visas may just looks like a book written full with regrets, we have to sign vary kinds of visas, they may become a beautiful and unforgotable memory, but more just like one and other trophies, sometime one step is hard like never.
+
+I definetily will be neverous after this win, cause this is the first time I reach the MSI, I don't know what will happen next.
+
+BUT, when we look around the world this morning, the direction of wind gonna change everyday, so IF we decide which way we wanna go, do the direction of wind today really matters? At least this time, this visas will take me to the right place.
+
+Thanks for everyone who trust me, I promise that will try my best to WIN THE GAME, no matter what's the result is, Cheer for AL(Anyone's Legends) TODAY! (Doraemon smile
+
+成功翻译嘿嘿。
+
+目前还发现的BUG，首页页头的隐藏项目，分辨率切换的时候页头会消失。
+
+以后真的会变成模型之间相互竞争吗？
+
+###### Mon Jun 16 09:59:45 CST 2025
+
+周五的日志好像忘记同步了，算了。。。
+

@@ -2533,6 +2533,8 @@ daddy is home, 早上这么一搞还是蛮舒服的, ps: 刚刚坐的巴士还�
 
 准备下班了o7
 
+##### Thu Jun 5
+
 ###### Thu Jun 5 09:13:47 CST 2025
 
 今天算来的比较早, 也可以按正常的时间下班了 \o/
@@ -2556,7 +2558,7 @@ daddy is home, 早上这么一搞还是蛮舒服的, ps: 刚刚坐的巴士还�
 
 加了music和听书感觉豪爽哈哈哈, 准备xb了...... 同步日志
 
-###### Fri Jun 6 08:50:29 CST 2025
+##### Fri Jun 6
 
 刚到公司, 楼下又有人吵起来了, 好像是交通事故, 但是好像没有撞上, 有个人得理不饶人. world sucks.
 
@@ -2574,7 +2576,7 @@ daddy is home, 早上这么一搞还是蛮舒服的, ps: 刚刚坐的巴士还�
 
 OK肖婷姐更新的图片有空格哈哈哈, 现在知道为啥那么多的有了. 准备同步日志下了.
 
-###### Mon Jun 9 08:45:33 CST 2025
+##### Mon Jun 9
 
 周末也是过完了, 把*底特律:化身成人*通关了, 全场差不多17+hs, 虽然最后的结局很惨, 但是也没有办法, 可能作者的想法就是和那个什么卡姆斯基一样吧, ai如果不能通关图灵测试, 就要迎来毁灭, 否则就是人类自掘坟墓...... 但是底特律的dvents我觉得是渴望和平的, 没想到我马库斯直接被杀了, 唉.
 
@@ -2614,7 +2616,7 @@ The hate of men will pass, and dictators die, and the power they took from the p
 
 Soldiers! Don’t give yourselves to these unnatural man, machine man with machine mind and machine hearts, you are not machines, you are not cattle, you are a man, you're the people have power, to make this life bright and beautiful. To make this life a wonderful adventure, and of youth or her, And let us Unite!
 
-###### Tue Jun 10 09:03:26 CST 2025
+##### Tue Jun 10
 
 电报的电话好像被封禁了, 用美区重新注册了一个, 还好可以收到码......
 
@@ -2638,7 +2640,7 @@ cannot type now fuck......
 
 准备下班了，同步笔记！
 
-###### Wen Jun 11 08:50:45 CST 2025
+##### Wen Jun 11
 
 到公司了，今天把那篇文章搞完吧，来的稍微有点晚了TvT。
 
@@ -2670,7 +2672,7 @@ Startisback++的破解版也找到了哈哈. 准备下班了,没啥事做了.
 
 准备同步笔记！
 
-###### Fri Jun 13 08:55:45 CST 2025
+##### Fri Jun 13
 
 日志恢复，我有焦虑症，看下有什么方法吧。。。。
 
@@ -2694,7 +2696,7 @@ Thanks for everyone who trust me, I promise that will try my best to WIN THE GAM
 
 以后真的会变成模型之间相互竞争吗？
 
-###### Mon Jun 16 09:59:45 CST 2025
+##### Mon Jun 16
 
 周五的日志好像忘记同步了，算了。。。
 
@@ -2709,3 +2711,14 @@ Thanks for everyone who trust me, I promise that will try my best to WIN THE GAM
 把rammap下载回来了。
 
 准备下班去火车站接hg，同步笔记！
+
+##### Tue Jun 17
+
+以后就当没有这个人罢了，就算我妈原谅他了，，我也不能原谅。工作吧
+
+##### Wed Jun 25
+
+今天还是把PARA的日志重新捡起来吧，小记一下这段时间“消失”去了哪里哈哈哈，首先是QQ邮箱，很不错，发现了很多新的功能，感觉可以用来做一些小项目的记录。
+然后就是notion的第二大脑，感觉还是有点复杂了，七月份试试看看能不能正式启用吧。
+然后就是关于HG了，这几天来了，然后面试还算是比较顺利，也住下来了，买了个小桌子，但是房间还是有点小了，可能要再换个大点的房间吧。
+最后就是关于最近的工作了，还是生产文章吧。

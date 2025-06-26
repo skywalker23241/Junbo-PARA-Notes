@@ -1960,7 +1960,7 @@ You’re the best thing in my life. But until you start believing in yourself, y
 
 “机械键盘按键去抖”（**debounce**）是指在按下或松开一个键时，消除由于机械结构震动而产生的**多次触发信号**的过程。
 
-------
+---
 
 ### 为什么需要去抖？
 
@@ -1968,7 +1968,7 @@ You’re the best thing in my life. But until you start believing in yourself, y
 
 如果没有处理，电脑就会误以为你快速按了这个键好几次。
 
-------
+---
 
 ### 举个例子：
 
@@ -1980,7 +1980,7 @@ You’re the best thing in my life. But until you start believing in yourself, y
 
 这意味着在几十毫秒内，系统以为你按了3次 `A`，屏幕就可能出现 `AAA`。
 
-------
+---
 
 ### 去抖怎么做？
 
@@ -1992,7 +1992,7 @@ You’re the best thing in my life. But until you start believing in yourself, y
 
 这个时间叫做 **去抖延迟（debounce delay）**。
 
-------
+---
 
 ### 在键盘固件中怎么体现？
 
@@ -2004,7 +2004,7 @@ You’re the best thing in my life. But until you start believing in yourself, y
 
 这就是设置去抖时间，单位是毫秒（ms）。数值越高越安全，但也会增加按键响应延迟。
 
-------
+---
 
 ### 总结一波：
 
@@ -2017,13 +2017,13 @@ You’re the best thing in my life. But until you start believing in yourself, y
 
 你在设置 tap-dance 或自定义快捷键时，这个参数也很关键。对于你做网站优化来说，如果有写宏脚本录入流程，去抖设置不当可能也会导致录入重复或者延迟失效。
 
-------
+---
 
 # 关于AWS和K8S
 
 AWS 和 K8s（Kubernetes）是现代云计算和软件部署领域的两个关键技术名词，它们各自功能不同，但在实际应用中经常结合使用。
 
-------
+---
 
 ## 一、AWS 是什么？
 
@@ -2043,7 +2043,7 @@ AWS 和 K8s（Kubernetes）是现代云计算和软件部署领域的两个关�
 - AI模型训练/推理
 - 企业级后台系统
 
-------
+---
 
 ## 二、K8s 是什么？
 
@@ -2063,7 +2063,7 @@ AWS 和 K8s（Kubernetes）是现代云计算和软件部署领域的两个关�
 - Cluster：集群（多个 Node 的集合）
 - Deployment：部署配置，控制 Pod 如何运行
 
-------
+---
 
 ## 三、AWS 和 K8s 的关系？
 
@@ -2072,7 +2072,7 @@ AWS 提供了一个官方的托管 Kubernetes 服务，叫 **EKS（Elastic Kuber
 - 你写好 Kubernetes 配置
 - AWS 帮你管理底层集群、安全、伸缩、负载均衡等基础设施
 
-------
+---
 
 ## 举个例子：
 
@@ -2083,7 +2083,7 @@ AWS 提供了一个官方的托管 Kubernetes 服务，叫 **EKS（Elastic Kuber
 > - 使用 **AWS** 提供的服务器（EC2）、数据库服务（RDS）、对象存储（S3）
 > - 通过 **EKS** 将 Kubernetes 集群托管在 AWS 上
 
-------
+---
 
 # 关于奥卡姆剃刀定律
 
@@ -2095,7 +2095,7 @@ AWS 提供了一个官方的托管 Kubernetes 服务，叫 **EKS（Elastic Kuber
 
 > **“不要无必要地增加实体。”**
 
-------
+---
 
 ### 拆解一下：
 
@@ -2109,13 +2109,13 @@ AWS 提供了一个官方的托管 Kubernetes 服务，叫 **EKS（Elastic Kuber
 
 也就是说，如果你能用简单的解释来说明某个现象，就**不要引入更多复杂的解释或看不见的东西**（比如隐藏的变量、未被证实的推理、神秘力量等）。
 
-------
+---
 
 ### 原始意图：
 
 奥卡姆本人其实是在**神学与逻辑推理中**提出这个原则的。他强调简洁的解释比过度推理更可靠，尤其是在解释宇宙和上帝存在的过程中。他并不是说“简单就是对的”，而是说**我们不应把复杂当作默认**，而要保持**逻辑上的节俭**。
 
-------
+---
 
 ### 历史后人对它的理解：
 
@@ -2126,7 +2126,7 @@ AWS 提供了一个官方的托管 Kubernetes 服务，叫 **EKS（Elastic Kuber
 - **人工智能和机器学习**（模型复杂度控制）
 - **日常判断与决策**（不要自找脑补负担）
 
-------
+---
 
 总结：
 
@@ -2134,7 +2134,7 @@ AWS 提供了一个官方的托管 Kubernetes 服务，叫 **EKS（Elastic Kuber
 
 感觉给ai的提示词方面也应该遵守这个定律.
 
-------
+---
 
 # 关于艾萨克阿西莫夫的机器人三定律
 
@@ -2152,7 +2152,7 @@ AWS 提供了一个官方的托管 Kubernetes 服务，叫 **EKS（Elastic Kuber
 - 第二优先是**服从命令**。
 - 第三才是**自保**。
 
-------
+---
 
 ### 举个例子：
 
@@ -2162,7 +2162,7 @@ AWS 提供了一个官方的托管 Kubernetes 服务，叫 **EKS（Elastic Kuber
 - 如果有人命令它不要动手，它会**违抗这个命令**（因为第二定律不能违反第一定律）。
 - 即使自己可能被砸坏，它也必须冲过去救人（第三定律排在最后）。
 
-------
+---
 
 ### 后续扩展：
 
@@ -2182,13 +2182,13 @@ This experience I’m describing is what psychologists call “flow” — a  me
 你选中的“**STAR 面试**”是一种结构化面试法，全称是：
 
 > **S**ituation（情境）
->  **T**ask（任务）
->  **A**ction（行动）
->  **R**esult（结果）
+> **T**ask（任务）
+> **A**ction（行动）
+> **R**esult（结果）
 
 这是一种用来**讲述你过去经历**的方法，特别适合用在**行为面试**中。面试官会问你：“请举个例子说明你怎么处理冲突。”这时候，你就可以用 STAR 方法来组织你的回答。
 
-------
+---
 
 ### ✨ 举个简单的例子：
 
@@ -2201,7 +2201,7 @@ This experience I’m describing is what psychologists call “flow” — a  me
 - **A（行动）**：我组织了一个小会议，让大家都说出自己的顾虑。然后我把目标拆解，分配明确的责任。
 - **R（结果）**：最后我们按时交付了项目，客户很满意，团队之间的沟通也更顺畅了。
 
-------
+---
 
 ### ✅ 为什么这有用？
 
@@ -2209,13 +2209,13 @@ This experience I’m describing is what psychologists call “flow” — a  me
 - 它强调你是**怎么做的**，而不是光说“我很棒”。
 - 对 Canonical 这样的公司来说（它们喜欢结构、逻辑、远程协作能力），用 STAR 回答非常加分。
 
-------
+---
 
 如果你在 SEO 或产品优化中遇到过困难，完全可以用 STAR 框架讲出来，比如：
 
 > 在一个客户网站 SEO 项目中（S），我发现他们的跳出率高且转化率低（T）。我分析了用户路径并改进了页面加载速度和 CTA 位置（A），最终转化率提升了 30%（R）。
 
-------
+---
 
 # 关于带耳机张嘴的咯噔声音
 
@@ -2223,7 +2223,7 @@ This experience I’m describing is what psychologists call “flow” — a  me
 
 当你戴着**入耳式耳机**时，耳道几乎被密封，声音不仅是通过外界传来的，还包含了大量通过**骨传导**和**自身共振**产生的声音。你一张嘴，发生了几个事情：
 
-------
+---
 
 ### 1. **耳道形状发生了变化**
 
@@ -2234,7 +2234,7 @@ This experience I’m describing is what psychologists call “flow” — a  me
 
 这会让你听到的声音在**频响上发生改变**，比如觉得声音更“空”或“松”了，低频可能会被削弱。
 
-------
+---
 
 ### 2. **骨传导路径发生改变**
 
@@ -2243,7 +2243,7 @@ This experience I’m describing is what psychologists call “flow” — a  me
 - 骨头的角度变化会影响声音在头部内部的传播方式；
 - 会导致**你自己听到的声音在色彩、频率上发生变化**。
 
-------
+---
 
 ### 3. **耳压改变**
 
@@ -2251,14 +2251,14 @@ This experience I’m describing is what psychologists call “flow” — a  me
 
 这会间接影响你对声音的感知，尤其是低频和自身声音。
 
-------
+---
 
 ### 类比一下：
 
 - 你就像戴了一个「听觉滤波器」——一动下巴，这滤波器的形状变了；
 - 就像你在密闭空间听音乐，突然开了一扇窗，声音自然变了。
 
-------
+---
 
 ### 总结：
 
@@ -2272,7 +2272,7 @@ This experience I’m describing is what psychologists call “flow” — a  me
 
 如果你是搞音频优化、录音、或者声学设备设计的，这种细节就非常关键了。
 
-------
+---
 
 # 关于ABS和PBT键帽的区别
 
@@ -2282,7 +2282,7 @@ This experience I’m describing is what psychologists call “flow” — a  me
 
 下面直接给你对比到底：
 
-------
+---
 
 ## 🧪 ABS（Acrylonitrile Butadiene Styrene）
 
@@ -2305,7 +2305,7 @@ This experience I’m describing is what psychologists call “flow” — a  me
 - 游戏键盘、办公键盘标配
 - 低价薄膜键盘普遍使用
 
-------
+---
 
 ## 🧪 PBT（Polybutylene Terephthalate）
 
@@ -2328,20 +2328,20 @@ This experience I’m describing is what psychologists call “flow” — a  me
 - 定制键帽玩家优选
 - 主打“极简耐用”的键盘
 
-------
+---
 
 ## 🔍 一张对比表（适合放进博客或产品FAQ）：
 
 | 特性     | ABS 键帽             | PBT 键帽                   |
 | -------- | -------------------- | -------------------------- |
-| 手感     | 光滑 → 打油          | 干爽，略有颗粒感           |
+| 手感     | 光滑 → 打油         | 干爽，略有颗粒感           |
 | 耐用性   | 较差，易掉字、易发黄 | 极强，不易打油、寿命更长   |
 | 声音     | 较脆亮               | 沉稳、厚实                 |
 | 成本     | 低                   | 高                         |
 | 印字方式 | 印刷/镭雕（易掉）    | 热升华/双色注塑（耐用）    |
 | 适合人群 | 入门玩家、普通办公   | 追求手感、质感、定制的用户 |
 
-------
+---
 
 ## 🎯 选购建议：
 
@@ -2352,7 +2352,227 @@ This experience I’m describing is what psychologists call “flow” — a  me
 | 对字体、外观有执念       | PBT（尤其是热升华） |
 | 自己要定制键帽           | PBT 为主流          |
 
-------
+---
 
 总之，如果你不想打字打久了满键盘“油亮发光”像用脸蹭过，那就尽量选 PBT。
  需要的话我可以给你做一张图表图或者写一个“ABS vs PBT”产品购买引导文章，适合你博客 SEO。你要继续深挖“热升华”“双色注塑”这些字体工艺我也可以展开讲。
+
+---
+
+# 关于重定向的几种形态的解读
+
+选自知乎：
+
+对 HTTP 有所了解的人，大概都清楚 3 开头的响应状态码都表示重定向的响应。但是具体细节究竟是什么，看似类似的效果，在本质上究竟有什么不同？
+
+如果你不能说清楚标题中五个状态码的具体差别，那么这篇文章应该会帮到你。
+
+首先先来看一下，HTTP 中这五个响应状态码的名字：
+
+根据 [RFC 7231](https://zhida.zhihu.com/search?content_id=101611542&content_type=Article&match_order=1&q=RFC+7231&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NTEwNzY1MzgsInEiOiJSRkMgNzIzMSIsInpoaWRhX3NvdXJjZSI6ImVudGl0eSIsImNvbnRlbnRfaWQiOjEwMTYxMTU0MiwiY29udGVudF90eXBlIjoiQXJ0aWNsZSIsIm1hdGNoX29yZGVyIjoxLCJ6ZF90b2tlbiI6bnVsbH0.7OOu0rlVwGyeGBfAdaT-mcqiJadVjlR0wn_BQTn1uvE&zhida_source=entity)
+
+[Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content**tools.ietf.org/html/rfc7231#section-6.4**](https://link.zhihu.com/?target=https%3A//tools.ietf.org/html/rfc7231%23section-6.4)
+
+* 301 Moved Permanently
+* [302 Found](https://zhida.zhihu.com/search?content_id=101611542&content_type=Article&match_order=1&q=302+Found&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NTEwNzY1MzgsInEiOiIzMDIgRm91bmQiLCJ6aGlkYV9zb3VyY2UiOiJlbnRpdHkiLCJjb250ZW50X2lkIjoxMDE2MTE1NDIsImNvbnRlbnRfdHlwZSI6IkFydGljbGUiLCJtYXRjaF9vcmRlciI6MSwiemRfdG9rZW4iOm51bGx9.-GKiNI1BFYNG2vfsWrgZTvOaaFW87-2231Szb5FENnc&zhida_source=entity)
+* [303 See Other](https://zhida.zhihu.com/search?content_id=101611542&content_type=Article&match_order=1&q=303+See+Other&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NTEwNzY1MzgsInEiOiIzMDMgU2VlIE90aGVyIiwiemhpZGFfc291cmNlIjoiZW50aXR5IiwiY29udGVudF9pZCI6MTAxNjExNTQyLCJjb250ZW50X3R5cGUiOiJBcnRpY2xlIiwibWF0Y2hfb3JkZXIiOjEsInpkX3Rva2VuIjpudWxsfQ.0beIQQ4LH-w7VvVHZxyP5l6uux_Mv7oYO0zmH4zjN5w&zhida_source=entity)
+* [307 Temporary Redirect](https://zhida.zhihu.com/search?content_id=101611542&content_type=Article&match_order=1&q=307+Temporary+Redirect&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NTEwNzY1MzgsInEiOiIzMDcgVGVtcG9yYXJ5IFJlZGlyZWN0IiwiemhpZGFfc291cmNlIjoiZW50aXR5IiwiY29udGVudF9pZCI6MTAxNjExNTQyLCJjb250ZW50X3R5cGUiOiJBcnRpY2xlIiwibWF0Y2hfb3JkZXIiOjEsInpkX3Rva2VuIjpudWxsfQ.EG7ydH_WPdhhi7gWf8c_Qnzho3pG3IXDjeSGns-3GtM&zhida_source=entity)
+
+根据 [RFC 7538](https://zhida.zhihu.com/search?content_id=101611542&content_type=Article&match_order=1&q=RFC+7538&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NTEwNzY1MzgsInEiOiJSRkMgNzUzOCIsInpoaWRhX3NvdXJjZSI6ImVudGl0eSIsImNvbnRlbnRfaWQiOjEwMTYxMTU0MiwiY29udGVudF90eXBlIjoiQXJ0aWNsZSIsIm1hdGNoX29yZGVyIjoxLCJ6ZF90b2tlbiI6bnVsbH0.UFwAtMldOk0X2K125ND9nks4U6iPTGJJWjUMDvpP0AM&zhida_source=entity)
+
+[The Hypertext Transfer Protocol Status Code 308 (Permanent Redirect)**tools.ietf.org/html/rfc7538**](https://link.zhihu.com/?target=https%3A//tools.ietf.org/html/rfc7538)
+
+* 308 Permanent Redirect
+
+从名字可以看出来，301、308 是永久重定向，剩下的三个不一定能从名字看出来作用是什么，所以干脆记住它们都是临时重定向就好了。
+
+## 302、303 与 307
+
+我们从临时重定向开始，先放上它们 302、303、307 最新的定义，之后再去解释这些重定向之间的差别。（这些定义并不是对 RFC 文档的逐字翻译，为了解释清楚我会省略或转述一些信息。）
+
+### 302 Found 的定义
+
+302 状态码表示目标资源临时移动到了另一个 URI 上。由于重定向是临时发生的，所以客户端在之后的请求中还应该使用原本的 URI。
+
+服务器会在响应 Header 的 [Location 字段](https://zhida.zhihu.com/search?content_id=101611542&content_type=Article&match_order=1&q=Location+%E5%AD%97%E6%AE%B5&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NTEwNzY1MzgsInEiOiJMb2NhdGlvbiDlrZfmrrUiLCJ6aGlkYV9zb3VyY2UiOiJlbnRpdHkiLCJjb250ZW50X2lkIjoxMDE2MTE1NDIsImNvbnRlbnRfdHlwZSI6IkFydGljbGUiLCJtYXRjaF9vcmRlciI6MSwiemRfdG9rZW4iOm51bGx9.IyQOcIPuqxwNDHwv7djJ2jh2lSGFclJRaBB7tkONzoc&zhida_source=entity)中放上这个不同的 URI。浏览器可以使用 Location 中的 URI 进行自动重定向。
+
+注意：由于 **历史原因** ，用户代理可能会在重定向后的请求中把 [POST 方法](https://zhida.zhihu.com/search?content_id=101611542&content_type=Article&match_order=1&q=POST+%E6%96%B9%E6%B3%95&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NTEwNzY1MzgsInEiOiJQT1NUIOaWueazlSIsInpoaWRhX3NvdXJjZSI6ImVudGl0eSIsImNvbnRlbnRfaWQiOjEwMTYxMTU0MiwiY29udGVudF90eXBlIjoiQXJ0aWNsZSIsIm1hdGNoX29yZGVyIjoxLCJ6ZF90b2tlbiI6bnVsbH0.lsNL9qBdf0Zk79U5066nuv4knpnOfpwYmPLB1brs_0M&zhida_source=entity)改为 [GET 方法](https://zhida.zhihu.com/search?content_id=101611542&content_type=Article&match_order=1&q=GET+%E6%96%B9%E6%B3%95&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NTEwNzY1MzgsInEiOiJHRVQg5pa55rOVIiwiemhpZGFfc291cmNlIjoiZW50aXR5IiwiY29udGVudF9pZCI6MTAxNjExNTQyLCJjb250ZW50X3R5cGUiOiJBcnRpY2xlIiwibWF0Y2hfb3JkZXIiOjEsInpkX3Rva2VuIjpudWxsfQ.zcAVHfWZEfYF2TRW4Kow_kv9odhqvaT0h9FiuXyNiLU&zhida_source=entity)。如果不想这样，应该使用 307（Temporary Redirect） 状态码。（之后我们会详细叙述历史原因）
+
+### 303 See Other 的定义
+
+303 状态码表示服务器要将浏览器重定向到另一个资源，这个资源的 URI 会被写在响应 Header 的 Location 字段。从语义上讲，重定向到的资源并不是你所请求的资源，而是对你所请求资源的一些描述。
+
+303 常用于将 POST 请求重定向到 GET 请求，比如你上传了一份个人信息，服务器发回一个 303 响应，将你导向一个“上传成功”页面。
+
+不管原请求是什么方法，重定向请求的方法都是 GET（或 HEAD，不常用）。
+
+---
+
+到这里你可能发现，303 和 302 的作用很类似，除去语义差别，似乎是 302 包含了 303 的情况。确实，这是由历史原因导致的。我们先来看一下 307 的效果。
+
+---
+
+### 307 Temporary Redirect 的定义
+
+307 的定义实际上和 302 是一致的，唯一的区别在于，307 状态码不允许浏览器将原本为 POST 的请求重定向到 GET 请求上。
+
+### 302 与 303、307 的关系
+
+### 区别
+
+在这里总结一下，从实际效果看：302 允许各种各样的重定向，一般情况下都会实现为到 GET 的重定向，但是不能确保 POST 会重定向为 POST；而 303 只允许任意请求到 GET 的重定向；307 和 302 一样，除了不允许 POST 到 GET 的重定向。
+
+### 简要历史原因
+
+那为什么有了 307 和 303 还需要 302呢？把总结放在最前面。302 在最初的定义中，内容和现在的 307 是一样的，不允许重定向方法的改写（从 POST 到 GET，由于 GET 不应该有 body，实际上 body 也被改了）。但是早期浏览器在实现的时候有的实现成 303 的效果，有的实现成 307 的效果。于是在之后的标准，302 在某些浏览器中错误的实现被写进规范，成为 303，而 302 原本的效果被复制了到了 307。在最近的一次标准修订中，302 标准被修改成不再强制需要维持原请求的方法。所以就产生了现在的 302、303 和 307
+
+### 详细的历史原因（可以跳过）
+
+在 1995 年 6 月的 RFC 1945 HTTP 1.0 标准，302 被称为 Moved Temporarily，而不是现在的 Found。标准中提到，有些浏览器收到了 302 状态码，在自动重定向时候会错误的把 POST 方法转为 GET 方法：
+
+> Note: When automatically redirecting a POST request after
+> receiving a 302 status code, some existing user agents will
+> erroneously change it into a GET request.
+
+这个错误在 1997 年 1 月的 RFC 2068 HTTP 1.1 标准提出时，仍然没有被修正。此时标准中依然只有 302 Moved Temporarily。
+
+但是谁知道两年多过去了，浏览器厂商们懒得改。那既然厂商不改，就标准改吧。
+
+在 1999 年 6 月的 RFC 2616 中，增加了 303 与 307，与此同时 302 被更名为 Found。标准中提到：
+
+> Note: [RFC 1945](https://link.zhihu.com/?target=https%3A//tools.ietf.org/html/rfc1945) and [RFC 2068](https://link.zhihu.com/?target=https%3A//tools.ietf.org/html/rfc2068) specify that the client is not allowed
+> to change the method on the redirected request. However, most
+> existing user agent implementations treat 302 as if it were a 303
+> response, performing a GET on the Location field-value regardless
+> of the original request method. The status codes 303 and 307 have
+> been added for servers that wish to make unambiguously clear which
+> kind of reaction is expected of the client.
+
+简单来说，就是之前的标准都写了不允许重定向的时候改写方法，但是大多数浏览器还把 302 当成 303 那样处理。那干脆把两种不同的行为区分成 303 和 307。
+
+302 标准就被那么放着了。
+
+最终，2014 年 6 月的 RFC 7231 中，修改了对 302 的定义：
+
+> The user agent MAY use the Location field value for automatic redirection.
+
+在之前的标准中，这句话中的 MAY 都是 MUST NOT。标准妥协了，既然现在大多数浏览器都支持了 307 和 303，那 302 的标准也就改了吧。
+
+这就是 303、307 与 302 的关系。
+
+## 301 与 308
+
+有了之前的对 302、303、307 的理解，对 301 和 308 的理解就简单多了。
+
+### 301 Moved Permanently 的定义
+
+301 状态码表明目标资源被永久的移动到了一个新的 URI，任何未来对这个资源的引用都应该使用新的 URI。
+
+### 308 Permanent Redirect 的定义
+
+308 的定义实际上和 301 是一致的，唯一的区别在于，308 状态码不允许浏览器将原本为 POST 的请求重定向到 GET 请求上。
+
+### 301 与 308 的历史
+
+和 302 一样，301 在浏览器中的实现和标准是不同的，这个时间一直延续到 2014 年的 RFC 7231，301 定义中的 Note 还是提到了这个问题。直到 2015 年 4 月，RFC 7538 提出了 308 的标准，类似 307 Temporary Redirect 之于 302 Found 的存在，308 成为了 301 的补充。
+
+## 一点额外补充
+
+临时重定向和永久重定向对搜索引擎会产生不同的效果。
+
+---
+
+到这里，301、302、303、307、308 的关系大致就能理清了。希望这篇文章能让你更好的理解这几个 HTTP 响应状态码。
+
+续：
+
+```
+                                                            +-----------+-----------+
+                                                             | Permanent | Temporary |
++------------------------------------------------------------+-----------+-----------+
+| Allows changing the request method from POST to GET        | 301       | 302       |
++------------------------------------------------------------+-----------+-----------+
+| Doesn't allow changing the request method from POST to GET | 308       | 307       |
++------------------------------------------------------------+-----------+-----------+
+```
+
+---
+
+来自gemini-2.5-pro的解读：
+
+好的，请坐。作为一名SEO专家，我非常乐意为您解答这个问题。这是一个非常核心且常见的问题，理解它对网站维护和优化至关重要。
+
+首先，让我们明确一下您说的“变成正常链接”在SEO领域里意味着什么。这通常指以下几个关键过程的完成：
+
+1. **搜索引擎发现重定向**：Googlebot或其他搜索引擎蜘蛛抓取到您的旧URL。
+2. **搜索引擎处理重定向**：蜘蛛识别出这是一个301（永久）或302（临时）重定向。
+3. **信号传递（最关键的一步）**：搜索引擎将旧URL积累的“链接权重”（Link Equity，也常被称为“链接果汁”或PageRank）以及其他排名信号，传递给新的URL。
+4. **索引更新**：搜索引擎在其索引库中，用新的URL替换掉旧的URL。当用户搜索相关关键词时，搜索结果中将显示新URL，而不是旧的。
+
+完成这整个过程所需的时间**没有一个固定的、精确的答案**。它不是一个“X天后就会好”的开关。这个时间可以从**几天到几个月不等**，主要取决于以下几个核心因素：
+
+---
+
+### 影响重定向生效时间的关键因素
+
+#### 1. 重定向类型（The Type of Redirect）
+
+这是最基本也是最重要的因素。
+
+* **301 永久重定向**：您是在告诉搜索引擎：“嘿，这个页面已经永久地搬到了一个新地址。请把我所有的权重和排名能力都转移到新地址去，并更新你的索引。” 这是最常用、也是信号最强的重定向方式。搜索引擎在确认几次后，会比较有信心地进行信号传递。
+* **302/307 临时重定向**：您是在说：“这个页面只是暂时搬家，很快会回来。请暂时把用户送到新地址，但保留旧地址的权重和索引。” 如果你错误地使用了302来做永久迁移，搜索引擎会需要更长的时间来判断这到底是不是一个永久性的移动，从而延迟权重的传递。
+
+**结论**：要“变成正常链接”，请务必使用 **301重定向**（或其现代等效版本308）。
+
+#### 2. 原始URL的抓取频率（Crawl Frequency of the Old URL）
+
+这是影响速度的最直接因素。
+
+* **高频抓取页面**：如果你的旧URL是一个非常重要、流量很高的页面（比如网站首页、核心分类页），Googlebot会频繁地访问它。因此，它会很快发现这个301重定向，并开始处理。这种情况可能只需要**几天到一两周**。
+* **低频抓取页面**：如果旧URL是一个很深的、不常更新、没什么流量的页面，Googlebot可能几个月才访问一次。那么，直到它下一次访问之前，它都不会知道这个页面已经重定向了。这种情况可能需要**数周甚至数月**。
+
+#### 3. 网站的整体权重和抓取预算（Website Authority & Crawl Budget）
+
+搜索引擎对不同网站的重视程度不同。
+
+* **高权重网站**：像新华网、维基百科这样的大型权威网站，搜索引擎会分配非常高的“抓取预算”，几乎是实时地监控其变化。它们做的重定向几乎可以很快被处理。
+* **新网站或低权重网站**：搜索引擎分配的抓取预算有限，它会优先抓取它认为最重要的页面。因此，整个过程会慢得多。
+
+#### 4. 信号的强度和一致性（Strength & Consistency of Signals）
+
+你不能只做一个301重定向就完事了。你需要给搜索引擎提供尽可能多的一致性信号，告诉它“这次搬家是认真的”。
+
+* **内部链接**：您是否已经将网站内所有指向旧URL的链接，全部更新为新URL？这是一个非常强烈的信号。
+* **站点地图（Sitemap）**：您的XML站点地图中是否已经移除了旧URL，并添加了新URL？
+* **外部链接（Backlinks）**：虽然您无法控制所有外链，但如果能联系一些高质量的网站，让他们把链接更新到新URL，会极大地加速这个过程。
+* **规范化标签（Canonical Tag）**：新URL页面上应有指向自身的规范化标签。
+
+如果这些信号混乱（比如，你做了301，但网站内还有大量链接指向旧地址），搜索引擎会感到困惑，处理时间就会变长。
+
+---
+
+### 如何加速这个过程？
+
+作为SEO专家，我建议您采取以下措施来尽量缩短等待时间：
+
+1. **确认使用301重定向**：这是基础中的基础。
+2. **更新所有内部链接**：用工具（如Screaming Frog）或手动检查，将站内所有指向旧URL的链接全部改成新URL。
+3. **更新XML站点地图**：立即从sitemap中移除旧URL，添加新URL，并提交到Google Search Console（GSC）和Bing网站管理员工具。
+4. **在Google Search Console中主动出击**：
+   * 使用GSC的“网址检查”工具，输入**旧的URL**。这会促使Google去抓取它，从而发现301重定向。
+   * 接着，同样使用该工具检查**新的URL**，并点击“请求编入索引”。这等于直接告诉Google：“这是我的新家，快来看看吧！”
+5. **监控进度**：
+   * 在GSC的“覆盖率”报告中，留意旧URL是否开始被归类到“已排除” > “已重定向的网页”。
+   * 通过 `site:yourdomain.com/old-url` 这样的指令在Google搜索，观察旧URL是否逐渐从搜索结果中消失。
+
+### 总结与类比
+
+您可以把这个过程想象成**搬家和邮件转发**。
+
+* **301重定向**：就像您去邮局填写的永久地址变更和邮件转寄单。
+* **抓取频率**：就像邮递员送信的频率。重要的商业地址每天都送，偏远的乡下可能一周才送一次。邮递员不来，就不知道你搬家了。
+* **信号一致性**：就像你不仅通知了邮局，还主动通知了所有订阅的杂志、银行、朋友，让他们直接把信寄到新地址。这样做，邮件就能更快、更准确地到达，而不用依赖邮局的转寄服务。
+
+**总而言之，一个高权重网站上的重要页面，在所有信号都正确配置的情况下，重定向链接可能在几天内就完成大部分权重传递和索引更新。而一个低权重网站的深层页面，如果只做了301而没做其他配套工作，则可能需要数月时间。一个合理的预期是：为关键页面的重定向预留几周到一个月的时间来观察其稳定。**
+
+结合我们的网站来说，那些显示重定向的网址应该是权重不够或者说是流量不够好，没有受到Google足够的重视，可能在GSC里面可以添加这些页面的索引吧。

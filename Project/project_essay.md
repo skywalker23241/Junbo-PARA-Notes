@@ -111,7 +111,7 @@ If you want to, you can complain about anything. 如果可以的话, 你可以�
 
 如果要吃到一碗米饭，就得从种地开始，不然就是衣来伸手，饭来张口.
 
-> ["LLMs give me finished thoughts, polished and convincing, but none of  the intellectual growth that comes from developing them myself"](https://dcurt.is/thinking)
+> [&#34;LLMs give me finished thoughts, polished and convincing, but none of  the intellectual growth that comes from developing them myself&#34;](https://dcurt.is/thinking)
 
 一样东西只要可以赚钱，就会开始变质。
 
@@ -121,8 +121,10 @@ AI 是提升工作效率，不是提升工作能力.
 
 独裁者会死去，他们从人民手里夺去的权利即将归还人民
 
-**Action leads to motivation** 
+**Action leads to motivation**
 
 you’re productive → you feel good → you’re more productive.
 
 you’re unproductive → you feel bad → you’re unproductive.
+
+我不去想来生彼岸，我只是活着，清醒的活着，我不说谎，也不投降 --加缪（做一个蔑视诸神的西西弗）

@@ -2726,3 +2726,7 @@ Thanks for everyone who trust me, I promise that will try my best to WIN THE GAM
 ##### Thu Jun 26 
 
 T佬模型的最大token值是1048576，但是我的那份分析报告的token是5847179，好像是有点大了，导入不了哈哈哈，还是自己看报告吧。
+
+##### Fri Jun 27
+
+文章提交了，最新文章也更新完了，然后现在就是找欺骗指数低一点的ip先来连接公司给的视频账号来继续发视频了。（现在就是不知道做什么类型的视频了。。。）

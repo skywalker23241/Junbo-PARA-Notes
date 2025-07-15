@@ -128,3 +128,7 @@ you’re productive → you feel good → you’re more productive.
 you’re unproductive → you feel bad → you’re unproductive.
 
 我不去想来生彼岸，我只是活着，清醒的活着，我不说谎，也不投降 --加缪（做一个蔑视诸神的西西弗）
+
+工作质量和工作速度往往成反比，但是有了ai之后可能会反过来。
+
+卑鄙是卑鄙者的通行证，高尚是高尚者的墓志铭。

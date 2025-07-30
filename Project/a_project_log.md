@@ -1505,7 +1505,7 @@ brave浏览器, 看广告可以赚钱, 有点意思, 但是不想看广告, 感�
 🚩经验教训：
 
     改 repo 名后，记得更新所有第三方服务配置！
-    
+
     repo-id 可以通过 DOM 元素或 Giscus 配置器轻松重新获取。
 
 ###### Mon Apr 21 18:03:02 CST 2025
@@ -1935,13 +1935,13 @@ chatgpt brain wash?
 
     Enable “Deep research” mode (you’ll need a paid plan)
     启用“深度研究”模式（您需要付费计划）
-    
+
     Paste your website link and prompt: “Please analyze this entire small business website and suggest some topics that are missing that we could make additional pages for”
     粘贴您的网站链接并提示：“请分析整个小型企业网站，并提出一些缺失的主题，以便我们可以为其制作额外的页面”
-    
+
     Answer the follow-up questions and let it do its thing
     回答后续问题并让它发挥作用
-    
+
     这个prompt是用来分析一个网站的, 然后建议一些缺失的主题, 可以为其制作额外的页面.
 
 ###### Tue May 6 09:12:25 CST 2025
@@ -2221,7 +2221,7 @@ isum没有启用brotli来压缩.
 
 缺少h1的页面: /downloads.html; /store.html.
 
-这两个页面感觉很相似, 
+这两个页面感觉很相似,
 
 一个有下载免费试用版的,
 
@@ -2473,7 +2473,7 @@ daddy is home, 早上这么一搞还是蛮舒服的, ps: 刚刚坐的巴士还�
 
 ###### Thu May 29 11:57:54 CST 2025
 
-傻逼火狐, 转chrome了, 书签全没了...... 
+傻逼火狐, 转chrome了, 书签全没了......
 
 ###### Thu May 29 13:59:19 CST 2025
 
@@ -2723,7 +2723,7 @@ Thanks for everyone who trust me, I promise that will try my best to WIN THE GAM
 然后就是关于HG了，这几天来了，然后面试还算是比较顺利，也住下来了，买了个小桌子，但是房间还是有点小了，可能要再换个大点的房间吧。
 最后就是关于最近的工作了，还是生产文章吧。
 
-##### Thu Jun 26 
+##### Thu Jun 26
 
 T佬模型的最大token值是1048576，但是我的那份分析报告的token是5847179，好像是有点大了，导入不了哈哈哈，还是自己看报告吧。
 
@@ -2749,7 +2749,7 @@ T佬模型的最大token值是1048576，但是我的那份分析报告的token�
 
 教资考试是明天才开始报名，明天再去缴费吧，不过网上的预测还是蛮准确的，就相差了一天。
 
-##### Tue Jul 15 
+##### Tue Jul 15
 
 这几天发生了蛮多事情的，主要就是家里面的事情了，他两的关系还是那样，我觉得还是要搬出去，先过完今年吧，我觉得他现在已经是入不敷出了，然后才想着回来，他自己现在说话的语气我感觉都有点那个啥了，哎！然后这段时间也就接一下老妈的视频吧，他的电话也接，但是要演好这出戏。
 
@@ -2811,3 +2811,19 @@ Google Special-case Crawlers 这个不知道是什么爬虫来的，我觉得可
 腹泻相比于昨天应该算是好了点，然后今天要把小米15寄出去了，待会在小一加上也下载一个小米商城吧，不知道快递能不能在我下班之后再来取。
 
 看了一下那几个404错误，好像都是之前的一些错误，还是不管的为好，然后下周收录了之后再看看跑一次！
+
+##### Fri Jul 25
+
+周五的我忘记提交了吗？我真忘了哈哈哈，周一再去看看吧，我已经可以开启我的vibecoding了哈哈哈！
+
+##### Sat Jul 25
+
+周六了
+
+##### Sun Jul 27 
+
+周日了，老板也算是发工资了，4400左右，请了几天假也算凑合吧，lj真是说来就来，西八，看下今天怎么打发打发他吧，真是一个asshole。
+
+##### Mon Jul 28
+
+今天也是请假了，看下怎么搞搞副业吧哈哈哈，换新的手机也到了。

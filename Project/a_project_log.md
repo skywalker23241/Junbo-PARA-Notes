@@ -1505,7 +1505,7 @@ brave浏览器, 看广告可以赚钱, 有点意思, 但是不想看广告, 感�
 🚩经验教训：
 
     改 repo 名后，记得更新所有第三方服务配置！
-
+    
     repo-id 可以通过 DOM 元素或 Giscus 配置器轻松重新获取。
 
 ###### Mon Apr 21 18:03:02 CST 2025
@@ -1935,13 +1935,13 @@ chatgpt brain wash?
 
     Enable “Deep research” mode (you’ll need a paid plan)
     启用“深度研究”模式（您需要付费计划）
-
+    
     Paste your website link and prompt: “Please analyze this entire small business website and suggest some topics that are missing that we could make additional pages for”
     粘贴您的网站链接并提示：“请分析整个小型企业网站，并提出一些缺失的主题，以便我们可以为其制作额外的页面”
-
+    
     Answer the follow-up questions and let it do its thing
     回答后续问题并让它发挥作用
-
+    
     这个prompt是用来分析一个网站的, 然后建议一些缺失的主题, 可以为其制作额外的页面.
 
 ###### Tue May 6 09:12:25 CST 2025
@@ -2919,3 +2919,13 @@ GPT-5发布了，感觉大家对这玩意的态度还是褒贬不一的，但是
 好了, 先记录这些吧, 早上不知道为啥常去的那家早餐店没有开门, 门口还坐着一个女的, 还有警察在, 估计是有点事情发生了吧. 看下明天会不会开门吧, 不然先回归一段时间泡沫箱肠粉了.
 
 准备写一篇博客: 名字就叫" 当主流信息平台成为垃圾场, 信息筛选显得尤为重要 ".
+
+##### Thu Aug 14
+
+这个**spotify**难怪没啥人去弄，全是坑，一是美区兑换，只能绑定美区的付款方式，但是订单结算的时候又不能用我的Paypal来结算，然后就去找虚拟随机卡来试试，发现还是不行！试了我一个小时，然后MS Awards的奖励还是发送到我的Outlook邮箱，真的是离了大谱。。。。。。以后这个软件的福利我还是不参加了，免得自己受气，听音乐还是自己做音乐库吧，正好这两天耳朵有点疼，不听了！
+
+先让ai干着吧，吃饭去喽！
+
+感觉添加亮暗色切换会触碰到石山代码啊啊啊啊！
+
+把文章类型的亮暗色切换做了下，感觉还是有点不美观，之后再看看吧！下班！

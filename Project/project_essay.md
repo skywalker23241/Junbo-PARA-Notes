@@ -69,7 +69,7 @@ AI 在“后稀缺”时代的角色、时间的终极稀缺性、以及如何�
 
 共产主义者应该是那些从工业化的必然创伤中拯救人们的人，而不是那些因为必须快速追赶而造成创伤的人。
 
-Give them bread and circuses, and they will never revolt.——出自罗马诗人 Juvenal 的《讽刺诗》中的一段，原文是：
+**Give them bread and circuses, and they will never revolt.**——出自罗马诗人 Juvenal 的《讽刺诗》中的一段，原文是：
 
 "Panem et circenses"
 
@@ -133,7 +133,7 @@ you’re unproductive → you feel bad → you’re unproductive.
 
 卑鄙是卑鄙者的通行证，高尚是高尚者的墓志铭。
 
-电脑本身并非目的，而是达成目的的手段。	
+电脑本身并非目的，而是达成目的的手段。
 
 死亡是生命最伟大的发明。
 

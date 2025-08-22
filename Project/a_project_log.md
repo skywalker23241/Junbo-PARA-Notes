@@ -1505,7 +1505,7 @@ brave浏览器, 看广告可以赚钱, 有点意思, 但是不想看广告, 感�
 🚩经验教训：
 
     改 repo 名后，记得更新所有第三方服务配置！
-    
+
     repo-id 可以通过 DOM 元素或 Giscus 配置器轻松重新获取。
 
 ###### Mon Apr 21 18:03:02 CST 2025
@@ -1935,13 +1935,13 @@ chatgpt brain wash?
 
     Enable “Deep research” mode (you’ll need a paid plan)
     启用“深度研究”模式（您需要付费计划）
-    
+
     Paste your website link and prompt: “Please analyze this entire small business website and suggest some topics that are missing that we could make additional pages for”
     粘贴您的网站链接并提示：“请分析整个小型企业网站，并提出一些缺失的主题，以便我们可以为其制作额外的页面”
-    
+
     Answer the follow-up questions and let it do its thing
     回答后续问题并让它发挥作用
-    
+
     这个prompt是用来分析一个网站的, 然后建议一些缺失的主题, 可以为其制作额外的页面.
 
 ###### Tue May 6 09:12:25 CST 2025
@@ -2940,7 +2940,7 @@ GPT-5发布了，感觉大家对这玩意的态度还是褒贬不一的，但是
 
 今天纯属的摸鱼了！
 
-##### Tue Aug 19 
+##### Tue Aug 19
 
 今天老妈的检查结果出来了，感觉还行，希望能一切顺利吧！她也是今天回家了，好好休息吧。
 
@@ -2956,7 +2956,6 @@ GPT-5发布了，感觉大家对这玩意的态度还是褒贬不一的，但是
 
 今天看下把products页面给整出来吧。
 
-
 ##### Thu Aug 21
 
 Products页面给了一个新的样式，感觉还是蛮不错的，之前的样式有点丑了哈哈哈。
@@ -2966,3 +2965,9 @@ Products页面给了一个新的样式，感觉还是蛮不错的，之前的样
 明天就要提交这周的工作了，看下有哪些需要提交的吧。首先是文章方面：就把那篇微软更新导致部分用户磁盘大量写入数据后故障的文章提交吧，分类就放在Windows tips，但是这种感觉是时效性比较强的文章。然后就是页面的样式了，就把products的那个页面看下再完善下提交上去吧，就是这两项了。
 
 摸鱼！下班！
+
+##### Fri Aug 22
+
+这个Qoder还是不错的，先平替agu再说吧哈哈哈，我用着现在还不错！
+
+这周工作基本上全部提交上去了，没有新文章，还是优化seo为主吧。
